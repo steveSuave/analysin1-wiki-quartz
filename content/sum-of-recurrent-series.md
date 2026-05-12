@@ -2,7 +2,7 @@
 
 **Summary**: Euler (§231–§233) computes the sum of a [[recurrent-series|recurrent series]], finite or infinite. The infinite sum equals the generating rational function (when convergent). The partial sum up to $Pz^n$ is the rational function minus a "tail" rational function with shifted numerator. For a two-member [[scale-of-the-relation|scale]], the partial sum collapses to a remarkably clean closed form involving only the last two terms of the partial sum.
 
-**Sources**: chapter13.pdf
+**Sources**: chapter13
 
 **Last updated**: 2026-05-07
 
@@ -22,7 +22,7 @@ where the numerator is determined by matching power-series coefficients to $A, B
 
 $$a = A,\quad b = B - \alpha A,\quad c = C - \alpha B + \beta A,\quad d = D - \alpha C + \beta B - \gamma A$$
 
-(source: chapter13.pdf, §231–§232). The numerator degree is one less than the denominator.
+(source: chapter13, §231–§232). The numerator degree is one less than the denominator.
 
 This is consistent with [[recurrent-series|§63's]] derivation: the recurrence becomes homogeneous from the $(k+1)$-th coefficient onward, where $k$ is the scale length, so the numerator stops at degree $k - 1$.
 
@@ -36,7 +36,7 @@ The tail $t = Qz^{n+1} + Rz^{n+2} + Sz^{n+3} + \cdots$ is itself a recurrent ser
 
 $$t \;=\; \frac{Qz^{n+1} + (R - \alpha Q)z^{n+2} + (S - \alpha R + \beta Q)z^{n+3} + (T - \alpha S + \beta R - \gamma Q)z^{n+4}}{1 - \alpha z + \beta z^2 - \gamma z^3 + \delta z^4}$$
 
-(source: chapter13.pdf, §232). Subtracting from the infinite sum:
+(source: chapter13, §232). Subtracting from the infinite sum:
 
 $$S \;=\; \frac{a + bz + cz^2 + dz^3 - (R - \alpha Q)z^{n+2} - (S - \alpha R + \beta Q)z^{n+3} - (T - \alpha S + \beta R - \gamma Q)z^{n+4} - Qz^{n+1}}{1 - \alpha z + \beta z^2 - \gamma z^3 + \delta z^4}.$$
 
@@ -48,7 +48,7 @@ When the scale has only two members $\alpha, -\beta$, the tail formula simplifie
 
 $$\boxed{\,A + Bz + Cz^2 + \cdots + Pz^n \;=\; \frac{A + (B - \alpha A)z - Qz^{n+1} + \beta P z^{n+2}}{1 - \alpha z + \beta z^2}.\,}$$
 
-(source: chapter13.pdf, §233). Only the *last two* terms $P, Q$ of the partial sum (and the first two $A, B$) enter the formula — every middle term has cancelled out.
+(source: chapter13, §233). Only the *last two* terms $P, Q$ of the partial sum (and the first two $A, B$) enter the formula — every middle term has cancelled out.
 
 ## Worked Lucas example (§233)
 
@@ -64,7 +64,7 @@ where $Q$ is the next Lucas-like number. Using §227's $Q = (P + \sqrt{5P^2 + 20
 
 $$1 + 3 + 4 + 7 + 11 + \cdots + P \;=\; \frac{3P - 6 + \sqrt{5P^2 + 20}}{2}.$$
 
-The partial sum is determined by the *last term alone* (source: chapter13.pdf, §233 Example).
+The partial sum is determined by the *last term alone* (source: chapter13, §233 Example).
 
 Spot-check: $P = 11$ gives $(33 - 6 + \sqrt{605 + 20})/2 = (27 + 25)/2 = 26$. And $1 + 3 + 4 + 7 + 11 = 26$. ✓
 

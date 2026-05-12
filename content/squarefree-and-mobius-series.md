@@ -2,7 +2,7 @@
 
 **Summary**: §267–§269. With primes (or reciprocals of prime powers) used as the factors in $\prod(1\pm\alpha_i)$, the multiplied-out series characterises **squarefree numbers**: each squarefree natural number appears exactly once, every number divisible by a square is missing, and the negative-factor variant attaches **Möbius-style signs** to each term by the parity of its prime-factor count.
 
-**Sources**: chapter15.pdf
+**Sources**: chapter15
 
 **Last updated**: 2026-05-11
 
@@ -18,7 +18,7 @@ and expanding gives, by [[chapter-15-on-series-which-arise-from-products|§264]]
 
 $$P = 1 + 2 + 3 + 5 + 6 + 7 + 10 + 11 + 13 + 14 + 15 + \cdots,$$
 
-the sum over $1$ and all distinct **products of distinct primes**. Equivalently, $P$ contains every **squarefree** natural number and excludes every integer divisible by the square of a prime. Euler notes (source: chapter15.pdf, §267):
+the sum over $1$ and all distinct **products of distinct primes**. Equivalently, $P$ contains every **squarefree** natural number and excludes every integer divisible by the square of a prime. Euler notes (source: chapter15, §267):
 
 > "The series lacks the numbers 4, 8, 9, 12, 16, 18 since they are either powers, as 4, 8, 9, 16, or divisible by powers, as 12, 18."
 
@@ -40,7 +40,7 @@ Switching to negative factors,
 
 $$\prod_p\Bigl(1-\frac{1}{p^n}\Bigr) = 1 - \frac{1}{2^n} - \frac{1}{3^n} - \frac{1}{5^n} + \frac{1}{6^n} - \frac{1}{7^n} + \frac{1}{10^n} - \frac{1}{11^n} + \frac{1}{15^n} - \cdots$$
 
-The sign rule is purely combinatorial (source: chapter15.pdf, §269):
+The sign rule is purely combinatorial (source: chapter15, §269):
 
 > "Terms with primes, or products of three different primes, or any product of an odd number of different primes, appear with a negative sign. Those terms in which the product of two, four, six, or any even number of different primes, appear with a positive sign."
 

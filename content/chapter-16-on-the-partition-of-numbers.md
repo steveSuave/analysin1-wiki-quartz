@@ -2,7 +2,7 @@
 
 **Summary**: §297–§331. Euler founds the theory of integer partitions: counting the number of ways a positive integer $n$ can be expressed as a sum of prescribed parts. The central technique is the **generating function** — a product $\prod_i(1 + x^{\alpha_i}z)$ enumerates partitions into *distinct* parts drawn from $\{\alpha_i\}$ via the coefficient of $z^m x^n$, while the reciprocal $1/\prod_i(1 - x^{\alpha_i}z)$ enumerates partitions with *repetition* allowed (§297–§305). Setting $\alpha_i = i$ and $z = 1$ gives the partition function $p(n)$ (§305) and the distinct-part counterpart $q(n)$ (§301). The chapter then derives closed-form recurrent series for the column generating functions (§307–§315), states the column-by-column **Pascal-like recurrence** $p_m(n) = p_{m-1}(n) + p_m(n-m)$ (§318), proves the **pentagonal number theorem** $\prod(1 - x^k) = \sum(-1)^n x^{n(3n-1)/2}$ (§323), the **distinct = odd** identity $\prod(1+x^k) = \prod 1/(1-x^{2k-1})$ (§326), and the **uniqueness of binary** and **balanced-ternary** representations (§329, §331). A 70×11 partition table closes the chapter.
 
-**Sources**: chapter16.pdf
+**Sources**: chapter16
 
 **Last updated**: 2026-05-11
 
@@ -14,7 +14,7 @@ For any sequence of positive integers $\alpha, \beta, \gamma, \ldots$ and the pr
 
 $$(1 + x^\alpha z)(1 + x^\beta z)(1 + x^\gamma z)\cdots = 1 + Pz + Qz^2 + Rz^3 + \cdots,$$
 
-each coefficient $P, Q, R, \ldots$ is itself a series in $x$. The coefficient of $z^m$ collects products of $m$ *distinct* powers $x^{\alpha_{i_1}}\cdots x^{\alpha_{i_m}}$, so the coefficient of $x^n z^m$ is precisely the **number of ways $n$ can be written as a sum of $m$ distinct terms** of the sequence (source: chapter16.pdf, §297–§299). Setting $\alpha_i = i$ (§300) and reading the coefficient $15x^{35}$ off $z^7$ records that $35$ can be written as a sum of $7$ distinct positive integers in $15$ ways. Setting $z = 1$ (§301) collapses to
+each coefficient $P, Q, R, \ldots$ is itself a series in $x$. The coefficient of $z^m$ collects products of $m$ *distinct* powers $x^{\alpha_{i_1}}\cdots x^{\alpha_{i_m}}$, so the coefficient of $x^n z^m$ is precisely the **number of ways $n$ can be written as a sum of $m$ distinct terms** of the sequence (source: chapter16, §297–§299). Setting $\alpha_i = i$ (§300) and reading the coefficient $15x^{35}$ off $z^7$ records that $35$ can be written as a sum of $7$ distinct positive integers in $15$ ways. Setting $z = 1$ (§301) collapses to
 
 $$\prod_{k\geq 1}(1 + x^k) = 1 + x + x^2 + 2x^3 + 2x^4 + 3x^5 + 4x^6 + 5x^7 + 6x^8 + \cdots,$$
 

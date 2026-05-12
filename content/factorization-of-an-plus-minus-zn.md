@@ -2,7 +2,7 @@
 
 **Summary**: §150–§153: closed-form decomposition of $a^n + z^n$, $a^n - z^n$, and $a^{2n} - 2a^n z^n\cos g + z^{2n}$ into real linear and [[trinomial-factor|trinomial]] factors, with the cosines indexed by equally spaced arcs.
 
-**Sources**: chapter9.pdf
+**Sources**: chapter9
 
 **Last updated**: 2026-04-29
 
@@ -22,7 +22,7 @@ So $p = a$, $q = 1$, and the trinomial factor of $a^n + z^n$ is
 
 $$\boxed{\;a^2 - 2az\cos\frac{(2k+1)\pi}{n} + z^2\;}$$
 
-Substituting $2k+1 = 1, 3, 5, \ldots$ produces every factor; values past $n$ repeat because $\cos(2\pi \pm \phi) = \cos\phi$ (source: chapter9.pdf, §150).
+Substituting $2k+1 = 1, 3, 5, \ldots$ produces every factor; values past $n$ repeat because $\cos(2\pi \pm \phi) = \cos\phi$ (source: chapter9, §150).
 
 If $n$ is odd, choosing $2k + 1 = n$ gives $\phi = \pi$ and the factor $a^2 + 2az + z^2 = (a+z)^2$. Take only the square root: $a + z$ is the real linear factor. So
 
@@ -35,7 +35,7 @@ If $n$ is odd, choosing $2k + 1 = n$ gives $\phi = \pi$ and the factor $a^2 + 2a
 | $5$ | $(a + z)(a^2 - 2az\cos(\pi/5) + z^2)(a^2 - 2az\cos(3\pi/5) + z^2)$ |
 | $6$ | $(a^2 - 2az\cos(\pi/6) + z^2)(a^2 - 2az\cos(3\pi/6) + z^2)(a^2 - 2az\cos(5\pi/6) + z^2)$ |
 
-(source: chapter9.pdf, §150 examples).
+(source: chapter9, §150 examples).
 
 ## $a^n - z^n$ (§151)
 
@@ -43,7 +43,7 @@ The same calculation, but now the first equation $a^n - r^n\cos n\phi = 0$ requi
 
 $$\boxed{\;a^2 - 2az\cos\frac{2k\pi}{n} + z^2\;}$$
 
-with $2k = 0, 2, 4, \ldots$ up to $n$. At $2k = 0$ the factor degenerates to $a^2 - 2az + z^2 = (a-z)^2$, so $a - z$ is a real linear factor. If $n$ is even, $2k = n$ gives $a^2 + 2az + z^2 = (a+z)^2$, so $a + z$ is also a real linear factor (source: chapter9.pdf, §151).
+with $2k = 0, 2, 4, \ldots$ up to $n$. At $2k = 0$ the factor degenerates to $a^2 - 2az + z^2 = (a-z)^2$, so $a - z$ is a real linear factor. If $n$ is even, $2k = n$ gives $a^2 + 2az + z^2 = (a+z)^2$, so $a + z$ is also a real linear factor (source: chapter9, §151).
 
 | $n$ | $a^n - z^n$ factors |
 |---|---|
@@ -62,7 +62,7 @@ This expression — the product of two complex factors $a^n - z^n e^{ig}$ and $a
 
 $$\boxed{\;a^2 - 2az\cos\frac{2k\pi \pm g}{n} + z^2\;}$$
 
-over $2k = 0, 2, 4, \ldots \le n$ (source: chapter9.pdf, §153).
+over $2k = 0, 2, 4, \ldots \le n$ (source: chapter9, §153).
 
 Examples:
 

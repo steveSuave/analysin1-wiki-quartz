@@ -2,7 +2,7 @@
 
 **Summary**: Euler defines even and odd functions by their behavior under $z \to -z$, and derives their multiplicative rules. The modern definitions appear here essentially unchanged.
 
-**Sources**: chapter1.pdf
+**Sources**: chapter1
 
 **Last updated**: 2026-04-23
 
@@ -16,7 +16,7 @@
 
 ## Examples
 
-**Even** (source: chapter1.pdf, §18):
+**Even** (source: chapter1, §18):
 
 - Powers $z^m$ with $m$ an even integer (positive or negative).
 - $z^{m/n}$ with $m$ even, $n$ odd.
@@ -25,7 +25,7 @@
   $\frac{a + b z^2 + c z^4 + \dots}{\alpha + \beta z^2 + \gamma z^4 + \dots}$
 - Fractional-exponent variants like $a + b z^{2/3} + c z^{4/7} + \dots$, provided every exponent is an even integer divided by an odd integer.
 
-**Odd** (source: chapter1.pdf, §21):
+**Odd** (source: chapter1, §21):
 
 - $z, z^3, z^5, z^7, \dots; z^{-1}, z^{-3}, z^{-5}, \dots$
 - $z^{m/n}$ with $m$ and $n$ both odd integers.

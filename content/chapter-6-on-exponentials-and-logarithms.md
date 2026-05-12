@@ -2,7 +2,7 @@
 
 **Summary**: Euler's first transcendental chapter. He develops the [[exponential-function]] $y = a^z$ informally — extending from integer to fractional to irrational exponents — and then introduces its inverse, the [[logarithm]]. Most logarithms are transcendental (§105); they are computed in practice by iterated geometric means (§106), tabulated for primes (§109), and converted between bases by a single multiplicative constant (§107–§108). The chapter closes with the working machinery of common (base-10) logarithms: [[characteristic-and-mantissa]].
 
-**Sources**: chapter6.pdf
+**Sources**: chapter6
 
 **Last updated**: 2026-04-26
 
@@ -10,7 +10,7 @@
 
 ## Overview
 
-Up to Chapter 5 every function was *algebraic* — built from the four arithmetic operations and root extraction (see [[classification-of-functions]]). Chapter 6 takes the first step into transcendental territory. Euler concedes that a fully rigorous theory needs integral calculus, but two species of transcendental function — exponentials and their inverse logarithms — can already be developed by elementary means, and they "open the door to further investigations" (source: chapter6.pdf, §96).
+Up to Chapter 5 every function was *algebraic* — built from the four arithmetic operations and root extraction (see [[classification-of-functions]]). Chapter 6 takes the first step into transcendental territory. Euler concedes that a fully rigorous theory needs integral calculus, but two species of transcendental function — exponentials and their inverse logarithms — can already be developed by elementary means, and they "open the door to further investigations" (source: chapter6, §96).
 
 The chapter has three movements:
 
@@ -24,61 +24,61 @@ See also: [[exponential-function]], [[logarithm]], [[transcendence-of-logarithms
 
 ### §96 — Why exponentials are not algebraic
 
-A *power with variable exponent* — $a^z$, $y^z$, $a^{a^z}$, $a^{y^z}$, $y^{x^z}$, $x^{y^z}$ — is not an algebraic function, since algebraic functions require the exponents to be constants (source: chapter6.pdf, §96). Euler absorbs all the variant forms into a single representative $a^z$: the analysis of one settles the others.
+A *power with variable exponent* — $a^z$, $y^z$, $a^{a^z}$, $a^{y^z}$, $y^{x^z}$, $x^{y^z}$ — is not an algebraic function, since algebraic functions require the exponents to be constants (source: chapter6, §96). Euler absorbs all the variant forms into a single representative $a^z$: the analysis of one settles the others.
 
 ### §97 — Defining $a^z$ on $\mathbb{Q}$
 
-For positive integer $z$, $a^z$ has the obvious meaning. For $z = 0$, set $a^0 = 1$. For negative integer $z$, $a^{-n} = 1/a^n$. For rational $z = p/q$, $a^{p/q} = \sqrt[q]{a^p}$, which is in general multivalued, but Euler restricts to the *primary positive real value* so that $a^z$ is single-valued (source: chapter6.pdf, §97). This places, e.g., $a^{5/2}$ between $a^2$ and $a^3$. Irrational $z$ is handled by interpolation: $a^{\sqrt{7}}$ lies between $a^2$ and $a^3$. See [[exponential-function]].
+For positive integer $z$, $a^z$ has the obvious meaning. For $z = 0$, set $a^0 = 1$. For negative integer $z$, $a^{-n} = 1/a^n$. For rational $z = p/q$, $a^{p/q} = \sqrt[q]{a^p}$, which is in general multivalued, but Euler restricts to the *primary positive real value* so that $a^z$ is single-valued (source: chapter6, §97). This places, e.g., $a^{5/2}$ between $a^2$ and $a^3$. Irrational $z$ is handled by interpolation: $a^{\sqrt{7}}$ lies between $a^2$ and $a^3$. See [[exponential-function]].
 
 ### §98–§99 — Case analysis on the base
 
-The behavior of $a^z$ depends on $a$ (source: chapter6.pdf, §98):
+The behavior of $a^z$ depends on $a$ (source: chapter6, §98):
 
 - $a = 1$: constant 1.
 - $a > 1$: $a^z$ strictly increases; $a^z \to \infty$ as $z \to \infty$ and $a^z \to 0$ as $z \to -\infty$.
 - $0 < a < 1$: write $1/a = b > 1$ to get $a^z = b^{-z}$ — the $a > 1$ case, reflected.
-- $a = 0$: discontinuity at $z = 0$. For $z > 0$, $a^z = 0$; for $z = 0$, $a^0 = 1$; for $z < 0$, $a^{-n} = 1/0^n$ "is infinite" (source: chapter6.pdf, §99).
+- $a = 0$: discontinuity at $z = 0$. For $z > 0$, $a^z = 0$; for $z = 0$, $a^0 = 1$; for $z < 0$, $a^{-n} = 1/0^n$ "is infinite" (source: chapter6, §99).
 - $a < 0$: integer exponents alternate sign; rational exponents may produce real or pure-imaginary values ($(-2)^{1/2} = \sqrt{-2}$ vs. $(-2)^{1/3} = -\sqrt[3]{2}$); irrational exponents are unpredictable.
 
 §100 distills the conclusion: take $a > 1$; the case $0 < a < 1$ then follows by reflection, and the others are pathological.
 
 ### §101 — Algebraic rules and the example $a = 10$
 
-With $y = a^z$: $y^n = a^{nz}$, $y^{1/n} = a^{z/n}$, $1/y = a^{-z}$; if $v = a^x$ then $vy = a^{x+z}$ and $v/y = a^{x-z}$ (source: chapter6.pdf, §101). Worked example for $a = 10$: $10^1 = 10$, $10^2 = 100$, $10^{-1} = 0.1$, $10^{1/2} = \sqrt{10} \approx 3.162277$, etc.
+With $y = a^z$: $y^n = a^{nz}$, $y^{1/n} = a^{z/n}$, $1/y = a^{-z}$; if $v = a^x$ then $vy = a^{x+z}$ and $v/y = a^{x-z}$ (source: chapter6, §101). Worked example for $a = 10$: $10^1 = 10$, $10^2 = 100$, $10^{-1} = 0.1$, $10^{1/2} = \sqrt{10} \approx 3.162277$, etc.
 
 ### §102 — Logarithm as inverse exponent
 
-For each $y > 0$ there is a unique real $z$ with $a^z = y$; this $z$ is called the *logarithm* of $y$ to the base $a$, written $z = \log y$. The base $a$ must be specified for the symbol to be unambiguous, and Euler assumes $a > 1$ throughout (source: chapter6.pdf, §102). See [[logarithm]].
+For each $y > 0$ there is a unique real $z$ with $a^z = y$; this $z$ is called the *logarithm* of $y$ to the base $a$, written $z = \log y$. The base $a$ must be specified for the symbol to be unambiguous, and Euler assumes $a > 1$ throughout (source: chapter6, §102). See [[logarithm]].
 
 ### §103 — First values of $\log$
 
-$\log 1 = 0$ regardless of base; $\log a = 1$, $\log a^2 = 2$, $\log a^3 = 3$, etc.; $\log(1/a^n) = -n$ (source: chapter6.pdf, §103). Numbers $> 1$ have positive logs; numbers in $(0, 1)$ have negative logs; the "logarithm" of a negative number is complex.
+$\log 1 = 0$ regardless of base; $\log a = 1$, $\log a^2 = 2$, $\log a^3 = 3$, etc.; $\log(1/a^n) = -n$ (source: chapter6, §103). Numbers $> 1$ have positive logs; numbers in $(0, 1)$ have negative logs; the "logarithm" of a negative number is complex.
 
 ### §104 — The algebraic rules of logarithms
 
-From $\log y^n = n \log y$, one gets $\log \sqrt{y} = \tfrac{1}{2} \log y$, $\log(1/\sqrt{y}) = -\tfrac{1}{2} \log y$, etc. From $vy = a^{x+z}$ one gets $\log(vy) = \log v + \log y$ and $\log(v/y) = \log v - \log y$ (source: chapter6.pdf, §104). These four rules — log of a power, log of a root, log of a product, log of a quotient — are the entire algebra of logarithms.
+From $\log y^n = n \log y$, one gets $\log \sqrt{y} = \tfrac{1}{2} \log y$, $\log(1/\sqrt{y}) = -\tfrac{1}{2} \log y$, etc. From $vy = a^{x+z}$ one gets $\log(vy) = \log v + \log y$ and $\log(v/y) = \log v - \log y$ (source: chapter6, §104). These four rules — log of a power, log of a root, log of a product, log of a quotient — are the entire algebra of logarithms.
 
 ### §105 — Logarithms are transcendental
 
-Suppose $\log b$ is rational, say $\log b = m/n$. Then $a^{m/n} = b$, i.e. $a^m = b^n$; if both $a$ and $b$ are rational this forces $b$ to be a rational power of $a$. Suppose instead $\log b$ is irrational, say $\log b = \sqrt{n}$. Then $a^{\sqrt{n}} = b$ — impossible if $a, b$ are rational (source: chapter6.pdf, §105). Conclusion: unless $b$ is exactly a power of $a$, $\log b$ is *neither rational nor irrational algebraic* — Euler labels such quantities *transcendental*, and so logarithms in general are transcendental. See [[transcendence-of-logarithms]].
+Suppose $\log b$ is rational, say $\log b = m/n$. Then $a^{m/n} = b$, i.e. $a^m = b^n$; if both $a$ and $b$ are rational this forces $b$ to be a rational power of $a$. Suppose instead $\log b$ is irrational, say $\log b = \sqrt{n}$. Then $a^{\sqrt{n}} = b$ — impossible if $a, b$ are rational (source: chapter6, §105). Conclusion: unless $b$ is exactly a power of $a$, $\log b$ is *neither rational nor irrational algebraic* — Euler labels such quantities *transcendental*, and so logarithms in general are transcendental. See [[transcendence-of-logarithms]].
 
 ### §106 — Computing logarithms by geometric means
 
-A transcendental logarithm can be approximated to arbitrary decimal precision by an algorithm using only square roots. The principle: if $\log y = z$ and $\log v = x$, then $\log\sqrt{vy} = (x+z)/2$ — the log of the geometric mean is the arithmetic mean of the logs (source: chapter6.pdf, §106).
+A transcendental logarithm can be approximated to arbitrary decimal precision by an algorithm using only square roots. The principle: if $\log y = z$ and $\log v = x$, then $\log\sqrt{vy} = (x+z)/2$ — the log of the geometric mean is the arithmetic mean of the logs (source: chapter6, §106).
 
 To find $\log_{10} 5$: 5 lies between $A = 1$ ($\log A = 0$) and $B = 10$ ($\log B = 1$). Set $C = \sqrt{AB} = 3.162277$, $\log C = 0.5$. Now 5 lies between $C$ and $B$; take $D = \sqrt{BC}$, etc. The bounds halve at each step. After ~26 iterations the geometric mean stabilizes to $5.000000$ with $\log = 0.6989700$.
 
-This is how Briggs and Vlacq computed the original tables of common logarithms (source: chapter6.pdf, §106 example). See [[geometric-mean-method-for-logarithms]].
+This is how Briggs and Vlacq computed the original tables of common logarithms (source: chapter6, §106 example). See [[geometric-mean-method-for-logarithms]].
 
 ### §107–§108 — Change of base
 
-Different bases give different logarithm systems, but they are all proportional. If $\log_a n = p$ and $\log_b n = q$, then $a^p = n = b^q$, so $a = b^{q/p}$, and *the ratio $p/q$ is the same for every $n$* (source: chapter6.pdf, §107). Thus a single multiplier converts one full table into another: e.g. base-10 to base-2 by multiplying every common log by $1/\log_{10} 2 = 1/0.3010300 = 3.3219277$.
+Different bases give different logarithm systems, but they are all proportional. If $\log_a n = p$ and $\log_b n = q$, then $a^p = n = b^q$, so $a = b^{q/p}$, and *the ratio $p/q$ is the same for every $n$* (source: chapter6, §107). Thus a single multiplier converts one full table into another: e.g. base-10 to base-2 by multiplying every common log by $1/\log_{10} 2 = 1/0.3010300 = 3.3219277$.
 
 §108 strengthens this with a base-free formulation: for any two numbers $M, N$ in the same system, the *ratio of their logarithms* is base-independent. From $M = N^{m/n}$ in base $a$ and $M = N^{\mu/\nu}$ in base $b$, both ratios equal — they record the algebraic relationship between $M$ and $N$, not the choice of base. See [[change-of-base]].
 
 ### §109 — Tables built from primes
 
-The product rule reduces tabulation to *prime* logs: $\log 15 = \log 3 + \log 5$, $\log 4 = 2 \log 2$, etc. Once $\log 2 = 0.3010300$ and $\log 5 = 0.6989700$ are computed, every number whose only prime factors are 2 and 5 (i.e. every terminating decimal multiplied by a power of 10) follows by addition (source: chapter6.pdf, §109). Note also that $\log 2 = \log 10 - \log 5 = 1 - 0.6989700$, so a single root extraction (for $\log 5$) suffices for both.
+The product rule reduces tabulation to *prime* logs: $\log 15 = \log 3 + \log 5$, $\log 4 = 2 \log 2$, etc. Once $\log 2 = 0.3010300$ and $\log 5 = 0.6989700$ are computed, every number whose only prime factors are 2 and 5 (i.e. every terminating decimal multiplied by a power of 10) follows by addition (source: chapter6, §109). Note also that $\log 2 = \log 10 - \log 5 = 1 - 0.6989700$, so a single root extraction (for $\log 5$) suffices for both.
 
 ### §110–§111 — Applications
 
@@ -96,8 +96,8 @@ The product rule reduces tabulation to *prime* logs: $\log 15 = \log 3 + \log 5$
 
 Base 10 is special because our arithmetic is decimal. A common logarithm splits into:
 
-- *Characteristic*: the integer part. Equal to (number of digits in the integer part) $- 1$. So $\log 78509$ has characteristic 4; reading the characteristic of any $\log$, one knows the number's digit count (source: chapter6.pdf, §112).
-- *Mantissa*: the decimal fractional part. Encodes the digit string of the number, independent of decimal placement (source: chapter6.pdf, §113).
+- *Characteristic*: the integer part. Equal to (number of digits in the integer part) $- 1$. So $\log 78509$ has characteristic 4; reading the characteristic of any $\log$, one knows the number's digit count (source: chapter6, §112).
+- *Mantissa*: the decimal fractional part. Encodes the digit string of the number, independent of decimal placement (source: chapter6, §113).
 
 Two numbers whose logs share a mantissa differ only by a power of 10 — same digits, decimal point shifted. Negative characteristics are conventionally shifted upward by 10 (writing 9, 8, 7, ... for $-1, -2, -3$ and noting "diminished by 10"). See [[characteristic-and-mantissa]] and [[common-logarithm]].
 

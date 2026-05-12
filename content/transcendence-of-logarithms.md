@@ -2,7 +2,7 @@
 
 **Summary**: Euler's §105 argument: if $a$ and $b$ are rational and $b$ is not a rational power of $a$, then $\log_a b$ is neither rational nor irrational — i.e. not algebraic. Such quantities Euler calls *transcendental*. This is the chapter's first extension of the algebraic/transcendental distinction from *functions* (Chapter 1) to *numbers*.
 
-**Sources**: chapter6.pdf (§105)
+**Sources**: chapter6 (§105)
 
 **Last updated**: 2026-04-26
 
@@ -10,7 +10,7 @@
 
 ## The dichotomy
 
-Suppose $\log b = r$ for some real $r$, where $a, b$ are rational and $a > 1$ is the base. Euler argues by cases on what kind of number $r$ could be (source: chapter6.pdf, §105):
+Suppose $\log b = r$ for some real $r$, where $a, b$ are rational and $a > 1$ is the base. Euler argues by cases on what kind of number $r$ could be (source: chapter6, §105):
 
 - **$r$ rational, $r = m/n$.** Then $a^{m/n} = b$, i.e. $a^m = b^n$. With both $a$ and $b$ rational, this forces $b$ to be exactly the $(m/n)$-th power of $a$ — a rational power.
 - **$r$ irrational, $r = \sqrt{n}$.** Then $a^{\sqrt n} = b$. Euler asserts this is impossible for rational $a, b$ — a power of a rational number with an irrational exponent cannot be rational.

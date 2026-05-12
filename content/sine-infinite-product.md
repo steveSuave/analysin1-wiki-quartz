@@ -2,7 +2,7 @@
 
 **Summary**: §158: $\sin z = z\prod_{k=1}^{\infty}\bigl(1 - z^2/k^2\pi^2\bigr)$. Euler's celebrated infinite-product representation of the sine, obtained by substituting $x = iz$ in the [[exponential-infinite-product|hyperbolic-sine product]].
 
-**Sources**: chapter9.pdf
+**Sources**: chapter9
 
 **Last updated**: 2026-04-29
 
@@ -16,7 +16,7 @@ Equivalently, factoring each $1 - z^2/k^2\pi^2 = (1 - z/k\pi)(1 + z/k\pi)$,
 
 $$\sin z = z\left(1 - \frac{z}{\pi}\right)\left(1 + \frac{z}{\pi}\right)\left(1 - \frac{z}{2\pi}\right)\left(1 + \frac{z}{2\pi}\right)\left(1 - \frac{z}{3\pi}\right)\left(1 + \frac{z}{3\pi}\right)\cdots$$
 
-(source: chapter9.pdf, §158).
+(source: chapter9, §158).
 
 ## Derivation
 
@@ -40,7 +40,7 @@ The series side encodes the *behavior near $0$*; the product side encodes the *z
 
 ## Vanishing condition
 
-"Whenever the arc has a length such that any of the factors vanishes, that is when $z = 0$, $\pm \pi$, $\pm 2\pi$, etc., or generally when $z = \pm k\pi$, where $k$ is any integer, then the sine of that arc must equal zero. But this is so obvious, that we might have found the factors from this fact" (source: chapter9.pdf, §158). Reading backwards: knowing the zeros suffices to write down the product.
+"Whenever the arc has a length such that any of the factors vanishes, that is when $z = 0$, $\pm \pi$, $\pm 2\pi$, etc., or generally when $z = \pm k\pi$, where $k$ is any integer, then the sine of that arc must equal zero. But this is so obvious, that we might have found the factors from this fact" (source: chapter9, §158). Reading backwards: knowing the zeros suffices to write down the product.
 
 ## Why this matters
 

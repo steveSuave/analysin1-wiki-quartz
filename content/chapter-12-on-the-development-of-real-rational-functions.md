@@ -2,7 +2,7 @@
 
 **Summary**: Euler extends [[partial-fraction-decomposition|Chapter 2's partial-fraction algorithm]] from real linear factors to real *quadratic* factors of the form $p^2 - 2pqz\cos\phi + q^2z^2$ (the [[trinomial-factor]] of [[chapter-9-on-trinomial-factors|Chapter 9]]). The result keeps the decomposition entirely real even when the denominator has complex roots, and an iterative variant handles repeated quadratic factors.
 
-**Sources**: chapter12.pdf
+**Sources**: chapter12
 
 **Last updated**: 2026-05-04
 
@@ -10,7 +10,7 @@
 
 ## Overview
 
-[[partial-fraction-decomposition|Chapter 2]] decomposed a proper rational function $M/N$ into one simple fraction per linear factor of $N$. When $N$ has complex linear factors the resulting partial fractions are also complex — useless if the goal is a *real* decomposition. Chapter 9 supplied the cure: every real polynomial factors into real linear factors and real quadratic [[trinomial-factor|trinomial factors]] $p^2 - 2pqz\cos\phi + q^2z^2$. Chapter 12 makes this cure operational: it gives an algorithm for the partial fraction with denominator equal to a quadratic trinomial, and then extends the algorithm to the case where that trinomial is repeated (source: chapter12.pdf, §199).
+[[partial-fraction-decomposition|Chapter 2]] decomposed a proper rational function $M/N$ into one simple fraction per linear factor of $N$. When $N$ has complex linear factors the resulting partial fractions are also complex — useless if the goal is a *real* decomposition. Chapter 9 supplied the cure: every real polynomial factors into real linear factors and real quadratic [[trinomial-factor|trinomial factors]] $p^2 - 2pqz\cos\phi + q^2z^2$. Chapter 12 makes this cure operational: it gives an algorithm for the partial fraction with denominator equal to a quadratic trinomial, and then extends the algorithm to the case where that trinomial is repeated (source: chapter12, §199).
 
 The chapter has two movements:
 
@@ -21,7 +21,7 @@ The chapter has two movements:
 
 ### §199 — Why real quadratic denominators
 
-If the linear factors of the denominator are complex, the partial fractions of [[partial-fraction-decomposition|Chapter 2]] are also complex — "of little use to express a real rational function in terms of complex fractions" (source: chapter12.pdf, §199). Since every real polynomial admits real factorization into linear and quadratic pieces ([[fundamental-theorem-of-algebra]], constructively given by [[chapter-9-on-trinomial-factors|Chapter 9]]), a *real* rational function decomposes into partial fractions whose denominators are real linear or real quadratic factors.
+If the linear factors of the denominator are complex, the partial fractions of [[partial-fraction-decomposition|Chapter 2]] are also complex — "of little use to express a real rational function in terms of complex fractions" (source: chapter12, §199). Since every real polynomial admits real factorization into linear and quadratic pieces ([[fundamental-theorem-of-algebra]], constructively given by [[chapter-9-on-trinomial-factors|Chapter 9]]), a *real* rational function decomposes into partial fractions whose denominators are real linear or real quadratic factors.
 
 ### §200 — The form of the partial fraction
 
@@ -29,7 +29,7 @@ For one [[trinomial-factor|trinomial factor]] $p^2 - 2pqz\cos\phi + q^2z^2$ of $
 
 $$\frac{P + Qz}{p^2 - 2pqz\cos\phi + q^2z^2},$$
 
-with a *first*-degree numerator. The numerator must be exactly first degree: a higher degree would leave behind a polynomial part (which should already have been removed; see [[improper-rational-function]]) (source: chapter12.pdf, §200).
+with a *first*-degree numerator. The numerator must be exactly first degree: a higher degree would leave behind a polynomial part (which should already have been removed; see [[improper-rational-function]]) (source: chapter12, §200).
 
 ### §201 — The divisibility condition
 
@@ -37,7 +37,7 @@ Write $N = (p^2 - 2pqz\cos\phi + q^2z^2) Z$ and let $M$ be the numerator. Subtra
 
 $$Y = \frac{M - PZ - QZz}{p^2 - 2pqz\cos\phi + q^2z^2}.$$
 
-For $Y$ to be a polynomial, $M - PZ - QZz$ must vanish at the two roots of the trinomial — namely $z = (p/q)(\cos\phi \pm i\sin\phi)$. Setting $f = p/q$, [[de-moivre-formula|De Moivre]] gives $z^n = f^n(\cos n\phi \pm i\sin n\phi)$ at each root (source: chapter12.pdf, §201).
+For $Y$ to be a polynomial, $M - PZ - QZz$ must vanish at the two roots of the trinomial — namely $z = (p/q)(\cos\phi \pm i\sin\phi)$. Setting $f = p/q$, [[de-moivre-formula|De Moivre]] gives $z^n = f^n(\cos n\phi \pm i\sin n\phi)$ at each root (source: chapter12, §201).
 
 ### §202–§203 — Two real equations, closed-form solution
 
@@ -51,7 +51,7 @@ $$T = \alpha f\cos\phi + \beta f^2\cos 2\phi + \cdots,\qquad t = \alpha f\sin\ph
 
 $$P = \frac{Rt - rT}{St - sT},\qquad Q = \frac{Rs - rS}{sT - St}.$$
 
-(source: chapter12.pdf, §203). See [[real-partial-fraction-decomposition]] for derivation and worked examples.
+(source: chapter12, §203). See [[real-partial-fraction-decomposition]] for derivation and worked examples.
 
 ### §204–§205 — Streamlined formula
 
@@ -59,11 +59,11 @@ A direct calculation shows $T = f(S\cos\phi - s\sin\phi)$ and $t = f(S\sin\phi +
 
 $$\frac{P + Qz}{p^2 - 2pqz\cos\phi + q^2z^2} = \frac{(RS + rs)p\sin\phi + (Rs - rS)(p\cos\phi - qz)}{(p^2 - 2pqz\cos\phi + q^2z^2)(S^2 + s^2)\,p\sin\phi}.$$
 
-Only the four scalars $R, r, S, s$ are needed — half the computation of §203 (source: chapter12.pdf, §205).
+Only the four scalars $R, r, S, s$ are needed — half the computation of §203 (source: chapter12, §205).
 
 ### §206 — Why repeated factors need a different rule
 
-If the denominator contains $(p^2 - 2pqz\cos\phi + q^2z^2)^2$ or higher, then after substituting $z = f(\cos\phi \pm i\sin\phi)$ both $M - PZ - QZz$ *and* $Z$ vanish, so the §203 system degenerates and $P, Q$ cannot be solved (source: chapter12.pdf, §206). A new procedure is needed.
+If the denominator contains $(p^2 - 2pqz\cos\phi + q^2z^2)^2$ or higher, then after substituting $z = f(\cos\phi \pm i\sin\phi)$ both $M - PZ - QZz$ *and* $Z$ vanish, so the §203 system degenerates and $P, Q$ cannot be solved (source: chapter12, §206). A new procedure is needed.
 
 ### §207–§209 — Iterative algorithm for $(p^2 - 2pqz\cos\phi + q^2z^2)^k$
 
@@ -75,11 +75,11 @@ Each numerator is determined by a one-step substitution analogous to [[partial-f
 
 $$U = \frac{YN + yn}{N^2 + n^2} + \frac{Yn - yN}{N^2 + n^2}\cdot\frac{\cos\phi}{\sin\phi},\qquad u = -\frac{Yn - yN}{N^2 + n^2}\cdot\frac{q}{p\sin\phi},$$
 
-with $Y, y$ the values of $M$ at the roots. Then $F = (M - (U + uz)Z)/(p^2 - 2pqz\cos\phi + q^2z^2)$ is the next polynomial; the same formula on $F$ produces $V, v$; and so on through $G, H, I, K, \ldots$ (source: chapter12.pdf, §207–§209). See [[real-partial-fraction-decomposition]] for the full derivation and worked example.
+with $Y, y$ the values of $M$ at the roots. Then $F = (M - (U + uz)Z)/(p^2 - 2pqz\cos\phi + q^2z^2)$ is the next polynomial; the same formula on $F$ produces $V, v$; and so on through $G, H, I, K, \ldots$ (source: chapter12, §207–§209). See [[real-partial-fraction-decomposition]] for the full derivation and worked example.
 
 ### §210 — The complementary fraction falls out for free
 
-The sequence of polynomials $F, G, H, I, K, \ldots$ used to extract numerators is automatically the right object for the *complementary* fraction with denominator $Z$ (the cofactor of the trinomial tower in $N$). For $k = 1$, $F/Z$ is the complement; for $k = 2$, $G/Z$; and so on. The complement, having denominator $Z$ which contains *no* further power of this trinomial, can itself be expressed in partial fractions by the rules above (source: chapter12.pdf, §210).
+The sequence of polynomials $F, G, H, I, K, \ldots$ used to extract numerators is automatically the right object for the *complementary* fraction with denominator $Z$ (the cofactor of the trinomial tower in $N$). For $k = 1$, $F/Z$ is the complement; for $k = 2$, $G/Z$; and so on. The complement, having denominator $Z$ which contains *no* further power of this trinomial, can itself be expressed in partial fractions by the rules above (source: chapter12, §210).
 
 ## Worked examples in the chapter
 

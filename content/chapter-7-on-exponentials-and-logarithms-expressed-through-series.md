@@ -2,7 +2,7 @@
 
 **Summary**: Euler returns to $a^z$ and $\log y$ from Chapter 6 and now develops them analytically. Using a single heuristic — let $\omega$ be infinitely small and $j = z/\omega$ infinitely large, so $a^z = (1 + k\omega)^j = (1 + kz/j)^j$ — he produces the [[exponential-series]] $a^z = \sum (kz)^n/n!$ and the [[logarithmic-series]] $\log(1+x) = (1/k)(x - x^2/2 + \cdots)$. Choosing the base so that $k = 1$ defines [[eulers-number|$e$]]; the resulting [[natural-logarithm]] system is the simplest, and $k = \log_e a$ is the modern conversion factor of [[change-of-base]].
 
-**Sources**: chapter7.pdf
+**Sources**: chapter7
 
 **Last updated**: 2026-04-26
 
@@ -28,7 +28,7 @@ For $a > 1$ and any infinitely small positive $\omega$, $a^\omega$ exceeds 1 by 
 
 $$a^\omega = 1 + k\omega, \qquad \omega = \log(1 + k\omega).$$
 
-The constant $k$ is finite and *depends on $a$*. Worked example: with $a = 10$ and $1 + k\omega = 1 + 1/1{,}000{,}000$, the common log table gives $\omega = \log(1 + 10^{-6}) = 0.00000043429$, so $1/k = 0.43429$ and $k \approx 2.30258$ (source: chapter7.pdf, §114). This is the same $k$ that turns out to equal $\log_e 10$ — but at this stage Euler only knows it as a base-dependent finite quantity.
+The constant $k$ is finite and *depends on $a$*. Worked example: with $a = 10$ and $1 + k\omega = 1 + 1/1{,}000{,}000$, the common log table gives $\omega = \log(1 + 10^{-6}) = 0.00000043429$, so $1/k = 0.43429$ and $k \approx 2.30258$ (source: chapter7, §114). This is the same $k$ that turns out to equal $\log_e 10$ — but at this stage Euler only knows it as a base-dependent finite quantity.
 
 ### §115 — Binomial expansion of $a^{j\omega}$
 
@@ -40,11 +40,11 @@ Now substitute $j = z/\omega$, so $j$ is *infinitely large* and $\omega = z/j$ i
 
 $$a^z = \left(1 + \frac{kz}{j}\right)^j = 1 + \frac{1}{1}kz + \frac{1(j-1)}{1\cdot 2 j}k^2 z^2 + \frac{1(j-1)(j-2)}{1\cdot 2 j \cdot 3 j}k^3 z^3 + \cdots$$
 
-(source: chapter7.pdf, §115). This is true *because* $j$ is infinitely large.
+(source: chapter7, §115). This is true *because* $j$ is infinitely large.
 
 ### §116 — Collapsing the coefficients
 
-Since $j$ is infinitely large, $(j - m)/j = 1$ and $(j - m)/(nj) = 1/n$ for every finite $m, n$ (source: chapter7.pdf, §116). Each binomial coefficient of $(1 + kz/j)^j$ collapses to a reciprocal factorial:
+Since $j$ is infinitely large, $(j - m)/j = 1$ and $(j - m)/(nj) = 1/n$ for every finite $m, n$ (source: chapter7, §116). Each binomial coefficient of $(1 + kz/j)^j$ collapses to a reciprocal factorial:
 
 $$a^z = 1 + \frac{kz}{1} + \frac{k^2 z^2}{1\cdot 2} + \frac{k^3 z^3}{1\cdot 2\cdot 3} + \frac{k^4 z^4}{1\cdot 2\cdot 3\cdot 4} + \cdots$$
 
@@ -60,7 +60,7 @@ If $b = a^n$ then $\log_a b = n$, and $b^z = a^{nz}$. Substituting $nz$ for $z$ 
 
 $$b^z = 1 + \frac{kz \log b}{1} + \frac{k^2 z^2 (\log b)^2}{1\cdot 2} + \frac{k^3 z^3 (\log b)^3}{1\cdot 2\cdot 3} + \cdots$$
 
-So once $k$ is known for a chosen base $a$, every other exponential $b^z$ has a power series in $z$ whose coefficients are powers of $\log b$ (source: chapter7.pdf, §117).
+So once $k$ is known for a chosen base $a$, every other exponential $b^z$ has a power series in $z$ whose coefficients are powers of $\log b$ (source: chapter7, §117).
 
 ### §118–§119 — Inverting: the logarithmic series
 
@@ -90,7 +90,7 @@ Set $1 + x = a$ in the §119 series. Since $\log a = 1$,
 
 $$k = \frac{a-1}{1} - \frac{(a-1)^2}{2} + \frac{(a-1)^3}{3} - \frac{(a-1)^4}{4} + \cdots$$
 
-For $a = 10$ this reads $2.30258 = 9/1 - 81/2 + 729/3 - 6561/4 + \cdots$ — manifestly divergent in any pre-modern reading (source: chapter7.pdf, §120). Euler flags this as a paradox to be resolved in §121.
+For $a = 10$ this reads $2.30258 = 9/1 - 81/2 + 729/3 - 6561/4 + \cdots$ — manifestly divergent in any pre-modern reading (source: chapter7, §120). Euler flags this as a paradox to be resolved in §121.
 
 ### §121 — The fast-convergent $\log\frac{1+x}{1-x}$
 
@@ -106,7 +106,7 @@ Now solve $(1+x)/(1-x) = a$ for $x$: $x = (a-1)/(a+1)$. For $a = 10$, $x = 9/11 
 
 $$k = 2\left(\frac{9}{11} + \frac{9^3}{3 \cdot 11^3} + \frac{9^5}{5 \cdot 11^5} + \cdots\right)$$
 
-— a series whose terms decrease *geometrically*, giving fast convergence to $k \approx 2.30258$ (source: chapter7.pdf, §121). The paradox of §120 is resolved: the divergent series of §120 is the wrong tool for $a > 2$; the §121 series is the right one.
+— a series whose terms decrease *geometrically*, giving fast convergence to $k \approx 2.30258$ (source: chapter7, §121). The paradox of §120 is resolved: the divergent series of §120 is the wrong tool for $a > 2$; the §121 series is the right one.
 
 ### §122 — Defining $e$ as the base where $k = 1$
 
@@ -114,11 +114,11 @@ The base $a$ is at the analyst's disposal — choose it so $k = 1$. Then the §1
 
 $$a = 1 + \frac{1}{1} + \frac{1}{1\cdot 2} + \frac{1}{1\cdot 2\cdot 3} + \frac{1}{1\cdot 2\cdot 3\cdot 4} + \cdots = 2.71828182845904523536028\ldots$$
 
-(source: chapter7.pdf, §122). Euler denotes this number $e$ — the first appearance of the symbol — and calls the resulting logarithms *natural* or *hyperbolic* (the latter "since the quadrature of a hyperbola can be expressed through these logarithms"). See [[eulers-number]].
+(source: chapter7, §122). Euler denotes this number $e$ — the first appearance of the symbol — and calls the resulting logarithms *natural* or *hyperbolic* (the latter "since the quadrature of a hyperbola can be expressed through these logarithms"). See [[eulers-number]].
 
 ### §123 — The canonical natural-log series and a logarithm table
 
-With $k = 1$ the three master identities take their cleanest form (source: chapter7.pdf, §123):
+With $k = 1$ the three master identities take their cleanest form (source: chapter7, §123):
 
 $$e^z = 1 + z + \frac{z^2}{2!} + \frac{z^3}{3!} + \cdots,$$
 
@@ -134,7 +134,7 @@ For an arbitrary base $a$, let $y = \log_e(1+x)$ and $v = \log_a(1+x)$. The §11
 
 $$k = \frac{y}{v} = \frac{\log_e(1+x)}{\log_a(1+x)}.$$
 
-Setting $1 + x = a$ gives $v = 1$ and $k = \log_e a$ (source: chapter7.pdf, §124). For $a = 10$: $k = \log_e 10 = 2.30258\,50929\,94045\,68401\,79914$, exactly the value computed in §114, §121, §123. Conversely, dividing every natural log by $k$ (or multiplying by $1/k = 0.43429\,44819\,03251\,82765\,11289$) gives common logs — recovering [[change-of-base]] from Chapter 6.
+Setting $1 + x = a$ gives $v = 1$ and $k = \log_e a$ (source: chapter7, §124). For $a = 10$: $k = \log_e 10 = 2.30258\,50929\,94045\,68401\,79914$, exactly the value computed in §114, §121, §123. Conversely, dividing every natural log by $k$ (or multiplying by $1/k = 0.43429\,44819\,03251\,82765\,11289$) gives common logs — recovering [[change-of-base]] from Chapter 6.
 
 ### §125 — Two more identities
 
@@ -146,7 +146,7 @@ And from the underlying $j$-form:
 
 $$e^z = \left(1 + \frac{z}{j}\right)^j, \qquad a^y = \left(1 + \frac{y \log a}{j}\right)^j, \qquad \log(1 + x) = j\bigl((1+x)^{1/j} - 1\bigr),$$
 
-with $j$ infinitely large (source: chapter7.pdf, §125). Euler closes the chapter by noting that further uses of natural logs are deferred to integral calculus.
+with $j$ infinitely large (source: chapter7, §125). Euler closes the chapter by noting that further uses of natural logs are deferred to integral calculus.
 
 ## Notable points
 

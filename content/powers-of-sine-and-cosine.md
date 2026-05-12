@@ -2,7 +2,7 @@
 
 **Summary**: §261–§263. Any integer power of $\sin z$ or $\cos z$ can be written as a finite linear combination of sines (or cosines) of multiple angles $kz$, with binomial-coefficient weights. This is the inverse of [[multiple-angle-polynomials|§234]]: instead of expanding $\sin nz$ in powers of $\sin z$, Euler expands $(\sin z)^n$ in $\sin kz$. The derivation uses only the four product-to-sum lemmas and induction.
 
-**Sources**: chapter14.pdf (§261–§263)
+**Sources**: chapter14 (§261–§263)
 
 **Last updated**: 2026-05-11
 
@@ -19,7 +19,7 @@ $$\begin{aligned}
 2\cos a\cos z &= \cos(a-z) + \cos(a+z)
 \end{aligned}$$
 
-(source: chapter14.pdf, §262). Each multiplication of an existing $\sin kz$ or $\cos kz$ by another $\sin z$ or $\cos z$ produces two terms whose arguments differ by $\pm z$. Iterating gives a sum supported on $\{0, \pm z, \pm 2z, \ldots, \pm nz\}$ collapsed by parity.
+(source: chapter14, §262). Each multiplication of an existing $\sin kz$ or $\cos kz$ by another $\sin z$ or $\cos z$ produces two terms whose arguments differ by $\pm z$. Iterating gives a sum supported on $\{0, \pm z, \pm 2z, \ldots, \pm nz\}$ collapsed by parity.
 
 ## Powers of sine (§262)
 
@@ -37,7 +37,7 @@ $$\begin{aligned}
 256(\sin z)^9 &= 126\sin z - 84\sin 3z + 36\sin 5z - 9\sin 7z + \sin 9z
 \end{aligned}$$
 
-(source: chapter14.pdf, §262). The leading factor on the left is $2^{n-1}$. The non-constant coefficients are the **binomial coefficients $\binom{n}{k}$ from the row indexed by $n$**, signs alternating, and using $\sin$ for odd $n$ and $\cos$ for even $n$. The constant term in even $n$ is the central binomial coefficient $\binom{n}{n/2}$ of the previous (also even-indexed) row, equivalently the binomial coefficient at the centre of row $n$.
+(source: chapter14, §262). The leading factor on the left is $2^{n-1}$. The non-constant coefficients are the **binomial coefficients $\binom{n}{k}$ from the row indexed by $n$**, signs alternating, and using $\sin$ for odd $n$ and $\cos$ for even $n$. The constant term in even $n$ is the central binomial coefficient $\binom{n}{n/2}$ of the previous (also even-indexed) row, equivalently the binomial coefficient at the centre of row $n$.
 
 ## Powers of cosine (§263)
 
@@ -53,7 +53,7 @@ $$\begin{aligned}
 64(\cos z)^7 &= 35\cos z + 21\cos 3z + 7\cos 5z + \cos 7z
 \end{aligned}$$
 
-(source: chapter14.pdf, §263). All signs are positive; only $\cos kz$ appears (no sines), and the coefficients again follow the binomial law.
+(source: chapter14, §263). All signs are positive; only $\cos kz$ appears (no sines), and the coefficients again follow the binomial law.
 
 ## Modern reading
 

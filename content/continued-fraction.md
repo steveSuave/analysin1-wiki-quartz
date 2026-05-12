@@ -2,7 +2,7 @@
 
 **Summary**: A continued fraction is an infinite expression in which the denominator at each level is itself the sum of an integer (or polynomial expression) and another fraction of the same kind. Euler treats two forms: the *simple* form with all numerators equal to $1$, and the *generalised* form with arbitrary numerators.
 
-**Sources**: `raw/chapter18.pdf` (§357).
+**Sources**: `chapter18` (§357).
 
 **Last updated**: 2026-05-11
 

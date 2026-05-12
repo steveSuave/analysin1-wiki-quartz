@@ -2,7 +2,7 @@
 
 **Summary**: A series $A + Bz + Cz^2 + Dz^3 + \cdots$ whose coefficients satisfy a fixed linear recurrence. Euler (§62) credits the name to De Moivre — one must "run back" to previous terms to compute a new one. Every rational function with non-vanishing constant in its denominator expands into a recurrent series, and the recurrence is read directly off the denominator. The closed-form general term, the inverse problem, and the sum are developed in [[chapter-13-on-recurrent-series|Chapter 13]]. [[chapter-16-on-the-partition-of-numbers|Chapter 16]] applies the theory to **partition generating functions** $1/\prod_{k=1}^m(1-x^k)$. [[chapter-17-using-recurrent-series-to-find-roots-of-equations|Chapter 17]] inverts the construction to turn recurrent series into a **root-finder** for algebraic equations.
 
-**Sources**: chapter4.pdf, chapter13.pdf, chapter16.pdf, chapter17.pdf
+**Sources**: chapter4, chapter13, chapter16, chapter17
 
 **Last updated**: 2026-05-11
 
@@ -10,7 +10,7 @@
 
 ## Definition (§62)
 
-A series $A + Bz + Cz^2 + \cdots$ is *recurrent* if there is a fixed law — independent of the position — by which each coefficient is determined from a fixed number of its predecessors. The order of the recurrence equals the degree of the denominator of the rational function that produced the series (source: chapter4.pdf, §62).
+A series $A + Bz + Cz^2 + \cdots$ is *recurrent* if there is a fixed law — independent of the position — by which each coefficient is determined from a fixed number of its predecessors. The order of the recurrence equals the degree of the denominator of the rational function that produced the series (source: chapter4, §62).
 
 Euler attributes the name to Abraham de Moivre, "who has examined their nature very carefully": the name comes from the need to *run back* to preceding terms in order to compute subsequent ones.
 
@@ -24,11 +24,11 @@ Setting this equal to $A + B z + C z^2 + \cdots$ and multiplying out gives
 
 $$ A = a, \quad B = \alpha A + b, \quad C = \alpha B + \beta A + c, \quad D = \alpha C + \beta B + \gamma A + d, \quad \ldots $$
 
-Each coefficient is a weighted sum of preceding coefficients (with weights $\alpha, \beta, \gamma, \ldots$) plus the corresponding numerator entry (source: chapter4.pdf, §63). Once the numerator runs out, the recurrence becomes homogeneous:
+Each coefficient is a weighted sum of preceding coefficients (with weights $\alpha, \beta, \gamma, \ldots$) plus the corresponding numerator entry (source: chapter4, §63). Once the numerator runs out, the recurrence becomes homogeneous:
 
 $$ N = \alpha M + \beta L + \gamma K + \cdots $$
 
-where $N, M, L, K, \ldots$ are consecutive coefficients. The negative signs in the denominator are Euler's convention so that the recurrence comes out with all positive coefficients (source: chapter4.pdf, §63).
+where $N, M, L, K, \ldots$ are consecutive coefficients. The negative signs in the denominator are Euler's convention so that the recurrence comes out with all positive coefficients (source: chapter4, §63).
 
 ## Properness requirement (§63)
 
@@ -38,7 +38,7 @@ Euler's illustrating example: $\dfrac{1 + 2z - z^3}{1 - z - z^2}$ gives the seri
 
 $$ 1 + 3z + 4z^2 + 6z^3 + 10z^4 + 16z^5 + 26z^6 + 42z^7 + \cdots $$
 
-The Fibonacci-like law "each coefficient is the sum of the two before" works everywhere *except* at the $6z^3$ term, where the $-z^3$ in the numerator intervenes (source: chapter4.pdf, §63). The remedy is to first split off the polynomial part using an [[improper-rational-function]] decomposition.
+The Fibonacci-like law "each coefficient is the sum of the two before" works everywhere *except* at the $6z^3$ term, where the $-z^3$ in the numerator intervenes (source: chapter4, §63). The remedy is to first split off the polynomial part using an [[improper-rational-function]] decomposition.
 
 ## Examples
 
@@ -60,7 +60,7 @@ If the denominator is the *power* of a multinomial — $(1 - \alpha z - \beta z^
 
 $$ N \;=\; \frac{m + n}{n} \alpha M + \frac{2m + n}{n} \beta L + \frac{3m + n}{n} \gamma K + \cdots $$
 
-where $N$ is the coefficient of $z^n$ (source: chapter4.pdf, §68). Euler notes this non-constant law applies only when the numerator is $1$ (or a constant); a general numerator makes the recurrence more complicated, a problem he defers to differential calculus.
+where $N$ is the coefficient of $z^n$ (source: chapter4, §68). Euler notes this non-constant law applies only when the numerator is $1$ (or a constant); a general numerator makes the recurrence more complicated, a problem he defers to differential calculus.
 
 The same non-constant law arises in §76 for the binomial expansion $(1 + \alpha z + \beta z^2 + \cdots)^{m-1}$ — see [[binomial-series]].
 
@@ -70,11 +70,11 @@ When the denominator factors as $z^m \cdot (1 - \alpha z - \beta z^2 - \cdots)$,
 
 $$ \frac{a + b z + \cdots}{z^m (1 - \alpha z - \beta z^2 - \cdots)} \;=\; \frac{A}{z^m} + \frac{B}{z^{m-1}} + \frac{C}{z^{m-2}} + \cdots $$
 
-The coefficients $A, B, C, \ldots$ are those of the corresponding recurrent series for the rational function without the factor $z^m$ (source: chapter4.pdf, §69). In modern language this is a Laurent expansion at the origin.
+The coefficients $A, B, C, \ldots$ are those of the corresponding recurrent series for the rational function without the factor $z^m$ (source: chapter4, §69). In modern language this is a Laurent expansion at the origin.
 
 ## Non-uniqueness (§70)
 
-A single rational function admits *infinitely many* distinct recurrent-series representations, because one can always reparametrize by substitution (see [[chapter-3-on-the-transformation-of-functions-by-substitution]]). Euler illustrates with $y = (1 + z)/(1 - z - z^2)$: under $z = 1/x$ and $z = (1-x)/(1+x)$ one obtains entirely different recurrent series for the same $y$ (source: chapter4.pdf, §70).
+A single rational function admits *infinitely many* distinct recurrent-series representations, because one can always reparametrize by substitution (see [[chapter-3-on-the-transformation-of-functions-by-substitution]]). Euler illustrates with $y = (1 + z)/(1 - z - z^2)$: under $z = 1/x$ and $z = (1-x)/(1+x)$ one obtains entirely different recurrent series for the same $y$ (source: chapter4, §70).
 
 ## Closed-form theory ([[chapter-13-on-recurrent-series|Chapter 13]])
 

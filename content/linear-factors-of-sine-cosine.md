@@ -2,7 +2,7 @@
 
 **Summary**: §184: evaluating the [[sine-infinite-product|§158 sine]] and [[cosine-infinite-product|cosine]] products at $z = m\pi/(2n)$ rationalizes every quadratic factor $1 - m^2/(kn)^2$ into a pair of linear factors $(kn - m)/kn$ and $(kn + m)/kn$. The result is two linear-factor product expressions for each of $\sin(m\pi/2n)$ and $\cos(m\pi/2n)$ — one direct, one via the co-function identity. This is the engine behind the [[wallis-product|Wallis product]], the [[trig-infinite-products|other trig products]], and the [[log-pi-via-products|log-$\pi$]] / [[log-sine-via-products|log-sine]] computations of Chapter 11.
 
-**Sources**: chapter11.pdf
+**Sources**: chapter11
 
 **Last updated**: 2026-05-01
 
@@ -24,7 +24,7 @@ Substituting $2n$ for $n$ — i.e. starting from arc $m\pi/(2n)$ instead of $m\p
 
 ## The four products of §184
 
-Cleaning up the bookkeeping yields the **first** pair (source: chapter11.pdf, §184):
+Cleaning up the bookkeeping yields the **first** pair (source: chapter11, §184):
 
 $$\boxed{\;\sin\frac{m\pi}{2n} = \frac{m\pi}{2n}\cdot\frac{2n - m}{2n}\cdot\frac{2n + m}{2n}\cdot\frac{4n - m}{4n}\cdot\frac{4n + m}{4n}\cdot\frac{6n - m}{6n}\cdot\frac{6n + m}{6n}\cdots\;}$$
 
@@ -38,7 +38,7 @@ Use $\sin((n - m)\pi/2n) = \cos(m\pi/2n)$, valid because $(n-m)\pi/(2n) + m\pi/(
 
 $$\cos\frac{m\pi}{2n} = \frac{(n - m)\pi}{2n}\cdot\frac{n + m}{2n}\cdot\frac{3n - m}{2n}\cdot\frac{3n + m}{4n}\cdot\frac{5n - m}{4n}\cdot\frac{5n + m}{6n}\cdot\frac{7n - m}{6n}\cdots$$
 
-(source: chapter11.pdf, §184, after the substitution $m \mapsto n - m$.)
+(source: chapter11, §184, after the substitution $m \mapsto n - m$.)
 
 Symmetrically, $\cos((n - m)\pi/2n) = \sin(m\pi/2n)$, so applying the cosine boxed formula with $m \mapsto n - m$ gives
 

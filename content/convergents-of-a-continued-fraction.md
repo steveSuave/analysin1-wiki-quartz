@@ -2,7 +2,7 @@
 
 **Summary**: Truncating a [[continued-fraction|continued fraction]] after $k$ levels gives a rational number called the $k$-th convergent. Numerators and denominators each obey the same three-term linear recurrence — multiply the previous fraction by the next partial denominator and add the partial numerator times the second-previous fraction. The convergents alternate around the true value, each closer than its predecessor, so the truncations provide fast and tight rational approximations.
 
-**Sources**: `raw/chapter18.pdf` (§358–§362).
+**Sources**: `chapter18` (§358–§362).
 
 **Last updated**: 2026-05-11
 

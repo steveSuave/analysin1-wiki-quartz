@@ -2,7 +2,7 @@
 
 **Summary**: §126 of Chapter 8. With the radius of the circle taken as 1, half the circumference is irrational. Euler reports its decimal expansion to about 113 digits and writes: "For the sake of brevity we will use the symbol $\pi$ for this number." This is the moment $\pi$ is established in mainstream mathematical notation.
 
-**Sources**: chapter8.pdf (§126)
+**Sources**: chapter8 (§126)
 
 **Last updated**: 2026-04-27
 
@@ -14,7 +14,7 @@ Euler fixes the convention that anchors all of trigonometry in the *Introductio*
 
 ## The decimal expansion
 
-Euler quotes the value of $\pi$ to about 113 digits (source: chapter8.pdf, §126):
+Euler quotes the value of $\pi$ to about 113 digits (source: chapter8, §126):
 
 $$\pi = 3.14159\,26535\,89793\,23846\,26433\,83279\,50288\,41971\,69399\,37510\,58209\,74944\,5923\ldots$$
 

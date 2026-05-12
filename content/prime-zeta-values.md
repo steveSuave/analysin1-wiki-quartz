@@ -2,7 +2,7 @@
 
 **Summary**: §281–§282. Euler's numerical table of $S(n) = \sum_p 1/p^n$ — the *prime zeta function* — to 12 decimal places for every even $n$ from 2 to 36, obtained by inverting the logarithmic relation between $\log\zeta(n)$ and the prime-power sums (§278).
 
-**Sources**: chapter15.pdf
+**Sources**: chapter15
 
 **Last updated**: 2026-05-11
 
@@ -14,7 +14,7 @@ For the series of reciprocals of $n$-th powers of all primes,
 
 $$S(n) := \sum_{p\text{ prime}}\frac{1}{p^n} = \frac{1}{2^n} + \frac{1}{3^n} + \frac{1}{5^n} + \frac{1}{7^n} + \frac{1}{11^n} + \frac{1}{13^n} + \cdots,$$
 
-Euler tabulates (source: chapter15.pdf, §282):
+Euler tabulates (source: chapter15, §282):
 
 | $n$ | $S(n)$ |
 |---|---|
@@ -37,7 +37,7 @@ Euler tabulates (source: chapter15.pdf, §282):
 | 34 | $0.000000000058207$ |
 | 36 | $0.000000000014551$ |
 
-Euler's observation: "The remaining sums decrease by about one fourth at each step" (source: chapter15.pdf, §283). This is consistent with the dominant term $1/2^n$, which exactly quarters at each $n \to n + 2$, plus smaller corrections from $1/3^n, 1/5^n, \ldots$ which become negligible.
+Euler's observation: "The remaining sums decrease by about one fourth at each step" (source: chapter15, §283). This is consistent with the dominant term $1/2^n$, which exactly quarters at each $n \to n + 2$, plus smaller corrections from $1/3^n, 1/5^n, \ldots$ which become negligible.
 
 ## The method (§281)
 
@@ -61,7 +61,7 @@ derived by removing the $1/2^n$ contribution. Manipulating
 
 $$S = (M - 1)\Bigl(1 - \frac{1}{2^n}\Bigr)\Bigl(1 - \frac{1}{3^n}\Bigr) + \frac{1}{6^n} - \frac{1}{25^n} - \frac{1}{35^n} - \cdots$$
 
-(source: chapter15.pdf, §281) lets one recover $S(n)$ from the closed-form $M = \zeta(n)$ minus a rapidly-convergent correction series in **composite squarefree** indices.
+(source: chapter15, §281) lets one recover $S(n)$ from the closed-form $M = \zeta(n)$ minus a rapidly-convergent correction series in **composite squarefree** indices.
 
 This second form is the one Euler emphasises is convenient "provided only that $n$ is reasonably large" — the residual terms $1/9^n, 1/15^n, 1/21^n, \ldots$ (composites of small primes) decay quickly when $n \geq 8$ or so.
 

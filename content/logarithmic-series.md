@@ -10,7 +10,7 @@ $$\log\frac{1+x}{1-x} = \frac{2}{k}\left(\frac{x}{1} + \frac{x^3}{3} + \frac{x^5
 
 obtained by subtracting the $\log(1-x)$ series from the $\log(1+x)$ series.
 
-**Sources**: chapter7.pdf (§118–§121)
+**Sources**: chapter7 (§118–§121)
 
 **Last updated**: 2026-05-11
 
@@ -22,7 +22,7 @@ From [[exponential-series|§114]], $a^\omega = 1 + k\omega$ for infinitely small
 
 $$j\omega = \log(1 + k\omega)^j.$$
 
-Set $(1 + k\omega)^j = 1 + x$, where $x$ is a finite number. Then $j$ must be infinitely large for $j\omega$ — the logarithm of the finite number $1 + x$ — to be itself finite (source: chapter7.pdf, §118). The picture is the dual of the [[exponential-series]] setup: there $z = j\omega$ was the exponent; here $\log(1 + x) = j\omega$ is the logarithm.
+Set $(1 + k\omega)^j = 1 + x$, where $x$ is a finite number. Then $j$ must be infinitely large for $j\omega$ — the logarithm of the finite number $1 + x$ — to be itself finite (source: chapter7, §118). The picture is the dual of the [[exponential-series]] setup: there $z = j\omega$ was the exponent; here $\log(1 + x) = j\omega$ is the logarithm.
 
 ## Derivation (§119)
 
@@ -46,7 +46,7 @@ The constant $j/k$ on each side cancels, leaving
 
 $$\boxed{\;\log(1+x) = \frac{1}{k}\left(\frac{x}{1} - \frac{x^2}{2} + \frac{x^3}{3} - \frac{x^4}{4} + \cdots\right).\;}$$
 
-(source: chapter7.pdf, §119). When the base is chosen so $k = 1$ (so $a = e$, see [[eulers-number]]), this becomes the canonical natural-log series
+(source: chapter7, §119). When the base is chosen so $k = 1$ (so $a = e$, see [[eulers-number]]), this becomes the canonical natural-log series
 
 $$\log(1+x) = x - \frac{x^2}{2} + \frac{x^3}{3} - \frac{x^4}{4} + \cdots$$
 
@@ -66,7 +66,7 @@ For $a = 10$ this reads $2.30258 = 9 - 81/2 + 729/3 - 6561/4 + \cdots$ — the t
 
 > 2.30258 = $\frac{9}{1} - \frac{9^2}{2} + \frac{9^3}{3} - \cdots$, but it is difficult to see how this can be since the terms of this series continually grow larger and the sum of several terms does not seem to approach any limit. We will soon have an answer to this paradox.
 
-(source: chapter7.pdf, §120). The boxed series converges only for $|x| < 1$, and at $a = 10$ we have $x = 9$. The "answer" is to substitute differently.
+(source: chapter7, §120). The boxed series converges only for $|x| < 1$, and at $a = 10$ we have $x = 9$. The "answer" is to substitute differently.
 
 ## The fast-converging variant (§121)
 
@@ -90,7 +90,7 @@ For $a = 10$: $x = 9/11$ and
 
 $$k = 2\left(\frac{9}{11} + \frac{9^3}{3 \cdot 11^3} + \frac{9^5}{5 \cdot 11^5} + \frac{9^7}{7 \cdot 11^7} + \cdots\right),$$
 
-whose terms shrink by a factor of about $(9/11)^2 = 0.67$ each pair of steps — fast enough that "soon a satisfactory approximation for $k$ can be obtained" (source: chapter7.pdf, §121). The paradox of §120 is resolved: Euler swaps to a different algebraic representation of $\log a$ that converges where the first series fails.
+whose terms shrink by a factor of about $(9/11)^2 = 0.67$ each pair of steps — fast enough that "soon a satisfactory approximation for $k$ can be obtained" (source: chapter7, §121). The paradox of §120 is resolved: Euler swaps to a different algebraic representation of $\log a$ that converges where the first series fails.
 
 ## Key applications
 

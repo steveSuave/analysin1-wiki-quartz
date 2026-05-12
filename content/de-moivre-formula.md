@@ -6,7 +6,7 @@ $$(\cos z \pm i\sin z)^n = \cos nz \pm i\sin nz$$
 
 for any integer $n$. Solving for the real and imaginary parts and expanding by the binomial theorem produces finite-$n$ identities for $\cos nz$ and $\sin nz$ as polynomials in $\sin z$ and $\cos z$.
 
-**Sources**: chapter8.pdf (§132–§133)
+**Sources**: chapter8 (§132–§133)
 
 **Last updated**: 2026-04-27
 
@@ -18,7 +18,7 @@ The [[sine-and-cosine|Pythagorean identity]] $(\sin z)^2 + (\cos z)^2 = 1$ rewri
 
 $$1 = (\cos z)^2 - (i\sin z)^2 = (\cos z + i\sin z)(\cos z - i\sin z).$$
 
-The factors $\cos z + i\sin z$ and $\cos z - i\sin z$ are complex conjugates with product $1$, so each is the multiplicative inverse of the other. Euler writes (source: chapter8.pdf, §132): "Although these factors are complex, still they are quite useful in combining and multiplying arcs."
+The factors $\cos z + i\sin z$ and $\cos z - i\sin z$ are complex conjugates with product $1$, so each is the multiplicative inverse of the other. Euler writes (source: chapter8, §132): "Although these factors are complex, still they are quite useful in combining and multiplying arcs."
 
 ## §132 — Multiplicativity of arcs
 
@@ -42,7 +42,7 @@ Iterating the §132 multiplication with $n$ copies of the same factor yields, fo
 
 $$(\cos z + i\sin z)^n = \cos nz + i\sin nz,\qquad (\cos z - i\sin z)^n = \cos nz - i\sin nz.$$
 
-(source: chapter8.pdf, §133). The same identity holds for negative integers via the inverse $(\cos z + i\sin z)^{-1} = \cos z - i\sin z = \cos(-z) + i\sin(-z)$.
+(source: chapter8, §133). The same identity holds for negative integers via the inverse $(\cos z + i\sin z)^{-1} = \cos z - i\sin z = \cos(-z) + i\sin(-z)$.
 
 This is De Moivre's formula. Euler does not credit De Moivre by name in §133, but the substance of the identity had been published by Abraham de Moivre in 1722 and was familiar to Euler's audience.
 
@@ -60,7 +60,7 @@ $$\cos nz = (\cos z)^n - \binom{n}{2}(\cos z)^{n-2}(\sin z)^2 + \binom{n}{4}(\co
 
 $$\sin nz = \binom{n}{1}(\cos z)^{n-1}\sin z - \binom{n}{3}(\cos z)^{n-3}(\sin z)^3 + \binom{n}{5}(\cos z)^{n-5}(\sin z)^5 - \cdots.$$
 
-(source: chapter8.pdf, §133). For positive integer $n$ both series terminate; they are the *Chebyshev polynomials of the first and second kind*, in disguise. Euler does not name them; he uses these expansions purely as algebraic identities.
+(source: chapter8, §133). For positive integer $n$ both series terminate; they are the *Chebyshev polynomials of the first and second kind*, in disguise. Euler does not name them; he uses these expansions purely as algebraic identities.
 
 Sample low-$n$ cases:
 

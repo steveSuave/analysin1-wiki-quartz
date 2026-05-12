@@ -2,7 +2,7 @@
 
 **Summary**: §188–§190: starting from the [[wallis-product|Wallis product]] re-paired as $\pi = 4\prod_{k\ge 1}(1 - 1/(2k+1)^2)$, taking the logarithm, expanding each $\log(1 - 1/(2k+1)^2)$ via the [[logarithmic-series|§118 power series]], and transposing the resulting double sum, Euler reduces $\log\pi$ to the linear combination $\log\pi = \log 4 - (A - 1) - \tfrac12(B - 1) - \tfrac13(C - 1) - \cdots$ of the [[zeta-at-even-integers|§169 odd-square sums]] $A, B, C, \ldots$. Tabulating these to twenty digits gives $\log_e\pi = 1.144729885849400174\ldots$ and $\log_{10}\pi = 0.497149872694133854\ldots$.
 
-**Sources**: chapter11.pdf
+**Sources**: chapter11
 
 **Last updated**: 2026-05-01
 
@@ -14,7 +14,7 @@ The [[wallis-product|Wallis product]] re-paired by adjacent factors reads
 
 $$\frac{\pi}{2} = 2\!\left(1 - \frac{1}{9}\right)\!\left(1 - \frac{1}{25}\right)\!\left(1 - \frac{1}{49}\right)\!\left(1 - \frac{1}{81}\right)\cdots$$
 
-(source: chapter11.pdf, §188), equivalently
+(source: chapter11, §188), equivalently
 
 $$\pi = 4\prod_{k\ge 1}\!\left(1 - \frac{1}{(2k+1)^2}\right).$$
 
@@ -24,7 +24,7 @@ Each factor is $1 - $ small, so the logarithm is well-behaved.
 
 $$\log\pi = \log 4 + \sum_{k\ge 1}\log\!\left(1 - \frac{1}{(2k+1)^2}\right) = \log 2 - \sum_{k\ge 1}\log\!\left(1 - \frac{1}{(2k)^2}\right)$$
 
-(source: chapter11.pdf, §189; the second form rewrites Wallis with denominator $(2k)^2$ instead of $(2k+1)^2$). Both versions hold whether logarithms are common or natural; for what follows, *natural* logarithms are essential because they are the ones whose power series has no extra constant.
+(source: chapter11, §189; the second form rewrites Wallis with denominator $(2k)^2$ instead of $(2k+1)^2$). Both versions hold whether logarithms are common or natural; for what follows, *natural* logarithms are essential because they are the ones whose power series has no extra constant.
 
 ## Expand each log
 
@@ -36,7 +36,7 @@ Apply to $x = 1/(2k+1)^2$:
 
 $$\log_e\!\left(1 - \frac{1}{(2k+1)^2}\right) = -\frac{1}{(2k+1)^2} - \frac{1}{2(2k+1)^4} - \frac{1}{3(2k+1)^6} - \frac{1}{4(2k+1)^8} - \cdots$$
 
-Substituting into $\log\pi = \log 4 + \sum_k \log(\cdots)$ produces a *double sum* over $(j, k)$ where $j$ indexes the power and $k$ indexes the original product factor (source: chapter11.pdf, §190):
+Substituting into $\log\pi = \log 4 + \sum_k \log(\cdots)$ produces a *double sum* over $(j, k)$ where $j$ indexes the power and $k$ indexes the original product factor (source: chapter11, §190):
 
 $$\log\pi = \log 4 + \left(-\sum_{k\ge 1}\frac{1}{(2k+1)^2}\right) + \left(-\frac{1}{2}\sum_{k\ge 1}\frac{1}{(2k+1)^4}\right) + \left(-\frac{1}{3}\sum_{k\ge 1}\frac{1}{(2k+1)^6}\right) + \cdots$$
 
@@ -58,7 +58,7 @@ The transposed sum becomes
 
 $$\boxed{\;\log\pi = \log 4 - (A - 1) - \frac{1}{2}(B - 1) - \frac{1}{3}(C - 1) - \frac{1}{4}(D - 1) - \cdots\;}$$
 
-(source: chapter11.pdf, §190).
+(source: chapter11, §190).
 
 ## Why this is fast
 
@@ -68,7 +68,7 @@ The trick — *take logs, expand, transpose* — converts an $O(1/N^2)$-converge
 
 ## The numerical result
 
-Euler tabulates the column sums to 18+ digits (source: chapter11.pdf, §190):
+Euler tabulates the column sums to 18+ digits (source: chapter11, §190):
 
 | Symbol | Value |
 | --- | --- |
@@ -85,11 +85,11 @@ Euler tabulates the column sums to 18+ digits (source: chapter11.pdf, §190):
 
 $$\log_e\pi = 1.144729885849400174\,14342\ldots$$
 
-(source: chapter11.pdf, §190). Multiplying by $\log_{10}e = 0.4342944819\ldots$ converts to the common log:
+(source: chapter11, §190). Multiplying by $\log_{10}e = 0.4342944819\ldots$ converts to the common log:
 
 $$\log_{10}\pi = 0.497149872694133854\,35126\ldots$$
 
-(source: chapter11.pdf, §190).
+(source: chapter11, §190).
 
 ## Why bother with a separate $\log\pi$ table?
 

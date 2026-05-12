@@ -2,7 +2,7 @@
 
 **Summary**: Bivariate generating functions enumerate partitions by both the integer being partitioned (the exponent of $x$) and the number of parts (the exponent of $z$). Chapter 16 develops two parallel families: the product $\prod_i(1 + x^{\alpha_i}z)$ for partitions into *distinct* parts drawn from $\{\alpha_i\}$, and the reciprocal product $1/\prod_i(1 - x^{\alpha_i}z)$ for *unrestricted* (repetition-allowed) partitions. Closed-form recurrent series for each $z^m$ coefficient follow from a single functional-equation trick.
 
-**Sources**: chapter16.pdf
+**Sources**: chapter16
 
 **Last updated**: 2026-05-11
 
@@ -14,7 +14,7 @@ For any sequence of positive integers $\alpha, \beta, \gamma, \ldots$,
 
 $$\prod_{i\geq 1}(1 + x^{\alpha_i} z) = 1 + Pz + Qz^2 + Rz^3 + Sz^4 + \cdots,$$
 
-where each $P, Q, R, \ldots$ is itself a series in $x$. The coefficient $P$ is the sum $\sum x^{\alpha_i}$; the coefficient $Q$ is the sum of $x^{\alpha_i + \alpha_j}$ over pairs $i < j$; the coefficient $R$ over triples; and so on (source: chapter16.pdf, §297). These are the **elementary symmetric polynomials** in $\{x^{\alpha_i}\}$. The combinatorial reading is
+where each $P, Q, R, \ldots$ is itself a series in $x$. The coefficient $P$ is the sum $\sum x^{\alpha_i}$; the coefficient $Q$ is the sum of $x^{\alpha_i + \alpha_j}$ over pairs $i < j$; the coefficient $R$ over triples; and so on (source: chapter16, §297). These are the **elementary symmetric polynomials** in $\{x^{\alpha_i}\}$. The combinatorial reading is
 
 $$[x^n z^m]\text{-coefficient} = \#\{(i_1 < i_2 < \cdots < i_m) : \alpha_{i_1} + \cdots + \alpha_{i_m} = n\}.$$
 

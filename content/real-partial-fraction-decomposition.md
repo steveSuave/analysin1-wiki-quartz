@@ -2,7 +2,7 @@
 
 **Summary**: Euler's method (§199–§210) for resolving a real proper rational function into a sum of real partial fractions whose denominators are real linear factors or real quadratic [[trinomial-factor|trinomial factors]] $p^2 - 2pqz\cos\phi + q^2z^2$. Extends [[partial-fraction-decomposition|the §39–§46 algorithm]] to handle the complex-root case without introducing complex numerators.
 
-**Sources**: chapter12.pdf
+**Sources**: chapter12
 
 **Last updated**: 2026-05-04
 
@@ -14,7 +14,7 @@ Let $M/N$ be a *proper* real rational function (see [[improper-rational-function
 
 $$p^2 - 2pqz\cos\phi + q^2z^2$$
 
-with complex roots $z = (p/q)(\cos\phi \pm i\sin\phi)$ (source: chapter12.pdf, §200).
+with complex roots $z = (p/q)(\cos\phi \pm i\sin\phi)$ (source: chapter12, §200).
 
 ## Distinct quadratic factors (§200–§205)
 
@@ -22,7 +22,7 @@ For one such factor of $N$, the corresponding partial fraction has the form
 
 $$\frac{P + Qz}{p^2 - 2pqz\cos\phi + q^2z^2}$$
 
-with two unknown real coefficients $P$ and $Q$. The numerator is exactly first degree: a higher degree would leave behind a polynomial part (which should already have been removed) (source: chapter12.pdf, §200).
+with two unknown real coefficients $P$ and $Q$. The numerator is exactly first degree: a higher degree would leave behind a polynomial part (which should already have been removed) (source: chapter12, §200).
 
 ### Derivation (§201)
 
@@ -30,7 +30,7 @@ Write $N = (p^2 - 2pqz\cos\phi + q^2z^2)\,Z$. Subtracting $(P + Qz)/(\text{trino
 
 $$z^n = f^n(\cos n\phi \pm i\sin n\phi).$$
 
-(source: chapter12.pdf, §201).
+(source: chapter12, §201).
 
 ### Two real equations (§202)
 
@@ -51,7 +51,7 @@ the single complex equation $R \pm ri = (PS \pm Psi) + (QT \pm Qti)$. Separating
 
 $$R = PS + QT,\qquad r = Ps + Qt.$$
 
-(source: chapter12.pdf, §202–§203). Notice the pattern: $R, r$ come from substituting $z^n \to f^n\cos n\phi$ (resp. $f^n\sin n\phi$) in $M$; $S, s$ come from the same substitution in $Z$; $T, t$ from the same substitution in $Zz$ (which shifts every exponent by one).
+(source: chapter12, §202–§203). Notice the pattern: $R, r$ come from substituting $z^n \to f^n\cos n\phi$ (resp. $f^n\sin n\phi$) in $M$; $S, s$ come from the same substitution in $Z$; $T, t$ from the same substitution in $Zz$ (which shifts every exponent by one).
 
 ### Closed-form solution (§203)
 
@@ -77,7 +77,7 @@ Plugging back gives the compact form
 
 $$\frac{P + Qz}{p^2 - 2pqz\cos\phi + q^2z^2} = \frac{(RS + rs)\,p\sin\phi + (Rs - rS)(p\cos\phi - qz)}{(p^2 - 2pqz\cos\phi + q^2z^2)\,(S^2 + s^2)\,p\sin\phi}.$$
 
-Only the four scalars $R, r, S, s$ are needed — half the trigonometric multiples of §203 (source: chapter12.pdf, §204–§205).
+Only the four scalars $R, r, S, s$ are needed — half the trigonometric multiples of §203 (source: chapter12, §204–§205).
 
 ### Worked Example I (§203)
 
@@ -93,7 +93,7 @@ Then $P = (Rt - rT)/(St - sT) = (0 - \sqrt 3/2)/(0 - (-\sqrt 3/2)) = -1$ and $Q 
 
 $$\frac{-1}{1 - z + z^2}.$$
 
-Subtracting from the original gives the complementary fraction $(1 + z + z^2)/(1 + z^4)$ (using $1 + z^2 + z^4 = (1 + z + z^2)(1 - z + z^2)$). The complement still has denominator $1 + z^4 = (1 + \sqrt 2\,z + z^2)(1 - \sqrt 2\,z + z^2)$, two more trinomial factors with $\phi = \pi/4$, decomposed identically in Example II (source: chapter12.pdf, §203).
+Subtracting from the original gives the complementary fraction $(1 + z + z^2)/(1 + z^4)$ (using $1 + z^2 + z^4 = (1 + z + z^2)(1 - z + z^2)$). The complement still has denominator $1 + z^4 = (1 + \sqrt 2\,z + z^2)(1 - \sqrt 2\,z + z^2)$, two more trinomial factors with $\phi = \pi/4$, decomposed identically in Example II (source: chapter12, §203).
 
 ### Worked Example III (§203, abridged)
 
@@ -101,11 +101,11 @@ Decompose $\dfrac{1 + 2z + z^2}{(1 - \tfrac{8}{5}z + z^2)(1 + 2z + 3z^2)}$. The 
 
 $$\frac{9(17 - 5z)/178}{1 - \tfrac{8}{5}z + z^2}.$$
 
-A symmetric computation for the other factor $1 + 2z + 3z^2$ (now $f = -1/\sqrt 3$, $\cos\phi = 1/\sqrt 3$) yields $\dfrac{5(5 + 27z)/178}{1 + 2z + 3z^2}$ (source: chapter12.pdf, §203).
+A symmetric computation for the other factor $1 + 2z + 3z^2$ (now $f = -1/\sqrt 3$, $\cos\phi = 1/\sqrt 3$) yields $\dfrac{5(5 + 27z)/178}{1 + 2z + 3z^2}$ (source: chapter12, §203).
 
 ## Repeated quadratic factors (§206–§210)
 
-If $(p^2 - 2pqz\cos\phi + q^2z^2)^k$ divides $N$, the algorithm above degenerates: after substituting the trinomial's roots, both $M - PZ - QZz$ *and* $Z$ vanish, and the §203 system becomes $0 = 0$ (source: chapter12.pdf, §206). A separate iterative procedure is needed.
+If $(p^2 - 2pqz\cos\phi + q^2z^2)^k$ divides $N$, the algorithm above degenerates: after substituting the trinomial's roots, both $M - PZ - QZz$ *and* $Z$ vanish, and the §203 system becomes $0 = 0$ (source: chapter12, §206). A separate iterative procedure is needed.
 
 ### Tower of partial fractions (§206)
 
@@ -113,7 +113,7 @@ Write $N = (p^2 - 2pqz\cos\phi + q^2z^2)^k Z$ where $Z$ contains *no* further po
 
 $$\frac{U + uz}{(p^2 - 2pqz\cos\phi + q^2z^2)^k} + \frac{V + vz}{(p^2 - 2pqz\cos\phi + q^2z^2)^{k-1}} + \cdots + \frac{X + xz}{p^2 - 2pqz\cos\phi + q^2z^2}.$$
 
-(source: chapter12.pdf, §209). Each numerator pair has two unknowns; together there are $2k$ unknowns to determine.
+(source: chapter12, §209). Each numerator pair has two unknowns; together there are $2k$ unknowns to determine.
 
 ### One step at a time (§207–§209)
 
@@ -125,15 +125,15 @@ Each numerator pair is found by a single application of a fixed formula. For the
 
 $$U = \frac{YN + yn}{N^2 + n^2} + \frac{Yn - yN}{N^2 + n^2}\cdot\frac{\cos\phi}{\sin\phi},\qquad u = -\frac{Yn - yN}{N^2 + n^2}\cdot\frac{q}{p\sin\phi}.$$
 
-(source: chapter12.pdf, §207). After $U, u$ are known, define the next polynomial
+(source: chapter12, §207). After $U, u$ are known, define the next polynomial
 
 $$F = \frac{M - (U + uz)\,Z}{p^2 - 2pqz\cos\phi + q^2z^2}.$$
 
-The numerator is divisible by the trinomial (this is what the formulas for $U, u$ guarantee), so $F$ is a polynomial. Apply the *same* formula to $F$ in place of $M$: new substituted values $P, p$ (real and imaginary substitutions of $F$) replace $Y, y$; the values $N, n$ are unchanged because $Z$ has not changed. This produces $V, v$. Then $G = (F - (V + vz)Z)/(\text{trinomial})$, then $W, w$, then $H, X, x$, and so on for $k$ rounds (source: chapter12.pdf, §208–§209).
+The numerator is divisible by the trinomial (this is what the formulas for $U, u$ guarantee), so $F$ is a polynomial. Apply the *same* formula to $F$ in place of $M$: new substituted values $P, p$ (real and imaginary substitutions of $F$) replace $Y, y$; the values $N, n$ are unchanged because $Z$ has not changed. This produces $V, v$. Then $G = (F - (V + vz)Z)/(\text{trinomial})$, then $W, w$, then $H, X, x$, and so on for $k$ rounds (source: chapter12, §208–§209).
 
 ### Complementary fraction (§210)
 
-The sequence of polynomials $F, G, H, I, K, \ldots$ produced in the iteration is exactly what is needed for the *complementary* fraction with denominator $Z$. After all $k$ numerators in the tower have been extracted, the *next* polynomial in the sequence (call it the last one) is the numerator of the complement: for $k = 1$, $F/Z$; for $k = 2$, $G/Z$; for $k = 3$, $H/Z$; and so on. The complement, having denominator $Z$ which contains no further power of *this* trinomial, can itself be expressed in partial fractions by the §200–§205 rule applied to its own quadratic factors (source: chapter12.pdf, §210).
+The sequence of polynomials $F, G, H, I, K, \ldots$ produced in the iteration is exactly what is needed for the *complementary* fraction with denominator $Z$. After all $k$ numerators in the tower have been extracted, the *next* polynomial in the sequence (call it the last one) is the numerator of the complement: for $k = 1$, $F/Z$; for $k = 2$, $G/Z$; for $k = 3$, $H/Z$; and so on. The complement, having denominator $Z$ which contains no further power of *this* trinomial, can itself be expressed in partial fractions by the §200–§205 rule applied to its own quadratic factors (source: chapter12, §210).
 
 ### Worked example (§209)
 
@@ -155,13 +155,13 @@ Repeat: at $z = i$, $G = -i/2 - i^3/2 = -i/2 + i/2 = 0$, so $W = w = 0$. Third p
 
 Compute $H = (G - 0)/(1 + z^2) = (-z/2 - z^3/2)/(1 + z^2) = -z/2$.
 
-Repeat: at $z = i$, $H = -i/2$, so the substituted values from $H$ are $0$ (real) and $-1/2$ (imaginary). Then $X = 0 + (0\cdot 0 - (-1/2)\cdot 2)\cdot 0/(4\cdot 1) = 0$ and $x = -(0\cdot 0 - (-1/2)\cdot 2)\cdot 1/(4\cdot 1\cdot 1) = -1/4$. Fourth partial fraction is $-\dfrac{z}{4(1 + z^2)}$ (source: chapter12.pdf, §209).
+Repeat: at $z = i$, $H = -i/2$, so the substituted values from $H$ are $0$ (real) and $-1/2$ (imaginary). Then $X = 0 + (0\cdot 0 - (-1/2)\cdot 2)\cdot 0/(4\cdot 1) = 0$ and $x = -(0\cdot 0 - (-1/2)\cdot 2)\cdot 1/(4\cdot 1\cdot 1) = -1/4$. Fourth partial fraction is $-\dfrac{z}{4(1 + z^2)}$ (source: chapter12, §209).
 
 The complementary fraction has numerator $I = (H - (X + xz)Z)/(1 + z^2) = -z/4 + z^3/4$, divided by $1 + z^4$:
 
 $$\frac{-z + z^3}{4(1 + z^4)}.$$
 
-Putting everything together (source: chapter12.pdf, §209):
+Putting everything together (source: chapter12, §209):
 
 $$\frac{z - z^3}{(1 + z^2)^4(1 + z^4)} = \frac{z}{(1 + z^2)^4} + \frac{z}{2(1 + z^2)^3} - \frac{z}{4(1 + z^2)} + \frac{-z + z^3}{4(1 + z^4)}.$$
 

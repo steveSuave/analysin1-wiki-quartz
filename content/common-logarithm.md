@@ -2,7 +2,7 @@
 
 **Summary**: The base-10 [[logarithm]], distinguished by §112 because our arithmetic is decimal. Each common log splits into an integer *characteristic* (which encodes how many digits the number has) and a decimal *mantissa* (which encodes the digit pattern, independent of decimal placement) — see [[characteristic-and-mantissa]].
 
-**Sources**: chapter6.pdf (§112)
+**Sources**: chapter6 (§112)
 
 **Last updated**: 2026-04-26
 
@@ -14,7 +14,7 @@ Logarithms in any base are equivalent up to a multiplicative constant (see [[cha
 
 $$\log 1 = 0, \quad \log 10 = 1, \quad \log 100 = 2, \quad \log 1000 = 3, \ldots$$
 
-So logarithms of numbers between 1 and 10 lie in $[0, 1)$; between 10 and 100 in $[1, 2)$; and so forth (source: chapter6.pdf, §112). Every common logarithm splits cleanly into an integer part and a fractional part — a feature unique (in clean form) to base 10.
+So logarithms of numbers between 1 and 10 lie in $[0, 1)$; between 10 and 100 in $[1, 2)$; and so forth (source: chapter6, §112). Every common logarithm splits cleanly into an integer part and a fractional part — a feature unique (in clean form) to base 10.
 
 ## Structure: characteristic + mantissa
 

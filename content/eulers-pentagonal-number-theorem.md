@@ -2,7 +2,7 @@
 
 **Summary**: The infinite product $\prod_{k\geq 1}(1 - x^k)$ has nearly all coefficients zero. The surviving exponents are the **generalized pentagonal numbers** $(3n^2 \pm n)/2$, and the corresponding coefficient is $(-1)^n$. Compactly, $\prod_{k\geq 1}(1 - x^k) = \sum_{n\in\mathbb Z}(-1)^n x^{n(3n-1)/2}$. The identity gives an $O(\sqrt n)$-term recurrence for the [[partition-of-numbers|partition function]] $p(n)$.
 
-**Sources**: chapter16.pdf
+**Sources**: chapter16
 
 **Last updated**: 2026-05-11
 
@@ -12,7 +12,7 @@
 
 $$\prod_{k\geq 1}(1 - x^k) = 1 - x - x^2 + x^5 + x^7 - x^{12} - x^{15} + x^{22} + x^{26} - x^{35} - x^{40} + x^{51} + x^{57} - \cdots.$$
 
-The exponents form the sequence $1, 2, 5, 7, 12, 15, 22, 26, 35, 40, 51, 57, \ldots$ — the **generalized pentagonal numbers** $g_n = n(3n-1)/2$ for $n = \pm 1, \pm 2, \pm 3, \ldots$, i.e. the numbers $(3n^2 \pm n)/2$ for $n \geq 1$ (source: chapter16.pdf, §323).
+The exponents form the sequence $1, 2, 5, 7, 12, 15, 22, 26, 35, 40, 51, 57, \ldots$ — the **generalized pentagonal numbers** $g_n = n(3n-1)/2$ for $n = \pm 1, \pm 2, \pm 3, \ldots$, i.e. the numbers $(3n^2 \pm n)/2$ for $n \geq 1$ (source: chapter16, §323).
 
 The sign of $x^{(3n^2 \pm n)/2}$ is $(-1)^n$: positive when $n$ is even, negative when $n$ is odd. Compactly,
 

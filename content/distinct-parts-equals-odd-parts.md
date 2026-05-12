@@ -2,7 +2,7 @@
 
 **Summary**: Euler's theorem (§326): the number of partitions of $n$ into distinct (unequal) parts equals the number of partitions of $n$ into odd parts (with repetition allowed). The generating-function proof is one line: $\prod_{k\geq 1}(1 + x^k) = \prod_{k\geq 1}1/(1 - x^{2k - 1})$.
 
-**Sources**: chapter16.pdf
+**Sources**: chapter16
 
 **Last updated**: 2026-05-11
 
@@ -14,7 +14,7 @@ For every positive integer $n$,
 
 $$q(n) = q_{\text{odd}}(n),$$
 
-where $q(n)$ is the number of partitions of $n$ into **distinct** positive parts and $q_{\text{odd}}(n)$ is the number of partitions of $n$ into **odd** parts (with repetition allowed). (Source: chapter16.pdf, §326.)
+where $q(n)$ is the number of partitions of $n$ into **distinct** positive parts and $q_{\text{odd}}(n)$ is the number of partitions of $n$ into **odd** parts (with repetition allowed). (Source: chapter16, §326.)
 
 ## Generating-function proof (§325–§326)
 

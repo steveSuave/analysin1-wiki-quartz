@@ -2,7 +2,7 @@
 
 **Summary**: The cubic curve $y^3 + z^3 - c y z = 0$ admits the rational parametrization $z = \dfrac{cx}{1 + x^3}$, $y = \dfrac{c x^2}{1 + x^3}$, derived by Euler in §52 as an application of the $y = x^m z^n$ substitution.
 
-**Sources**: chapter3.pdf
+**Sources**: chapter3
 
 **Last updated**: 2026-04-23
 
@@ -18,7 +18,7 @@ and identifies it with his general §52 template $a y^\alpha + b z^\beta + c y^\
 
 $$a = -1,\quad b = -1,\quad \alpha = 3,\quad \beta = 3,\quad \gamma = 1,\quad \delta = 1$$
 
-(source: chapter3.pdf, §52 example).
+(source: chapter3, §52 example).
 
 ## Parametrization by Method I
 
@@ -34,7 +34,7 @@ giving $z = \dfrac{c x}{1 + x^3}$ and hence
 
 $$\boxed{\; z = \frac{c x}{1 + x^3}, \qquad y = \frac{c x^2}{1 + x^3}. \;}$$
 
-Both are rational functions of $x$ (source: chapter3.pdf, §52 example).
+Both are rational functions of $x$ (source: chapter3, §52 example).
 
 ## The other two methods
 
@@ -43,7 +43,7 @@ Euler also records the two alternative choices of $n$ from §52:
 - **Method II** ($n = (\beta - \delta)/\gamma = 2$) gives $z = \dfrac{1}{x}(cx - 1)^{1/3}$ and $y = \dfrac{1}{x}(cx - 1)^{2/3}$.
 - **Method III** ($n = \delta/(\alpha - \gamma) = 1/2$, with $m = 1$ in the formula as shown) gives $z = (cx - x^3)^{2/3}$ and $y = x (cx - x^3)^{1/3}$.
 
-Only Method I produces a rational parametrization; the others are "radical but single-valued in $x$" forms (source: chapter3.pdf, §52 example).
+Only Method I produces a rational parametrization; the others are "radical but single-valued in $x$" forms (source: chapter3, §52 example).
 
 ## Geometric interpretation
 

@@ -2,7 +2,7 @@
 
 **Summary**: Euler reworks the [[sine-infinite-product|§158]] sine and cosine products at rational angles $z = m\pi/(2n)$, splitting each quadratic factor into two linear factors. The §158 quadratic-factor products thus become four linear-factor products — two each for sine and cosine. Comparing them yields the [[wallis-product|Wallis product]] for $\pi/2$ (§185); their quotients give [[trig-infinite-products|infinite products for tan, cot, sec, csc]] (§186). Taking logarithms and applying the [[logarithmic-series|§118 series]] $\log(1 - x) = -x - x^2/2 - \cdots$ converts these products into double sums whose columns are the already-known [[zeta-at-even-integers|even-zeta values]]. The result is rapidly convergent series for [[log-pi-via-products|$\log\pi$]] (§188–§190) and for [[log-sine-via-products|$\log\sin$, $\log\cos$, $\log\tan$, $\log\cot$]] (§191–§198) — the practical engine that made Euler's logarithm tables for trigonometric functions feasible.
 
-**Sources**: chapter11.pdf
+**Sources**: chapter11
 
 **Last updated**: 2026-05-01
 
@@ -54,7 +54,7 @@ hence
 
 $$\frac{\pi}{2} = \frac{2\cdot 2\cdot 4\cdot 4\cdot 6\cdot 6\cdot 8\cdot 8\cdot 10\cdot 10\cdot 12\cdot 12}{1\cdot 3\cdot 3\cdot 5\cdot 5\cdot 7\cdot 7\cdot 9\cdot 9\cdot 11\cdot 11\cdot 13}\cdots,$$
 
-"the expression for $\pi$ which Wallis found in his *Arithmetic of the Infinite*" (source: chapter11.pdf, §185). Other choices of $m/n$ produce variants:
+"the expression for $\pi$ which Wallis found in his *Arithmetic of the Infinite*" (source: chapter11, §185). Other choices of $m/n$ produce variants:
 
 - $m/n = 1/2$, $\sin(\pi/4) = 1/\sqrt 2$: $\pi/2 = (\sqrt 2/1)\cdot(4/3)\cdot(4/5)\cdot(8/7)\cdot(8/9)\cdot(12/11)\cdot(12/13)\cdots$
 - $m/n = 1/3$, $\sin(\pi/6) = 1/2$: $\pi/2 = (3/2)\cdot(6/5)\cdot(6/7)\cdot(12/11)\cdot(12/13)\cdot(18/17)\cdot(18/19)\cdots$
@@ -72,7 +72,7 @@ $$\tan\frac{m\pi}{2n} = \frac{m}{n - m}\cdot\frac{2n - m}{n + m}\cdot\frac{2n + 
 
 $$\cot\frac{m\pi}{2n} = \frac{n - m}{m}\cdot\frac{n + m}{2n - m}\cdot\frac{3n - m}{2n + m}\cdot\frac{3n + m}{4n - m}\cdots$$
 
-with similar formulas for $\sec$ and $\csc$ (source: chapter11.pdf, §186). Replacing $m$ with a different integer $k$ and dividing yields products for the ratios $\sin(m\pi/2n)/\sin(k\pi/2n)$ etc. (§187), so once one trig value is known the others follow without further transcendental computation. See [[trig-infinite-products]].
+with similar formulas for $\sec$ and $\csc$ (source: chapter11, §186). Replacing $m$ with a different integer $k$ and dividing yields products for the ratios $\sin(m\pi/2n)/\sin(k\pi/2n)$ etc. (§187), so once one trig value is known the others follow without further transcendental computation. See [[trig-infinite-products]].
 
 ### §188–§190 — $\log\pi$ from products
 
@@ -92,7 +92,7 @@ where $A = \sum_{k\ge 0} 1/(2k+1)^2 = \pi^2/8$, $B = \sum 1/(2k+1)^4 = \pi^4/96$
 
 $$\log_e \pi = 1.144729885849400174\ldots,\qquad \log_{10}\pi = 0.497149872694133854\ldots$$
 
-(source: chapter11.pdf, §190). See [[log-pi-via-products]].
+(source: chapter11, §190). See [[log-pi-via-products]].
 
 ### §191–§196 — $\log\sin$ and $\log\cos$
 
@@ -102,7 +102,7 @@ $$\log\sin\frac{m\pi}{2n} = \log m + \log(2n - m) + \log(2n + m) - 3\log n + \lo
 
 $$\log\cos\frac{m\pi}{2n} = \log(n - m) + \log(n + m) - 2\log n - \frac{m^2}{n^2}(A - 1) - \frac{m^4}{2n^4}(B - 1) - \cdots$$
 
-where $\alpha = \sum_{k\ge 1} 1/(2k)^2 = \pi^2/24$, $\beta = \sum 1/(2k)^4 = \pi^4/1440$, $\ldots$ are reciprocal-power sums over *even* integers. Both series converge geometrically in $(m/n)^2$; for $m/n \le 1/2$ (which co-function reduction always achieves) ten terms give about thirty correct digits. Euler tabulates the coefficients so that any sine or cosine logarithm can be computed by addition (source: chapter11.pdf, §194–§195). See [[log-sine-via-products]].
+where $\alpha = \sum_{k\ge 1} 1/(2k)^2 = \pi^2/24$, $\beta = \sum 1/(2k)^4 = \pi^4/1440$, $\ldots$ are reciprocal-power sums over *even* integers. Both series converge geometrically in $(m/n)^2$; for $m/n \le 1/2$ (which co-function reduction always achieves) ten terms give about thirty correct digits. Euler tabulates the coefficients so that any sine or cosine logarithm can be computed by addition (source: chapter11, §194–§195). See [[log-sine-via-products]].
 
 ### §197–§198 — A faster route for tan and cot
 
@@ -114,7 +114,7 @@ Each fraction expands as a geometric series in $m^2/(kn)^2$, the double sum tran
 
 $$\tan\frac{m\pi}{2n} = \frac{4mn}{\pi(n^2 - m^2)} + \frac{4m}{\pi n}\!\left[(A - 1) + \frac{m^2}{n^2}(B - 1) + \frac{m^4}{n^4}(C - 1) + \cdots\right]$$
 
-(reorganized; source: chapter11.pdf, §198) with $1/\pi = 0.318309886183790671\ldots$, "for which we have already found the value." The cotangent has an analogous formula. See [[log-sine-via-products]].
+(reorganized; source: chapter11, §198) with $1/\pi = 0.318309886183790671\ldots$, "for which we have already found the value." The cotangent has an analogous formula. See [[log-sine-via-products]].
 
 ## Notable points
 

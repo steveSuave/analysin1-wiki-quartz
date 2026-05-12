@@ -2,7 +2,7 @@
 
 **Summary**: Applying the §369 reciprocal-series template to the Leibniz series $\pi/4 = 1 - 1/3 + 1/5 - 1/7 + \cdots$ produces William Brouncker's 1655 continued fraction $4/\pi = 1 + 1^2/(2 + 3^2/(2 + 5^2/(2 + 7^2/(2 + \cdots))))$ — the first continued fraction for $\pi$ in the history of mathematics, recovered here by Euler as a particular case of his general series-to-CF dictionary.
 
-**Sources**: `raw/chapter18.pdf` (§369 Example II).
+**Sources**: `chapter18` (§369 Example II).
 
 **Last updated**: 2026-05-11
 

@@ -2,7 +2,7 @@
 
 **Summary**: §264–§296. Euler develops the duality between an infinite product $\prod(1\pm\alpha_i z)^{\pm 1}$ and the series obtained by multiplying it out. When the $\alpha_i$ range over the primes (or reciprocals of prime powers), the resulting series have number-theoretic meaning: squarefree numbers, all natural numbers, Möbius-style sign patterns. The central result is the **Euler product formula** $\zeta(n) = \prod_p (1-1/p^n)^{-1}$ (§274, §283), and its most famous consequence — the divergence of $\sum 1/p$ obtained by taking logarithms at $n=1$ (§279). The chapter closes with a vast catalogue of series for $\pi/4$, $\pi/2$, $\pi/(2\sqrt 2)$, $\pi/(3\sqrt 3)$ etc. expressed as signed sums or products over primes classified mod 4, mod 6, mod 8 (§285–§296).
 
-**Sources**: chapter15.pdf
+**Sources**: chapter15
 
 **Last updated**: 2026-05-11
 
@@ -14,7 +14,7 @@ For any (finite or infinite) product of linear factors
 
 $$(1+\alpha z)(1+\beta z)(1+\gamma z)(1+\delta z)\cdots = 1 + Az + Bz^2 + Cz^3 + \cdots,$$
 
-the coefficient $A$ is the sum of the $\alpha_i$, $B$ the sum of products taken two at a time, $C$ three at a time, etc. — the **elementary symmetric polynomials** in the $\alpha_i$ (source: chapter15.pdf, §264). The two specialisations $z = 1$ and $z = -1$ collapse the polynomial coefficients into single signed series (§265–§266).
+the coefficient $A$ is the sum of the $\alpha_i$, $B$ the sum of products taken two at a time, $C$ three at a time, etc. — the **elementary symmetric polynomials** in the $\alpha_i$ (source: chapter15, §264). The two specialisations $z = 1$ and $z = -1$ collapse the polynomial coefficients into single signed series (§265–§266).
 
 Letting the $\alpha_i$ range over the primes $2, 3, 5, 7, 11, \ldots$ gives a series listing the squarefree natural numbers; with $\alpha_i = 1/p^n$ the series is $\sum_k 1/k^n$ over squarefree $k$, and with negative factors $(1-1/p^n)$ the signs become **Möbius-style**, depending on the parity of the number of prime factors. See [[squarefree-and-mobius-series]].
 

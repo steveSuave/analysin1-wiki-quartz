@@ -2,7 +2,7 @@
 
 **Summary**: For base $a > 1$, the *logarithm* of $y > 0$ is the unique real $z$ such that $a^z = y$, written $z = \log y$ (§102). Logarithms convert multiplication into addition (§104) and turn the algebra of [[exponential-function|exponentials]] inside out. They are real-valued only for positive arguments; for "generic" arguments they are transcendental — see [[transcendence-of-logarithms]].
 
-**Sources**: chapter6.pdf (§102–§104)
+**Sources**: chapter6 (§102–§104)
 
 **Last updated**: 2026-04-26
 
@@ -14,7 +14,7 @@ Fix a *base* $a > 1$. For each $y > 0$, the [[exponential-function]] $a^z$ takes
 
 $$z = \log y \quad \text{when} \quad a^z = y$$
 
-(source: chapter6.pdf, §102). The base must be specified for the symbol $\log$ to be unambiguous; "infinitely many systems of logarithms" exist, one for each base (see [[change-of-base]]).
+(source: chapter6, §102). The base must be specified for the symbol $\log$ to be unambiguous; "infinitely many systems of logarithms" exist, one for each base (see [[change-of-base]]).
 
 Euler restricts to bases $a > 1$ throughout the chapter — the only setting in which $\log$ is real-valued on $(0, \infty)$ and increasing.
 
@@ -22,7 +22,7 @@ Euler restricts to bases $a > 1$ throughout the chapter — the only setting in 
 
 - $y > 0$: $\log y$ is a real number.
 - $y = 0$: no real $z$ satisfies $a^z = 0$ (the equation has $z = -\infty$ as a limit, not a value).
-- $y < 0$: no real $z$ satisfies $a^z = y$ when $a > 1$; "the logarithm is complex" (source: chapter6.pdf, §103).
+- $y < 0$: no real $z$ satisfies $a^z = y$ when $a > 1$; "the logarithm is complex" (source: chapter6, §103).
 
 ## First values (§103)
 
@@ -45,7 +45,7 @@ The properties of the [[exponential-function]] translate into four rules:
 | $vy = a^{x+z}$ | $\log(vy) = \log v + \log y$ |
 | $v/y = a^{x-z}$ | $\log(v/y) = \log v - \log y$ |
 
-These four are the entire algebra of logarithms (source: chapter6.pdf, §104). Their power: a complicated arithmetic expression in $v, y, n, \ldots$ becomes a *linear combination* of the logarithms $\log v, \log y, \ldots$ — the trick that makes logarithm tables a universal calculation tool (cf. §110).
+These four are the entire algebra of logarithms (source: chapter6, §104). Their power: a complicated arithmetic expression in $v, y, n, \ldots$ becomes a *linear combination* of the logarithms $\log v, \log y, \ldots$ — the trick that makes logarithm tables a universal calculation tool (cf. §110).
 
 ## Consequences
 

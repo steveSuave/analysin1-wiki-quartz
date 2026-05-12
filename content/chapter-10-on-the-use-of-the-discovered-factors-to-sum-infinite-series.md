@@ -2,7 +2,7 @@
 
 **Summary**: Euler harvests the [[chapter-9-on-trinomial-factors|Chapter 9 infinite products]]. The mechanism: an infinite product expansion provides the elementary symmetric polynomials of the function's reciprocal zeros via its power-series coefficients; [[newtons-identities|Newton's identities]] then convert them into power sums. This single technique solves the [[basel-problem|Basel problem]], evaluates [[zeta-at-even-integers|every $\zeta(2k)$]], generates Leibniz's $\pi/4$ series and a vast family of [[circular-arc-series|character-style sums]], and produces the [[cotangent-partial-fraction|partial-fraction expansions of cot, csc, coth, csch]].
 
-**Sources**: chapter10.pdf
+**Sources**: chapter10
 
 **Last updated**: 2026-04-30
 
@@ -32,7 +32,7 @@ If $1 + Az + Bz^2 + Cz^3 + \cdots = (1 + \alpha z)(1 + \beta z)(1 + \gamma z)\cd
 
 $$P = A,\quad Q = AP - 2B,\quad R = AQ - BP + 3C,\quad S = AR - BQ + CP - 4D,\quad\ldots$$
 
-(source: chapter10.pdf, §166). The truth "is intuitively clear, but a rigorous proof will be given in the differential calculus." See [[newtons-identities]].
+(source: chapter10, §166). The truth "is intuitively clear, but a rigorous proof will be given in the differential calculus." See [[newtons-identities]].
 
 ### §167 — The Basel problem
 
@@ -98,7 +98,7 @@ For $a = -b$, [[eulers-formula]] $\cos(yi) = (e^y + e^{-y})/2$, $\sin(yi) = (e^y
 
 $$\sum_{k=1}^{\infty}\frac{1}{k^2 + b} = \frac{\pi\sqrt b\coth(\pi\sqrt b)}{2b} - \frac{1}{2b},\quad \sum_{k=1}^{\infty}\frac{(-1)^{k+1}}{k^2 + b} = \frac{1}{2b} - \frac{\pi\sqrt b}{2b\sinh(\pi\sqrt b)}.$$
 
-These are the partial fractions of $\coth$ and $\text{csch}$. Euler chooses this route over an independent §162 derivation "since it is a nice illustration of the reduction of sines and cosines of complex arcs to real exponentials" (source: chapter10.pdf, §183). See [[cotangent-partial-fraction]].
+These are the partial fractions of $\coth$ and $\text{csch}$. Euler chooses this route over an independent §162 derivation "since it is a nice illustration of the reduction of sines and cosines of complex arcs to real exponentials" (source: chapter10, §183). See [[cotangent-partial-fraction]].
 
 ## Notable points
 

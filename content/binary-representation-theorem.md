@@ -2,7 +2,7 @@
 
 **Summary**: Euler's algebraic proof (§328–§329) that every non-negative integer has a unique representation as a sum of distinct powers of $2$. The identity $\prod_{k\geq 0}(1 + x^{2^k}) = 1/(1 - x)$ shows that the generating function for partitions into distinct powers of $2$ is exactly the geometric series — so each $x^n$ appears with coefficient $1$. Application: weighing with binary weights $1, 2, 4, 8, \ldots$ on a one-pan scale.
 
-**Sources**: chapter16.pdf
+**Sources**: chapter16
 
 **Last updated**: 2026-05-11
 
@@ -16,7 +16,7 @@ Equivalently, every non-negative integer $n$ admits a unique representation
 
 $$n = \sum_{i\in S} 2^i,\qquad S\subset \{0, 1, 2, \ldots\}\text{ finite}.$$
 
-(Source: chapter16.pdf, §329.)
+(Source: chapter16, §329.)
 
 ## Euler's proof (§328)
 

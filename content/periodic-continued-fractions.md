@@ -2,7 +2,7 @@
 
 **Summary**: If the partial denominators of a simple continued fraction repeat with finite period, the continued fraction satisfies a polynomial equation of degree at most $2$ in itself — so its value is a quadratic irrational. Euler works through the single-letter case ($x = (\sqrt{a^2 + 4} - a)/2$, generating $\sqrt 5, \sqrt 2, \sqrt{13}, \sqrt 5, \sqrt{29}, \ldots$ as $a$ runs over $1, 2, 3, 4, \ldots$), the two-letter case (which extends the catalog to *every* square root), and three- and four-letter cases (whose discriminants reduce to the two-letter case).
 
-**Sources**: `raw/chapter18.pdf` (§376–§379).
+**Sources**: `chapter18` (§376–§379).
 
 **Last updated**: 2026-05-11
 

@@ -2,7 +2,7 @@
 
 **Summary**: Closed-form expression for the coefficient of $z^n$ in any [[recurrent-series|recurrent series]], obtained by decomposing the generating rational function into [[real-partial-fraction-decomposition|real partial fractions]] and summing the general term of each. Two engines: the linear-factor brick $A/(1-pz)^k$ gives a polynomial-in-$n$ times $p^n$, and the quadratic-factor brick $(A+Bpz)/(1-2pz\cos\phi+p^2 z^2)^k$ gives a trigonometric form involving $\sin n\phi$, $\cos n\phi$. [[chapter-17-using-recurrent-series-to-find-roots-of-equations|Chapter 17]] inverts the perspective: when only the *coefficients* of an equation are known, the dominant term in the general term still controls the ratio $Q/P$, which converges to the largest root — see [[bernoullis-method-for-roots]].
 
-**Sources**: chapter13.pdf, chapter17.pdf
+**Sources**: chapter13, chapter17
 
 **Last updated**: 2026-05-11
 
@@ -19,9 +19,9 @@ be a proper rational function expanded as a [[recurrent-series|recurrent series]
 - $\dfrac{A}{(1 - pz)^k}$ — from a real linear factor $(1-pz)^k$ of the denominator,
 - $\dfrac{A + Bpz}{(1 - 2pz\cos\phi + p^2 z^2)^k}$ — from a real quadratic ([[trinomial-factor|trinomial]]) factor.
 
-Each piece expands into its own recurrent series, with a known general term. The general term of the original series is the *sum* of the general terms of the partial-fraction series (source: chapter13.pdf, §213).
+Each piece expands into its own recurrent series, with a known general term. The general term of the original series is the *sum* of the general terms of the partial-fraction series (source: chapter13, §213).
 
-Equality of two power series in $z$ is justified by setting $z = 0$ (giving $A = a + a' + a'' + \cdots$), subtracting, dividing by $z$, and repeating: the coefficient of every power matches (source: chapter13.pdf, §214).
+Equality of two power series in $z$ is justified by setting $z = 0$ (giving $A = a + a' + a'' + \cdots$), subtracting, dividing by $z$, and repeating: the coefficient of every power matches (source: chapter13, §214).
 
 ## Linear-factor brick (§215–§216)
 
@@ -37,7 +37,7 @@ with general term
 
 $$\frac{(n+1)(n+2)\cdots(n+k-1)}{(k-1)!}\,A p^n z^n \;=\; \binom{n + k - 1}{k - 1}\, A p^n z^n.$$
 
-Euler verifies the equivalence of the two factorial expressions $\dfrac{(n+1)\cdots(n+k-1)}{1\cdot 2\cdots(k-1)}$ and $\dfrac{k(k+1)\cdots(k+n-1)}{1\cdot 2\cdots n}$ by cross-multiplication: both equal $\dfrac{(n+k-1)!}{n!\,(k-1)!}$ (source: chapter13.pdf, §215).
+Euler verifies the equivalence of the two factorial expressions $\dfrac{(n+1)\cdots(n+k-1)}{1\cdot 2\cdots(k-1)}$ and $\dfrac{k(k+1)\cdots(k+n-1)}{1\cdot 2\cdots n}$ by cross-multiplication: both equal $\dfrac{(n+k-1)!}{n!\,(k-1)!}$ (source: chapter13, §215).
 
 ## Examples I–V (§216, p. 183–186)
 
@@ -69,7 +69,7 @@ For the general $\dfrac{a + bz}{1 - \alpha z - \beta z^2}$, partial fractions ov
 
 $$\frac{a(\sqrt{\alpha^2+4\beta} + \alpha) + 2b}{2\sqrt{\alpha^2+4\beta}}\!\left(\!\frac{\alpha + \sqrt{\alpha^2+4\beta}}{2}\!\right)^{\!n}\!z^n + \frac{a(\sqrt{\alpha^2+4\beta} - \alpha) - 2b}{2\sqrt{\alpha^2+4\beta}}\!\left(\!\frac{\alpha - \sqrt{\alpha^2+4\beta}}{2}\!\right)^{\!n}\!z^n.$$
 
-Euler comments: "from this result it becomes reasonably easy to express the general term of any recurrent series in which each term is determined by the two preceding terms" (source: chapter13.pdf, §216 Example IV). See [[closed-form-two-term-recurrence]].
+Euler comments: "from this result it becomes reasonably easy to express the general term of any recurrent series in which each term is determined by the two preceding terms" (source: chapter13, §216 Example IV). See [[closed-form-two-term-recurrence]].
 
 ### Example V — repeated linear factor
 
@@ -89,7 +89,7 @@ The series for $\dfrac{A}{1 - 2pz\cos\phi + p^2 z^2}$ is the [[trigonometric-rec
 
 $$A + 2Apz\cos\phi + Ap^2 z^2\bigl(2(2\cos^2\phi) - 1\bigr) + \cdots,$$
 
-whose coefficients satisfy $\cos n\phi = 2\cos\phi\cos(n-1)\phi - \cos(n-2)\phi$ (source: chapter13.pdf, §217). The general term of the series is
+whose coefficients satisfy $\cos n\phi = 2\cos\phi\cos(n-1)\phi - \cos(n-2)\phi$ (source: chapter13, §217). The general term of the series is
 
 $$\frac{\sin(n+1)\phi}{\sin\phi}\,A p^n z^n.$$
 
@@ -97,7 +97,7 @@ For the more general numerator $A + Bpz$, decompose
 
 $$\frac{A + Bpz}{1 - 2pz\cos\phi + p^2 z^2} \;=\; \frac{P pz\sin\phi}{1 - 2pz\cos\phi + p^2 z^2} + \frac{Q - Qpz\cos\phi}{1 - 2pz\cos\phi + p^2 z^2},$$
 
-with $Q = A$ and $P = A\cot\phi + B\csc\phi$ (source: chapter13.pdf, §218). The first piece has general term $P\sin(n\phi)\,p^n z^n$; the second has $Q\cos(n\phi)\,p^n z^n$. Sum and simplify:
+with $Q = A$ and $P = A\cot\phi + B\csc\phi$ (source: chapter13, §218). The first piece has general term $P\sin(n\phi)\,p^n z^n$; the second has $Q\cos(n\phi)\,p^n z^n$. Sum and simplify:
 
 $$\boxed{\frac{A\sin(n+1)\phi + B\sin n\phi}{\sin\phi}\,p^n z^n.}$$
 
@@ -115,7 +115,7 @@ For $k = 3$ (§221) the formula expands with denominator $16\sin^5\phi$ and thre
 
 $$256\sin^9\phi = 126\sin\phi - 84\sin 3\phi + 36\sin 5\phi - 9\sin 7\phi + \sin 9\phi,\;\ldots$$
 
-(source: chapter13.pdf, §222). The same odd-power table is derived systematically — alongside the even-power $\cos kz$ companion — in Chapter 14 §262; see [[powers-of-sine-and-cosine]].
+(source: chapter13, §222). The same odd-power table is derived systematically — alongside the even-power $\cos kz$ companion — in Chapter 14 §262; see [[powers-of-sine-and-cosine]].
 
 ## Combining the bricks: §223 examples
 
@@ -131,7 +131,7 @@ Each piece has a general term; the last (with $\phi = \pi/3$) gives $\dfrac{4\si
 
 $$\left(\frac{n^2}{12} + \frac{n}{2} + \frac{47}{72}\right) z^n \pm \frac{1}{8}z^n \pm \frac{4\sin\tfrac{(n+1)\pi}{3} - 2\sin\tfrac{n\pi}{3}}{9\sqrt 3}\,z^n,$$
 
-which simplifies into *six* cases by residue $n \bmod 6$ — for example, $n = 6m$ gives $\left(\tfrac{n^2}{12} + \tfrac{n}{2} + 1\right)z^n$, $n = 6m+1$ gives $\left(\tfrac{n^2}{12} + \tfrac{n}{2} + \tfrac{5}{12}\right)z^n$, and so on (source: chapter13.pdf, §223 Example I). At $n = 50$: $n = 6\cdot 8 + 2$, so the coefficient is $\tfrac{2500}{12} + 25 + \tfrac{2}{3} = 234$, i.e. $234 z^{50}$. (This series is the partition-counting generating function $\prod (1-z^k)^{-1}$ truncated at $k = 3$ — the number of partitions of $n$ into parts $\le 3$.)
+which simplifies into *six* cases by residue $n \bmod 6$ — for example, $n = 6m$ gives $\left(\tfrac{n^2}{12} + \tfrac{n}{2} + 1\right)z^n$, $n = 6m+1$ gives $\left(\tfrac{n^2}{12} + \tfrac{n}{2} + \tfrac{5}{12}\right)z^n$, and so on (source: chapter13, §223 Example I). At $n = 50$: $n = 6\cdot 8 + 2$, so the coefficient is $\tfrac{2500}{12} + 25 + \tfrac{2}{3} = 234$, i.e. $234 z^{50}$. (This series is the partition-counting generating function $\prod (1-z^k)^{-1}$ truncated at $k = 3$ — the number of partitions of $n$ into parts $\le 3$.)
 
 ### Example II — four cases mod 4
 

@@ -2,7 +2,7 @@
 
 **Summary**: §168: the systematic table of $\zeta(2k) = \sum_{n=1}^{\infty} 1/n^{2k}$ as a rational multiple of $\pi^{2k}$, computed by [[newtons-identities]] from the [[sine-infinite-product|sine product]]. Euler tabulates through $\zeta(26)$ and notes the "extraordinary usefulness" of the irregular rational sequence that appears.
 
-**Sources**: chapter10.pdf, chapter15.pdf
+**Sources**: chapter10, chapter15
 
 **Last updated**: 2026-05-11
 
@@ -14,7 +14,7 @@ For each positive integer $k$,
 
 $$\sum_{n=1}^{\infty}\frac{1}{n^{2k}} = \frac{2^{2k-2}}{(2k+1)!}\,c_k\,\pi^{2k},$$
 
-where $c_k$ is a positive rational. Euler tabulates the first thirteen values (source: chapter10.pdf, §168):
+where $c_k$ is a positive rational. Euler tabulates the first thirteen values (source: chapter10, §168):
 
 | $2k$ | $\sum 1/n^{2k}$ | $c_k$ |
 |---|---|---|
@@ -32,7 +32,7 @@ where $c_k$ is a positive rational. Euler tabulates the first thirteen values (s
 | 24 | $\frac{1181820455\,\pi^{24}}{\ldots}$ | $1181820455/273$ |
 | 26 | $\frac{76977927\,\pi^{26}}{\ldots}$ | $76977927/1$ |
 
-Euler's comment on the $c_k$ sequence: "We could continue with more of these, but we have gone far enough to see a sequence which at first seems quite irregular, $1, 1/3, 1/3, 3/5, 5/3, 691/105, 35/1, \ldots$, but it is of extraordinary usefulness in several places" (source: chapter10.pdf, §168).
+Euler's comment on the $c_k$ sequence: "We could continue with more of these, but we have gone far enough to see a sequence which at first seems quite irregular, $1, 1/3, 1/3, 3/5, 5/3, 691/105, 35/1, \ldots$, but it is of extraordinary usefulness in several places" (source: chapter10, §168).
 
 ## Sums of reciprocal odd squares
 

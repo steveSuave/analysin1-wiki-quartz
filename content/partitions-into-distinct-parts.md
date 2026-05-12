@@ -2,7 +2,7 @@
 
 **Summary**: A partition of $n$ into **distinct** (unequal) parts uses each positive integer at most once. The generating function is $\prod_{k\geq 1}(1 + x^k z)$, with $z$ tracking the number of parts. Chapter 16 derives closed-form recurrent series for the number of partitions with exactly $m$ distinct parts (numerator $x^{m(m+1)/2}$, denominator $\prod_{k=1}^m(1 - x^k)$) and proves the **staircase bijection** $q_m(n) = p_m(n - m(m-1)/2)$ between distinct and unrestricted partitions.
 
-**Sources**: chapter16.pdf
+**Sources**: chapter16
 
 **Last updated**: 2026-05-11
 
@@ -14,7 +14,7 @@ A partition of $n$ into distinct parts is an unordered tuple $a_1 > a_2 > \cdots
 
 ## Enumerations (Chapter 16)
 
-For $n = 8$ (source: chapter16.pdf, §301), $q(8) = 6$:
+For $n = 8$ (source: chapter16, §301), $q(8) = 6$:
 
 $$8 = 8 = 7+1 = 6+2 = 5+3 = 5+2+1 = 4+3+1.$$
 

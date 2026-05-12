@@ -6,7 +6,7 @@ $$e = 1 + \frac{1}{1} + \frac{1}{1\cdot 2} + \frac{1}{1\cdot 2\cdot 3} + \frac{1
 
 This is the first appearance of the symbol $e$ in mathematical history. The resulting logarithms are called *natural* or *hyperbolic* — see [[natural-logarithm]].
 
-**Sources**: chapter7.pdf (§122)
+**Sources**: chapter7 (§122)
 
 **Last updated**: 2026-04-26
 
@@ -18,7 +18,7 @@ From [[exponential-series|§116]], every base $a > 1$ comes paired with a consta
 
 $$a = 1 + \frac{k}{1} + \frac{k^2}{1\cdot 2} + \frac{k^3}{1\cdot 2\cdot 3} + \frac{k^4}{1\cdot 2\cdot 3\cdot 4} + \cdots$$
 
-For $a = 10$, $k \approx 2.30258$. For $a = 2$, $k$ is some other finite value. Euler observes (source: chapter7.pdf, §122) that *we are free to choose the base*, and the simplest analytical choice is the one that makes $k = 1$.
+For $a = 10$, $k \approx 2.30258$. For $a = 2$, $k$ is some other finite value. Euler observes (source: chapter7, §122) that *we are free to choose the base*, and the simplest analytical choice is the one that makes $k = 1$.
 
 Substituting $k = 1$ in the right side gives
 
@@ -41,7 +41,7 @@ Euler reports the value to twenty-three digits:
 
 $$a = 2.71828\,18284\,59045\,23536\,028\ldots$$
 
-(source: chapter7.pdf, §122). He denotes it $e$ — *"for the sake of brevity for this number 2.718281828459... we will use the symbol $e$, which will denote the base for natural or hyperbolic logarithms."*
+(source: chapter7, §122). He denotes it $e$ — *"for the sake of brevity for this number 2.718281828459... we will use the symbol $e$, which will denote the base for natural or hyperbolic logarithms."*
 
 ## Why "natural" or "hyperbolic"
 

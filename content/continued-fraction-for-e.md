@@ -2,7 +2,7 @@
 
 **Summary**: Euler runs the Euclidean algorithm on the decimal expansion of $(e - 1)/2 = 0.8591409142295\ldots$ and finds that its partial quotients form an arithmetic progression $1, 6, 10, 14, 18, 22, 26, 30, 34, \ldots$ with common difference $4$. This is the first appearance of the celebrated *simple* continued fraction for $e$, whose pattern reveals $e$'s irrationality and (with later work) its transcendence — Euler asserts it can be "confirmed by infinitesimal calculus."
 
-**Sources**: `raw/chapter18.pdf` (§381 Example III).
+**Sources**: `chapter18` (§381 Example III).
 
 **Last updated**: 2026-05-11
 

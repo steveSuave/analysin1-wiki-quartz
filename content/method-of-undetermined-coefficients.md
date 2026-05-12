@@ -2,7 +2,7 @@
 
 **Summary**: Euler's technique (§60–§61) for expanding a rational function as an infinite series: posit a series $A + Bz + Cz^2 + \cdots$ with unknown coefficients, multiply by the denominator, and match powers of $z$ to determine the coefficients one by one.
 
-**Sources**: chapter4.pdf
+**Sources**: chapter4
 
 **Last updated**: 2026-04-23
 
@@ -18,9 +18,9 @@ with unknown coefficients $A, B, C, \ldots$. Multiply through by $D(z)$ to obtai
 
 $$ N(z) \;=\; D(z) \cdot (A + B z + C z^2 + \cdots). $$
 
-Expanding the right-hand side and collecting powers of $z$ yields an infinite system of linear equations in the unknowns — the coefficients of matching powers on the two sides must be equal. Each equation determines the next coefficient in terms of its predecessors (source: chapter4.pdf, §60–§61).
+Expanding the right-hand side and collecting powers of $z$ yields an infinite system of linear equations in the unknowns — the coefficients of matching powers on the two sides must be equal. Each equation determines the next coefficient in terms of its predecessors (source: chapter4, §60–§61).
 
-Euler prefers this method to long division because long division is "tedious and there is no easy way to show the nature of the resulting infinite series" (source: chapter4.pdf, §61) — the recurrence produced by matching is more informative than the step-by-step quotient.
+Euler prefers this method to long division because long division is "tedious and there is no easy way to show the nature of the resulting infinite series" (source: chapter4, §61) — the recurrence produced by matching is more informative than the step-by-step quotient.
 
 ## Worked examples
 
@@ -38,7 +38,7 @@ For $\dfrac{a + bz}{\alpha + \beta z + \gamma z^2} = A + B z + C z^2 + \cdots$, 
 
 $$ a + bz = \alpha A + (\alpha B + \beta A) z + (\alpha C + \beta B + \gamma A) z^2 + (\alpha D + \beta C + \gamma B) z^3 + \cdots $$
 
-Matching: $A = a/\alpha$, $B = b/\alpha - a\beta/\alpha^2$, and from the third power onward the three-term recurrence $\alpha R + \beta Q + \gamma P = 0$ (source: chapter4.pdf, §61). Hence $R = -(\beta Q + \gamma P)/\alpha$.
+Matching: $A = a/\alpha$, $B = b/\alpha - a\beta/\alpha^2$, and from the third power onward the three-term recurrence $\alpha R + \beta Q + \gamma P = 0$ (source: chapter4, §61). Hence $R = -(\beta Q + \gamma P)/\alpha$.
 
 ### Lucas-number example (§61)
 
@@ -46,7 +46,7 @@ With $a = 1, b = 2, \alpha = 1, \beta = -1, \gamma = -1$: $A = 1, B = 3$, then $
 
 $$ \frac{1 + 2z}{1 - z - z^2} = 1 + 3 z + 4 z^2 + 7 z^3 + 11 z^4 + 18 z^5 + \cdots $$
 
-— every coefficient is the sum of the two preceding ones (source: chapter4.pdf, §61).
+— every coefficient is the sum of the two preceding ones (source: chapter4, §61).
 
 ## Why the method works
 

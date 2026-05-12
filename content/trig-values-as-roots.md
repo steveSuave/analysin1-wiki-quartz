@@ -2,7 +2,7 @@
 
 **Summary**: §235–§236, §239, §243–§244, §250–§256. The [[multiple-angle-polynomials|multiple-angle polynomial]] equation $\sin nz = \sin s$ has exactly $n$ distinct roots, which are the sines of equally-spaced arcs $s/n, (\pi-s)/n, (2\pi+s)/n, \ldots$. [[vietas-formulas|Vieta's formulas]] on these roots produce the partial-fraction sums and products of trig functions that occupy §237–§257.
 
-**Sources**: chapter14.pdf (§235–§256)
+**Sources**: chapter14 (§235–§256)
 
 **Last updated**: 2026-05-10
 
@@ -18,7 +18,7 @@ There are exactly $n$ distinct values of $\sin z$ corresponding to these arcs, n
 
 $$\sin\frac{s}{n},\quad \sin\frac{\pi-s}{n},\quad \sin\frac{2\pi+s}{n},\quad \sin\frac{3\pi-s}{n},\quad \ldots$$
 
-(source: chapter14.pdf, §235). These are the $n$ roots of the polynomial in $x = \sin z$ obtained from $\sin nz = \sin s$ (the [[multiple-angle-polynomials|§236 polynomial]] for odd $n$, or the squared version for even $n$).
+(source: chapter14, §235). These are the $n$ roots of the polynomial in $x = \sin z$ obtained from $\sin nz = \sin s$ (the [[multiple-angle-polynomials|§236 polynomial]] for odd $n$, or the squared version for even $n$).
 
 ## Roots of the odd-$n$ polynomial (§236)
 
@@ -26,7 +26,7 @@ For odd $n$, the polynomial $\sin nz = \sin s$ in $x$ can be rewritten (shifting
 
 $$0 = \sin nz = nx - \frac{n(n^2-1)}{1\cdot 2\cdot 3}x^3 + \cdots$$
 
-whose $n$ roots are $\sin z, \sin\bigl(\frac{2\pi}{n}+z\bigr), \sin\bigl(\frac{4\pi}{n}+z\bigr), \ldots$ (source: chapter14.pdf, §236).
+whose $n$ roots are $\sin z, \sin\bigl(\frac{2\pi}{n}+z\bigr), \sin\bigl(\frac{4\pi}{n}+z\bigr), \ldots$ (source: chapter14, §236).
 
 Euler notes that in order to express things in terms of arcs less than $\pi$, one may use the identity $\sin v = -\sin(v - \pi)$; this is how the examples in §237 (Example I, $n = 3$; Example II, $n = 5$; Example III, $n = 2m+1$) simplify the list of roots to angles between $0$ and $\pi$.
 
@@ -38,7 +38,7 @@ Euler does not invoke Vieta explicitly by name, but the procedure is identical. 
 
 - **Sum of reciprocals**: The ratio of the constant term to the linear coefficient gives
 $$\frac{1}{r_1} + \frac{1}{r_2} + \cdots + \frac{1}{r_n} = \frac{n}{\sin nz}$$
-(source: chapter14.pdf, §237). This is the partial-fraction formula for cosecant; see [[trig-multiple-angle-partial-fractions]].
+(source: chapter14, §237). This is the partial-fraction formula for cosecant; see [[trig-multiple-angle-partial-fractions]].
 
 - **Product**: The product of all $n$ roots equals $\pm\sin nz / 2^{n-1}$, which after rearrangement gives the [[sine-cosine-factored-products|product formula for $\sin nz$]].
 
@@ -48,11 +48,11 @@ For the polynomial in $y = \cos z$ (§243), the $n$ roots are
 
 $$\cos z,\quad \cos\!\Bigl(\frac{2\pi}{n} - z\Bigr),\quad \cos\!\Bigl(\frac{2\pi}{n} + z\Bigr),\quad \cos\!\Bigl(\frac{4\pi}{n} - z\Bigr),\quad \ldots$$
 
-(source: chapter14.pdf, §243). Their sum (§244): for $n > 1$, the sum of all $n$ roots is zero,
+(source: chapter14, §243). Their sum (§244): for $n > 1$, the sum of all $n$ roots is zero,
 
 $$0 = \cos z + \cos\!\Bigl(\frac{2\pi}{n} - z\Bigr) + \cos\!\Bigl(\frac{2\pi}{n} + z\Bigr) + \cos\!\Bigl(\frac{4\pi}{n} - z\Bigr) + \cdots$$
 
-For even $n$, each positive term is paired with an equal negative term. For odd $n > 1$, Euler verifies case by case using $\cos v = -\cos(\pi - v)$ (source: chapter14.pdf, §244).
+For even $n$, each positive term is paired with an equal negative term. For odd $n > 1$, Euler verifies case by case using $\cos v = -\cos(\pi - v)$ (source: chapter14, §244).
 
 ## Roots of the tangent equation (§249–§252)
 
@@ -60,11 +60,11 @@ Setting $t = \tan z$ and using [[de-moivre-formula|De Moivre]]:
 
 $$\tan nz = \frac{(1+ti)^n - (1-ti)^n}{(1+ti)^n\,i + (1-ti)^n\,i}$$
 
-(source: chapter14.pdf, §249). The $n$ roots of $\tan nz = \tan nz$ (i.e., of the numerator polynomial in $t$ when $\tan nz$ is fixed) are
+(source: chapter14, §249). The $n$ roots of $\tan nz = \tan nz$ (i.e., of the numerator polynomial in $t$ when $\tan nz$ is fixed) are
 
 $$\tan z,\quad \tan\!\Bigl(\frac{\pi}{n}+z\Bigr),\quad \tan\!\Bigl(\frac{2\pi}{n}+z\Bigr),\quad \ldots$$
 
-(source: chapter14.pdf, §249). The sum of these $n$ roots equals $n\cot nz$ (§250), and their product is determined by the constant term of the polynomial (§254).
+(source: chapter14, §249). The sum of these $n$ roots equals $n\cot nz$ (§250), and their product is determined by the constant term of the polynomial (§254).
 
 For $n = 2m+1$ (odd), comparing with the equation's highest-degree coefficient gives
 $$n\tan nz = \tan z + \tan\!\Bigl(\frac{\pi}{n}+z\Bigr) + \tan\!\Bigl(\frac{2\pi}{n}+z\Bigr) + \cdots + \tan\!\Bigl(\frac{n-1}{n}\pi+z\Bigr)$$

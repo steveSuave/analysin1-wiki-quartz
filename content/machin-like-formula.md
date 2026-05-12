@@ -10,7 +10,7 @@ $$\pi = 4\left(\frac{1}{1\cdot 2} - \frac{1}{3\cdot 2^3} + \frac{1}{5\cdot 2^5} 
 
 two rational geometric-rate series, "with much more ease than with the series mentioned before."
 
-**Sources**: chapter8.pdf (§142)
+**Sources**: chapter8 (§142)
 
 **Last updated**: 2026-04-27
 
@@ -24,7 +24,7 @@ $$\tan(a + b) = \frac{\tan a + \tan b}{1 - \tan a\tan b} = 1\quad\Longrightarrow
 
 $$\tan b = \frac{1 - \tan a}{1 + \tan a}.$$
 
-(source: chapter8.pdf, §142). Choose $\tan a = 1/2$. Then
+(source: chapter8, §142). Choose $\tan a = 1/2$. Then
 
 $$\tan b = \frac{1 - 1/2}{1 + 1/2} = \frac{1/2}{3/2} = \frac{1}{3}.$$
 
@@ -46,7 +46,7 @@ Therefore
 
 $$\pi = 4\left(\frac{1}{1\cdot 2} - \frac{1}{3\cdot 2^3} + \frac{1}{5\cdot 2^5} - \frac{1}{7\cdot 2^7} + \frac{1}{9\cdot 2^9} - \cdots\right) + 4\left(\frac{1}{1\cdot 3} - \frac{1}{3\cdot 3^3} + \frac{1}{5\cdot 3^5} - \frac{1}{7\cdot 3^7} + \frac{1}{9\cdot 3^9} - \cdots\right).$$
 
-(source: chapter8.pdf, §142). Both series have only *rational* terms, decay geometrically at rate $1/4$ and $1/9$ respectively, and avoid the $\sqrt 3$ that complicates the [[arctangent-series|§141]] series.
+(source: chapter8, §142). Both series have only *rational* terms, decay geometrically at rate $1/4$ and $1/9$ respectively, and avoid the $\sqrt 3$ that complicates the [[arctangent-series|§141]] series.
 
 ## Convergence rate
 

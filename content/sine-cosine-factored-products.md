@@ -2,7 +2,7 @@
 
 **Summary**: §237, §240–§242, §245. The product of the $n$ roots of the [[multiple-angle-polynomials|multiple-angle polynomial]] for $\sin nz$ (or $\cos nz$) yields a factorization of $\sin nz$ (or $\cos nz$) as $2^{n-1}$ times a product of $n$ sines (or cosines) of shifted angles. A single unified formula covers both odd and even $n$.
 
-**Sources**: chapter14.pdf (§237, §240–§242, §245)
+**Sources**: chapter14 (§237, §240–§242, §245)
 
 **Last updated**: 2026-05-10
 
@@ -14,7 +14,7 @@ From [[trig-values-as-roots|§236–§237]], the $n$ roots of the odd-$n$ polyno
 
 $$\sin nz = \pm 2^{n-1}\sin z\cdot\sin\!\Bigl(\frac{2\pi}{n}+z\Bigr)\cdot\sin\!\Bigl(\frac{4\pi}{n}+z\Bigr)\cdots$$
 
-(source: chapter14.pdf, §237). Because $\sin v = \sin(\pi - v)$, the root $\sin(\frac{(n-k)\pi}{n}+z)$ equals $\sin(\frac{k\pi}{n}-z)$ for appropriate $k$, so the product telescopes to $n$ factors total.
+(source: chapter14, §237). Because $\sin v = \sin(\pi - v)$, the root $\sin(\frac{(n-k)\pi}{n}+z)$ equals $\sin(\frac{k\pi}{n}-z)$ for appropriate $k$, so the product telescopes to $n$ factors total.
 
 **Example $n = 3$** (§237):
 
@@ -30,7 +30,7 @@ For even $n$, squaring removes the $\sqrt{1-x^2}$ factor. The $2n$ roots of the 
 
 $$\sin nz = \pm 2^{n-1}\sin z\cdot\sin\!\Bigl(\frac{\pi}{n}-z\Bigr)\sin\!\Bigl(\frac{\pi}{n}+z\Bigr)\sin\!\Bigl(\frac{2\pi}{n}+z\Bigr)\sin\!\Bigl(\frac{2\pi}{n}-z\Bigr)\cdots$$
 
-(source: chapter14.pdf, §239–§240). **Example $n = 2$**:
+(source: chapter14, §239–§240). **Example $n = 2$**:
 
 $$\sin 2z = 2\sin z\cdot\sin\!\Bigl(\frac{\pi}{2}-z\Bigr) = 2\sin z\cos z$$
 
@@ -61,7 +61,7 @@ Using the identity $\cos nz = \sin 2nz / (2\sin nz)$ (§242), the cosine product
 
 $$\cos nz = 2^{n-1}\sin\!\Bigl(\frac{\pi}{2n}-z\Bigr)\sin\!\Bigl(\frac{\pi}{2n}+z\Bigr)\sin\!\Bigl(\frac{3\pi}{2n}-z\Bigr)\sin\!\Bigl(\frac{3\pi}{2n}+z\Bigr)\cdots$$
 
-where there are $n$ factors (source: chapter14.pdf, §242).
+where there are $n$ factors (source: chapter14, §242).
 
 In §245 a cosine-only version is derived. Using $\cos v = -\cos(\pi - v)$:
 

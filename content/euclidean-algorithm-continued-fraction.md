@@ -2,7 +2,7 @@
 
 **Summary**: For any rational $A/B$ with $A > B$, the Euclidean algorithm's successive quotients are exactly the partial denominators of $A/B$'s simple continued fraction expansion. The same algorithm applied to a long decimal expansion of an irrational produces (a truncation of) its infinite simple continued fraction — Euler uses this to verify $\sqrt 2 = [1; 2, 2, 2, \ldots]$, to discover the arithmetic-progression continued fraction for $(e-1)/2$, and (in §382) to find the convergents of $\pi$.
 
-**Sources**: `raw/chapter18.pdf` (§381).
+**Sources**: `chapter18` (§381).
 
 **Last updated**: 2026-05-11
 

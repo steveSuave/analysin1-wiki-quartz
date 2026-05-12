@@ -2,7 +2,7 @@
 
 **Summary**: A function of $y, z$ is heterogeneous if its terms have at least two different degrees. Euler classifies such functions by the number of distinct degrees: *bifid* (two), *trifid* (three), and so on. Some heterogeneous functions can be made homogeneous by a substitution of the form $z = x^k$ or $z = 1/x$; no general criterion is given.
 
-**Sources**: chapter5.pdf
+**Sources**: chapter5
 
 **Last updated**: 2026-04-23
 
@@ -10,7 +10,7 @@
 
 ## Classification by number of distinct degrees (§92)
 
-A *bifid* function has terms of exactly two different degrees — it is a sum of two [[homogeneous-function|homogeneous]] pieces. Example (source: chapter5.pdf, §92):
+A *bifid* function has terms of exactly two different degrees — it is a sum of two [[homogeneous-function|homogeneous]] pieces. Example (source: chapter5, §92):
 
 $$y^5 + 2 y^3 z^2 + y^2 + z^2$$
 
@@ -30,7 +30,7 @@ For these the degree is genuinely not defined.
 
 ## §93 — Reducing to homogeneous by substitution
 
-Sometimes a substitution for one variable converts a heterogeneous expression into a homogeneous one. Euler gives two examples with no general theory (source: chapter5.pdf, §93):
+Sometimes a substitution for one variable converts a heterogeneous expression into a homogeneous one. Euler gives two examples with no general theory (source: chapter5, §93):
 
 **Example 1.** $V = y^5 + z^2 y + y^3 z + z^3/y$. The substitution $z = x^2$ gives
 

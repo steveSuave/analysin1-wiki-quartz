@@ -2,7 +2,7 @@
 
 **Summary**: A function of $y, z$ is *homogeneous of degree $n$* if every term has the same total degree $n$. This extends cleanly to rational ($\deg P - \deg Q$), irrational ($P^{\mu/\nu}$ has degree $(\mu/\nu) n$), and implicit algebraic cases. Euler's central theorem (§88): under $y = uz$, any bivariate homogeneous function of degree $n$ becomes $z^n \cdot f(u)$; degree zero means $V$ is a function of $u = y/z$ alone. Every bivariate homogeneous polynomial factors into linear pieces $\alpha y + \beta z$, a property that fails in three or more variables.
 
-**Sources**: chapter5.pdf
+**Sources**: chapter5
 
 **Last updated**: 2026-04-23
 
@@ -10,7 +10,7 @@
 
 ## Degree
 
-A variable has degree 1; a constant has degree 0; the degree of a product is the sum of degrees. So $\alpha y, \beta z$ are degree 1; $\alpha y^2, \beta y z, \gamma z^2$ are degree 2; and so on (source: chapter5.pdf, §83).
+A variable has degree 1; a constant has degree 0; the degree of a product is the sum of degrees. So $\alpha y, \beta z$ are degree 1; $\alpha y^2, \beta y z, \gamma z^2$ are degree 2; and so on (source: chapter5, §83).
 
 A *homogeneous* function is one in which every term has the same degree. A *heterogeneous* function is one with at least two different degrees among its terms — see [[heterogeneous-function]].
 
@@ -27,11 +27,11 @@ $$
 \end{aligned}
 $$
 
-Constant functions count as degree zero (source: chapter5.pdf, §84).
+Constant functions count as degree zero (source: chapter5, §84).
 
 ## Rational case (§85)
 
-A rational function $P/Q$ is homogeneous iff both $P$ and $Q$ are homogeneous, and its degree is $\deg P - \deg Q$. Negative and zero degrees are admitted (source: chapter5.pdf, §85):
+A rational function $P/Q$ is homogeneous iff both $P$ and $Q$ are homogeneous, and its degree is $\deg P - \deg Q$. Negative and zero degrees are admitted (source: chapter5, §85):
 
 | function | degree |
 | --- | --- |
@@ -46,7 +46,7 @@ Sums of homogeneous pieces of matching degree are again homogeneous of that degr
 
 ## Irrational case (§86)
 
-If $P$ is homogeneous of degree $n$, then $P^{\mu/\nu}$ is homogeneous of degree $(\mu/\nu) n$ (source: chapter5.pdf, §86). Examples:
+If $P$ is homogeneous of degree $n$, then $P^{\mu/\nu}$ is homogeneous of degree $(\mu/\nu) n$ (source: chapter5, §86). Examples:
 
 - $\sqrt{y^2 + z^2}$ has degree 1.
 - $(y^9 + z^9)^{1/3}$ has degree 3.
@@ -69,7 +69,7 @@ with $P, Q, \ldots, R$ polynomials in $y, z$, then $V$ is homogeneous of degree 
 
 $$\deg P = n, \quad \deg Q = 2n, \quad \ldots, \quad \deg R = kn$$
 
-— i.e. each coefficient carries exactly the degree needed so every term of the equation is of total degree $kn$ (source: chapter5.pdf, §87). Example: $V^5 + (y^4 + z^4) V^3 + a y^8 V - z^{10} = 0$ has $V$ homogeneous of degree 2.
+— i.e. each coefficient carries exactly the degree needed so every term of the equation is of total degree $kn$ (source: chapter5, §87). Example: $V^5 + (y^4 + z^4) V^3 + a y^8 V - z^{10} = 0$ has $V$ homogeneous of degree 2.
 
 ## §88 — Euler's reduction theorem
 
@@ -77,7 +77,7 @@ $$\deg P = n, \quad \deg Q = 2n, \quad \ldots, \quad \deg R = kn$$
 
 $$\boxed{\ V(y, z) = z^n \cdot f(u), \qquad u = y/z.\ }$$
 
-*Argument.* Every term of $V$ has joint degree $n$ in $y, z$. Replacing $y$ by $uz$ converts joint degree into degree in $z$ alone, so each term acquires the factor $z^n$, leaving a function of $u$ (source: chapter5.pdf, §88).
+*Argument.* Every term of $V$ has joint degree $n$ in $y, z$. Replacing $y$ by $uz$ converts joint degree into degree in $z$ alone, so each term acquires the factor $z^n$, leaving a function of $u$ (source: chapter5, §88).
 
 Euler checks the three cases:
 
@@ -93,14 +93,14 @@ If $n = 0$, the factor $z^n = 1$ vanishes from the expression, so
 
 $$V \text{ homogeneous of degree } 0 \ \Longrightarrow\ V \text{ is a function of } u = y/z \text{ alone}$$
 
-(source: chapter5.pdf, §89). Examples:
+(source: chapter5, §89). Examples:
 
 - $(y + z)/(y - z) = (u + 1)/(u - 1)$.
 - $(y - \sqrt{y^2 - z^2})/z = u - \sqrt{u^2 - 1}$.
 
 ## §90–§91 — Linear factorization in two variables
 
-**Theorem.** A homogeneous polynomial of degree $n$ in $y, z$ factors as a product of $n$ linear pieces $\alpha y + \beta z$ (with real or complex coefficients) (source: chapter5.pdf, §90–§91).
+**Theorem.** A homogeneous polynomial of degree $n$ in $y, z$ factors as a product of $n$ linear pieces $\alpha y + \beta z$ (with real or complex coefficients) (source: chapter5, §90–§91).
 
 *Proof.* By §88, the polynomial becomes $z^n \cdot p(u)$ after $y = uz$. By the [[fundamental-theorem-of-algebra]], $p(u)$ factors into linear pieces $\alpha u + \beta$; multiplying each by $z$ recovers $\alpha y + \beta z$, giving $n$ factors in the original variables.
 
@@ -110,7 +110,7 @@ Corollaries:
 - $ay^3 + by^2 z + cy z^2 + dz^3$ has three.
 - Every homogeneous bivariate polynomial is [[reducible-polynomial|reducible]].
 
-**This fails in three or more variables.** The general degree-2 homogeneous form $ay^2 + byz + cz^2 + dyx + ezx + fx^2$ does not generally split as $(\alpha y + \beta z + \gamma x)(\delta y + \epsilon z + \zeta x)$, and the situation is worse for higher degree (source: chapter5.pdf, §91).
+**This fails in three or more variables.** The general degree-2 homogeneous form $ay^2 + byz + cz^2 + dyx + ezx + fx^2$ does not generally split as $(\alpha y + \beta z + \gamma x)(\delta y + \epsilon z + \zeta x)$, and the situation is worse for higher degree (source: chapter5, §91).
 
 ## Why this matters
 

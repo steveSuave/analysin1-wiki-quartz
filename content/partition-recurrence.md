@@ -2,7 +2,7 @@
 
 **Summary**: Euler's central computational identity for partitions (§316–§318): if $p_m(n)$ is the number of partitions of $n$ into parts $\leq m$, then $p_m(n) = p_{m-1}(n) + p_m(n - m)$. This Pascal-triangle-like recurrence builds the partition table column by column and is the workhorse of all partition computation.
 
-**Sources**: chapter16.pdf
+**Sources**: chapter16
 
 **Last updated**: 2026-05-11
 
@@ -14,7 +14,7 @@ Let $p_m(n)$ be the number of partitions of $n$ into positive parts all at most 
 
 $$p_m(n) = p_{m-1}(n) + p_m(n - m),$$
 
-with conventions $p_0(0) = 1$, $p_0(n) = 0$ for $n \geq 1$, and $p_m(n) = 0$ for $n < 0$ (source: chapter16.pdf, §318).
+with conventions $p_0(0) = 1$, $p_0(n) = 0$ for $n \geq 1$, and $p_m(n) = 0$ for $n < 0$ (source: chapter16, §318).
 
 ## Combinatorial derivation (§316–§318)
 

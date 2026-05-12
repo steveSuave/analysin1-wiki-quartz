@@ -2,7 +2,7 @@
 
 **Summary**: §167: Euler's celebrated evaluation $\sum_{k=1}^{\infty} 1/k^2 = \pi^2/6$, obtained by combining the [[exponential-infinite-product|sinh infinite product]] with [[newtons-identities|Newton's identities]]. The first solved member of an infinite family of even-zeta values (see [[zeta-at-even-integers]]).
 
-**Sources**: chapter10.pdf, chapter15.pdf
+**Sources**: chapter10, chapter15
 
 **Last updated**: 2026-05-11
 
@@ -12,7 +12,7 @@
 
 $$\boxed{\;1 + \frac{1}{4} + \frac{1}{9} + \frac{1}{16} + \frac{1}{25} + \cdots = \frac{\pi^2}{6}\;}$$
 
-(source: chapter10.pdf, §167). The problem of evaluating this sum was posed by Pietro Mengoli in 1644 and resisted Jacob Bernoulli, Johann Bernoulli, Leibniz, and de Moivre for nearly a century, becoming famous as the *Basel problem* after the city where the Bernoullis worked.
+(source: chapter10, §167). The problem of evaluating this sum was posed by Pietro Mengoli in 1644 and resisted Jacob Bernoulli, Johann Bernoulli, Leibniz, and de Moivre for nearly a century, becoming famous as the *Basel problem* after the city where the Bernoullis worked.
 
 ## Euler's derivation
 
@@ -64,7 +64,7 @@ $$Q = \sum_{k=1}^{\infty}\frac{1}{k^4} = \frac{\pi^4}{90},\qquad R = \sum_{k=1}^
 
 $$T = \sum_{k=1}^{\infty}\frac{1}{k^{10}} = \frac{\pi^{10}}{93555},\quad \ldots$$
 
-(source: chapter10.pdf, §167). See [[zeta-at-even-integers]] for the systematic table.
+(source: chapter10, §167). See [[zeta-at-even-integers]] for the systematic table.
 
 ## Re-derivation via primes (Chapter 15)
 

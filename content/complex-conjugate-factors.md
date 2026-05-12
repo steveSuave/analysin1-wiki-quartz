@@ -2,7 +2,7 @@
 
 **Summary**: Euler's argument (§30–§31) that complex linear factors of a real polynomial come in pairs whose product is a real quadratic factor.
 
-**Sources**: chapter2.pdf
+**Sources**: chapter2
 
 **Last updated**: 2026-04-23
 
@@ -10,11 +10,11 @@
 
 ## Even count of complex factors
 
-"In every equation the number of complex roots is even, so that the function $Z$ has either no complex factor, or it has two or four or six, etc." (source: chapter2.pdf, §30). If $P$ is the product of the real linear factors of $Z$, then $Z/P$ must be real, so the remaining complex factors must combine into a real product.
+"In every equation the number of complex roots is even, so that the function $Z$ has either no complex factor, or it has two or four or six, etc." (source: chapter2, §30). If $P$ is the product of the real linear factors of $Z$, then $Z/P$ must be real, so the remaining complex factors must combine into a real product.
 
 ## Two complex factors → one real quadratic
 
-If $Z$ has exactly two complex linear factors, their product is a real quadratic, since removing the real factors from a real polynomial leaves a real quotient (source: chapter2.pdf, §30).
+If $Z$ has exactly two complex linear factors, their product is a real quadratic, since removing the real factors from a real polynomial leaves a real quotient (source: chapter2, §30).
 
 ## Four complex factors → two real quadratics (§31)
 
@@ -34,7 +34,7 @@ which Euler observes is real. Thus $Q$, assumed not to split into two real quadr
 
 Euler admits the same explicit construction does not go through in higher degree:
 
-> Although the same method of proof is not valid for higher powers, nevertheless, there is no doubt that the same property holds for any number of complex factors. (source: chapter2.pdf, §32)
+> Although the same method of proof is not valid for higher powers, nevertheless, there is no doubt that the same property holds for any number of complex factors. (source: chapter2, §32)
 
 The general case is taken as a working hypothesis and used to justify the §32 decomposition of any real polynomial into real linear and quadratic factors. See [[fundamental-theorem-of-algebra]].
 

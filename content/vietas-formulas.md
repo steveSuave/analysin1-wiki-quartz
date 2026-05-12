@@ -2,7 +2,7 @@
 
 **Summary**: The dictionary between the coefficients of a polynomial and the elementary symmetric functions of its roots. For a monic degree-$n$ polynomial $\prod_{k=1}^n(Z - \alpha_k) = Z^n - PZ^{n-1} + QZ^{n-2} - RZ^{n-3} + \cdots$, the coefficient $P$ is the sum of the roots, $Q$ the sum of pairwise products, $R$ the sum of triple products, and so on, with the final coefficient being $\pm\prod\alpha_k$. Euler uses this identification — without naming Vieta — as a workhorse throughout the *Introductio*: it converts every product expansion into a stack of identities, one for each symmetric polynomial.
 
-**Sources**: chapter1.pdf, chapter9.pdf, chapter10.pdf, chapter14.pdf
+**Sources**: chapter1, chapter9, chapter10, chapter14
 
 **Last updated**: 2026-05-11
 

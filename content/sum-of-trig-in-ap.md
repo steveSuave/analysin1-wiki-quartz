@@ -2,7 +2,7 @@
 
 **Summary**: §258–§260. Sines and cosines of angles in arithmetic progression form a [[recurrent-series|recurrent series]] with scale of relation $2\cos b, -1$. Euler sums the infinite series $\sin a + \sin(a+b) + \sin(a+2b) + \cdots$ in closed form by evaluating the generating rational function at $z = 1$, obtaining $(\sin a - \sin(a-b)) / (2 - 2\cos b)$. He then derives the finite sum through $\sin(a+nb)$ by subtracting the tail of the infinite series from the head.
 
-**Sources**: chapter14.pdf (§258–§260)
+**Sources**: chapter14 (§258–§260)
 
 **Last updated**: 2026-05-11
 
@@ -14,7 +14,7 @@ Let the angles $a, a+b, a+2b, a+3b, \ldots$ be an arithmetic progression with co
 
 $$s = \sin a + \sin(a+b) + \sin(a+2b) + \sin(a+3b) + \cdots$$
 
-From [[trigonometric-recurrent-progression|§129]], the sequence of sines is recurrent with scale of relation $2\cos b, -1$, generating rational function denominator $1 - 2\cos b\cdot Z + Z^2$ (source: chapter14.pdf, §258).
+From [[trigonometric-recurrent-progression|§129]], the sequence of sines is recurrent with scale of relation $2\cos b, -1$, generating rational function denominator $1 - 2\cos b\cdot Z + Z^2$ (source: chapter14, §258).
 
 ## The rational generating function
 
@@ -24,7 +24,7 @@ For the numerator, Euler uses the §129 initial-value construction. The rational
 
 $$F(z) = \frac{\sin a + z(\sin(a+b) - 2\cos b\cdot\sin a)}{1 - 2\cos b\cdot z + z^2} = \frac{\sin a + z(\sin(a+b) - 2\sin a\cos b)}{1 - 2\cos b\cdot z + z^2}$$
 
-Using the addition formula $\sin(a+b) - 2\sin a\cos b = \sin a\cos b + \cos a\sin b - 2\sin a\cos b = -\sin(a-b) + \sin a - \sin a = -\sin(a-b)$... more directly, Euler writes (source: chapter14.pdf, §258):
+Using the addition formula $\sin(a+b) - 2\sin a\cos b = \sin a\cos b + \cos a\sin b - 2\sin a\cos b = -\sin(a-b) + \sin a - \sin a = -\sin(a-b)$... more directly, Euler writes (source: chapter14, §258):
 
 $$F(z) = \frac{\sin a + z(\sin(a+b) - 2\cos b\cdot\sin a)}{1 - 2z\cos b + z^2}$$
 
@@ -38,7 +38,7 @@ Now $\sin(a+b) - 2\cos b\cdot\sin a = \sin a\cos b + \cos a\sin b - 2\sin a\cos 
 
 $$\boxed{s = \frac{\sin a - \sin(a-b)}{2(1 - \cos b)}}$$
 
-(source: chapter14.pdf, §258). The denominator $2(1-\cos b) = 4\sin^2(b/2)$ by the half-angle formula, so equivalently
+(source: chapter14, §258). The denominator $2(1-\cos b) = 4\sin^2(b/2)$ by the half-angle formula, so equivalently
 
 $$s = \frac{\sin a - \sin(a-b)}{4\sin^2(b/2)} = \frac{2\cos(a - b/2)\sin(b/2)}{4\sin^2(b/2)} = \frac{\cos(a - b/2)}{2\sin(b/2)}$$
 
@@ -64,7 +64,7 @@ For the sum through $n+1$ terms,
 
 $$s = \sin a + \sin(a+b) + \sin(a+2b) + \cdots + \sin(a+nb),$$
 
-Euler subtracts the tail of the infinite series from the head (source: chapter14.pdf, §259). The infinite head sums to $\cos(a - b/2)/(2\sin(b/2))$ and the tail starting at $\sin(a + (n+1)b)$ sums to $\cos(a + (n + 1/2)b)/(2\sin(b/2))$. Their difference is
+Euler subtracts the tail of the infinite series from the head (source: chapter14, §259). The infinite head sums to $\cos(a - b/2)/(2\sin(b/2))$ and the tail starting at $\sin(a + (n+1)b)$ sums to $\cos(a + (n + 1/2)b)/(2\sin(b/2))$. Their difference is
 
 $$s = \frac{\cos(a - \tfrac{1}{2}b) - \cos(a + (n + \tfrac{1}{2})b)}{2\sin(\tfrac{1}{2}b)} = \frac{\sin(a + \tfrac{1}{2}nb)\sin(\tfrac{1}{2}(n+1)b)}{\sin(\tfrac{1}{2}b)}$$
 

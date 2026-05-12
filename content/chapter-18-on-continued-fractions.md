@@ -2,7 +2,7 @@
 
 **Summary**: Euler's closing chapter of Book I introduces the third kind of infinite expression — the continued fraction. It develops the convergent three-term recurrence and the alternation property, the bidirectional dictionary between continued fractions and alternating series (yielding Brouncker's $4/\pi$, a continued fraction for $\log 2$, and the celebrated $(e-1)/2$ continued fraction whose partial quotients form an arithmetic progression), the use of periodic continued fractions to approximate quadratic irrationals, the Euclidean-algorithm interpretation of rational continued fractions, and the best-rational-approximation principle — applied to $\pi \approx 355/113$ and to the leap-year calculation behind the Gregorian calendar.
 
-**Sources**: `raw/chapter18.pdf` (Euler, *Introductio in analysin infinitorum*, Book I, Chapter 18: "On Continued Fractions", §356–§382).
+**Sources**: `chapter18` (Euler, *Introductio in analysin infinitorum*, Book I, Chapter 18: "On Continued Fractions", §356–§382).
 
 **Last updated**: 2026-05-11
 

@@ -6,7 +6,7 @@ $$z = \frac{a(1 - x^2)}{1 + x^2}, \qquad y = \frac{2ax}{1 + x^2}$$
 
 parametrizes the circle $y^2 + z^2 = a^2$ by rational functions of $x$. Euler derives it in §46 (with $a = 1$) and again as a special case of the §50 substitution.
 
-**Sources**: chapter3.pdf
+**Sources**: chapter3
 
 **Last updated**: 2026-04-23
 
@@ -22,7 +22,7 @@ so the map $x \mapsto (z, y)$ traces points on the circle of radius $a$. Every p
 
 ## Derivation from §46
 
-Euler opens Chapter 3 with the example $y = \frac{1 - z^2}{1 + z^2}$. Substituting $z = \frac{1 - x}{1 + x}$ gives $y = \frac{2x}{1 + x^2}$ (source: chapter3.pdf, §46). This is the parametrization with $a = 1$, in the "$z$-as-function-of-$x$" form.
+Euler opens Chapter 3 with the example $y = \frac{1 - z^2}{1 + z^2}$. Substituting $z = \frac{1 - x}{1 + x}$ gives $y = \frac{2x}{1 + x^2}$ (source: chapter3, §46). This is the parametrization with $a = 1$, in the "$z$-as-function-of-$x$" form.
 
 ## Derivation from §50
 
@@ -34,7 +34,7 @@ specializes to
 
 $$z = \frac{a - a x^2}{x^2 + 1} = \frac{a(1 - x^2)}{1 + x^2}, \qquad y = \frac{2ax}{1 + x^2}$$
 
-(source: chapter3.pdf, §50). This is exactly the classical half-angle parametrization: with $x = \tan(\theta/2)$, one recovers $z = a\cos\theta$, $y = a\sin\theta$.
+(source: chapter3, §50). This is exactly the classical half-angle parametrization: with $x = \tan(\theta/2)$, one recovers $z = a\cos\theta$, $y = a\sin\theta$.
 
 ## Geometric meaning
 

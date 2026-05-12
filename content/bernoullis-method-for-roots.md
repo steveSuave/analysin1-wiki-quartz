@@ -2,7 +2,7 @@
 
 **Summary**: §332–§347, §354–§355. Daniel Bernoulli's procedure for finding the *largest root in absolute value* of an algebraic equation $x^m - \alpha x^{m-1} - \beta x^{m-2} - \cdots = 0$: form the [[recurrent-series|recurrent series]] with [[scale-of-the-relation|scale]] $\alpha, \beta, \gamma, \ldots$ and read the limit of $Q/P$ (ratio of consecutive coefficients). Universality comes from the substitution shift $x = y + k$: once any root is approximately known, shift to make *that* root small and rerun the method on the new equation to extract it as the *smallest* root. The page covers the basic procedure, the failure modes (close roots, $\pm p$ pairs, repeated roots), the safety guarantee from numerator $= 1$, and the §354 theoretical justification via geometric progression of the tail.
 
-**Sources**: chapter17.pdf
+**Sources**: chapter17
 
 **Last updated**: 2026-05-11
 
@@ -36,7 +36,7 @@ Take $|p| > |q| > |r| > \cdots$. For large $n$ the $U p^n$ term dominates absolu
 
 $$\frac{P_{n+1}}{P_n} = \frac{Up^{n+1} + Vq^{n+1} + \cdots}{Up^n + Vq^n + \cdots} \xrightarrow{n\to\infty} p.\qquad(\heartsuit)$$
 
-The numerator coefficients $a, b, c, \ldots$ only affect the *constants* $U, V, W, \ldots$ — they do not change the limit $(\heartsuit)$ (source: chapter17.pdf, §336). Hence:
+The numerator coefficients $a, b, c, \ldots$ only affect the *constants* $U, V, W, \ldots$ — they do not change the limit $(\heartsuit)$ (source: chapter17, §336). Hence:
 
 **The largest root of $(*)$ — in absolute value — is the limit of the quotient of consecutive terms of any recurrent series whose scale of the relation is $\alpha, \beta, \gamma, \ldots$.**
 

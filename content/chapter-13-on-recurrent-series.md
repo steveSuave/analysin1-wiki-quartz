@@ -2,7 +2,7 @@
 
 **Summary**: Euler completes the theory of [[recurrent-series|recurrent series]] introduced in [[chapter-4-on-the-development-of-functions-in-infinite-series|Chapter 4]]. Three movements: (i) closed-form *general term* of any recurrent series, obtained by [[real-partial-fraction-decomposition|real partial fractions]] of the generating rational function plus explicit formulas for each fraction type; (ii) the inverse problem — extracting the generating rational function from the recurrence law — and De Moivre's "*scale of the relation*"; (iii) the *sum* of a recurrent series, finite or infinite, expressed in closed form.
 
-**Sources**: chapter13.pdf, chapter17.pdf
+**Sources**: chapter13, chapter17
 
 **Last updated**: 2026-05-11
 
@@ -22,7 +22,7 @@ The chapter also reverses the question (given the series, recover the rational f
 
 ### §211–§214 — Decompose, expand, sum
 
-Any proper rational function decomposes by [[real-partial-fraction-decomposition|Chapters 2 and 12]] into a sum of simple fractions. Each simple fraction expands into its own recurrent series. The general term of the original series is the *sum* of the general terms of the partial-fraction series (source: chapter13.pdf, §212–§213). Equality of two power series is justified by setting $z = 0$, subtracting the constant, dividing by $z$, repeating (source: chapter13.pdf, §214).
+Any proper rational function decomposes by [[real-partial-fraction-decomposition|Chapters 2 and 12]] into a sum of simple fractions. Each simple fraction expands into its own recurrent series. The general term of the original series is the *sum* of the general terms of the partial-fraction series (source: chapter13, §212–§213). Equality of two power series is justified by setting $z = 0$, subtracting the constant, dividing by $z$, repeating (source: chapter13, §214).
 
 ### §215–§216 — General term for $A/(1-pz)^k$
 
@@ -34,7 +34,7 @@ with general term
 
 $$\binom{n + k - 1}{k - 1}\, A p^n z^n \;=\; \frac{(n+1)(n+2)\cdots(n+k-1)}{(k-1)!}\, A p^n z^n.$$
 
-(source: chapter13.pdf, §215). Once this is in hand, the partial-fraction tower for *any* repeated linear factor gives the general term term-by-term (§216). See [[general-term-of-recurrent-series]].
+(source: chapter13, §215). Once this is in hand, the partial-fraction tower for *any* repeated linear factor gives the general term term-by-term (§216). See [[general-term-of-recurrent-series]].
 
 ### Examples I–V (§216, p. 183–186)
 
@@ -48,7 +48,7 @@ Five worked examples illustrate the method for distinct or repeated *real* linea
 
 ### §217–§222 — General term for the quadratic-factor brick
 
-When the denominator has the [[trinomial-factor|trinomial factor]] $1 - 2pz\cos\phi + p^2 z^2$, complex partial fractions expose a closed form involving sines and cosines of multiples of $\phi$. The base case $k=1$ comes from the [[trigonometric-recurrent-progression|§129 sin/cos recurrent progression]]: the series for $A/(1 - 2pz\cos\phi + p^2 z^2)$ has general term $\dfrac{A\sin(n+1)\phi}{\sin\phi}p^n z^n$ (source: chapter13.pdf, §218). For $A + Bpz$ in the numerator, this becomes $\dfrac{A\sin(n+1)\phi + B\sin n\phi}{\sin\phi}\,p^n z^n$.
+When the denominator has the [[trinomial-factor|trinomial factor]] $1 - 2pz\cos\phi + p^2 z^2$, complex partial fractions expose a closed form involving sines and cosines of multiples of $\phi$. The base case $k=1$ comes from the [[trigonometric-recurrent-progression|§129 sin/cos recurrent progression]]: the series for $A/(1 - 2pz\cos\phi + p^2 z^2)$ has general term $\dfrac{A\sin(n+1)\phi}{\sin\phi}p^n z^n$ (source: chapter13, §218). For $A + Bpz$ in the numerator, this becomes $\dfrac{A\sin(n+1)\phi + B\sin n\phi}{\sin\phi}\,p^n z^n$.
 
 For $k = 2$ (§220) and $k = 3$ (§221) Euler derives explicit, increasingly complicated formulas; the §219 derivation passes through a complex factorization $(1 - (\cos\phi+i\sin\phi)pz)(1 - (\cos\phi-i\sin\phi)pz)$ and converts back to real form via the identities $16\sin^5\phi = 10\sin\phi - 5\sin 3\phi + \sin 5\phi$ and similar (§222) — the same odd-power table that Chapter 14 [[powers-of-sine-and-cosine|derives systematically]] in §262. See [[general-term-of-recurrent-series]].
 
@@ -56,14 +56,14 @@ For $k = 2$ (§220) and $k = 3$ (§221) Euler derives explicit, increasingly com
 
 The two examples sweep up everything in the chapter:
 
-- $\dfrac{1}{(1-z)(1-z^2)(1-z^3)} = \dfrac{1}{(1-z)^3(1+z)(1+z+z^2)}$ — repeated linear, simple linear, and quadratic factor (with $\phi = \pi/3$). The general term takes a *different* closed form on each residue class $n \pmod 6$ (source: chapter13.pdf, §223 Example I).
+- $\dfrac{1}{(1-z)(1-z^2)(1-z^3)} = \dfrac{1}{(1-z)^3(1+z)(1+z+z^2)}$ — repeated linear, simple linear, and quadratic factor (with $\phi = \pi/3$). The general term takes a *different* closed form on each residue class $n \pmod 6$ (source: chapter13, §223 Example I).
 - $\dfrac{1+z+z^2}{1-z-z^4+z^5} = \dfrac{1+z+z^2}{(1-z)^2(1+z)(1+z^2)}$ — produces a four-case formula, one per residue class mod $4$.
 
 ### §224–§230 — The inverse problem: scale of the relation
 
-Reading the rational function back off the recurrence law: given $D = \alpha C + \beta B + \gamma A$ etc., the denominator is $1 - \alpha z - \beta z^2 - \gamma z^3$. The list $\alpha, \beta, \gamma, \ldots$ is De Moivre's [[scale-of-the-relation|*scale of the relation*]] (source: chapter13.pdf, §224).
+Reading the rational function back off the recurrence law: given $D = \alpha C + \beta B + \gamma A$ etc., the denominator is $1 - \alpha z - \beta z^2 - \gamma z^3$. The list $\alpha, \beta, \gamma, \ldots$ is De Moivre's [[scale-of-the-relation|*scale of the relation*]] (source: chapter13, §224).
 
-For a *two-member* scale (each term determined by the two preceding), §226–§229 give the [[closed-form-two-term-recurrence|Binet-type closed form]] $A_n = (Up^n + Vq^n)$ where $p, q$ are the roots of the denominator. A striking identity follows: $UV = \dfrac{B^2 - \alpha AB + \beta A^2}{4\beta - \alpha^2}$ (source: chapter13.pdf, §227). Hence each term can be obtained from a *single* predecessor by
+For a *two-member* scale (each term determined by the two preceding), §226–§229 give the [[closed-form-two-term-recurrence|Binet-type closed form]] $A_n = (Up^n + Vq^n)$ where $p, q$ are the roots of the denominator. A striking identity follows: $UV = \dfrac{B^2 - \alpha AB + \beta A^2}{4\beta - \alpha^2}$ (source: chapter13, §227). Hence each term can be obtained from a *single* predecessor by
 
 $$Q = \tfrac{1}{2}\alpha P + \sqrt{\bigl((1/4)\alpha^2 - \beta\bigr)P^2 + (B^2 - \alpha AB + \beta A^2)\,\beta^n}$$
 
@@ -71,11 +71,11 @@ $$Q = \tfrac{1}{2}\alpha P + \sqrt{\bigl((1/4)\alpha^2 - \beta\bigr)P^2 + (B^2 -
 
 ### §231–§233 — Sum of a recurrent series
 
-The sum of the *infinite* series equals the generating rational function (source: chapter13.pdf, §231). The sum of the *first* $n+1$ terms is the rational function minus the tail, which is itself a rational function with shifted numerator (source: chapter13.pdf, §232). For a two-member scale this collapses to a clean closed form
+The sum of the *infinite* series equals the generating rational function (source: chapter13, §231). The sum of the *first* $n+1$ terms is the rational function minus the tail, which is itself a rational function with shifted numerator (source: chapter13, §232). For a two-member scale this collapses to a clean closed form
 
 $$\sum_{k=0}^{n} A_k z^k \;=\; \frac{A + (B - \alpha A)z - Q z^{n+1} - R z^{n+2}}{1 - \alpha z - \beta z^2}.$$
 
-Lucas example at $z = 1$: $1 + 3 + 4 + 7 + 11 + \cdots + P = P + Q - 3 = \dfrac{3P - 6 + \sqrt{5P^2 + 20}}{2}$ — the partial sum is determined by the *last term alone* (source: chapter13.pdf, §233 Example). See [[sum-of-recurrent-series]].
+Lucas example at $z = 1$: $1 + 3 + 4 + 7 + 11 + \cdots + P = P + Q - 3 = \dfrac{3P - 6 + \sqrt{5P^2 + 20}}{2}$ — the partial sum is determined by the *last term alone* (source: chapter13, §233 Example). See [[sum-of-recurrent-series]].
 
 ## Notable points
 
@@ -83,7 +83,7 @@ Lucas example at $z = 1$: $1 + 3 + 4 + 7 + 11 + \cdots + P = P + Q - 3 = \dfrac{
 - **Real-partial-fraction machinery powers the trigonometric formulas.** §218's clean $\sin(n+1)\phi/\sin\phi$ is the "$k=1$" case of the iterative tower in §219–§222, which extends to repeated quadratic factors. The [[real-partial-fraction-decomposition|Chapter 12]] tower is exactly what makes the extension possible.
 - **De Moivre's name appears twice.** Once for naming the [[recurrent-series|recurrent series]] themselves (§211, restating §62), once for naming the [[scale-of-the-relation|scale of the relation]] (§224). De Moivre's *Miscellanea Analytica* (1730) is the proximate source.
 - **The $UV$ identity is the discriminant-like invariant.** §227's $UV = (B^2 - \alpha AB + \beta A^2)/(4\beta - \alpha^2)$ is the "irrational core" of the closed-form: it isolates exactly the quantity that appears under the square root in the term-from-predecessor formula. Modulo the substitution $\beta \mapsto -\beta$ this is a standard Fibonacci-like invariant.
-- **Why apparent irrationality stays rational.** The series coefficients are rational by construction; the square root in §227 must therefore always evaluate to a rational. Euler does not prove this — he just notes it (source: chapter13.pdf, §227).
+- **Why apparent irrationality stays rational.** The series coefficients are rational by construction; the square root in §227 must therefore always evaluate to a rational. Euler does not prove this — he just notes it (source: chapter13, §227).
 
 ## Why this chapter matters
 

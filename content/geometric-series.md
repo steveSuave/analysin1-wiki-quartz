@@ -2,7 +2,7 @@
 
 **Summary**: The infinite series expansion of $a/(\alpha + \beta z)$, obtained by Euler in §60 by long division or by undetermined coefficients. Its defining property is that the ratio of two successive terms is constant. The geometric series reappears throughout the *Introductio* as a building block — most strikingly in [[chapter-16-on-the-partition-of-numbers|Chapter 16]], where the binary identity $\prod(1+x^{2^k}) = 1/(1-x)$ is the simplest non-trivial infinite product whose expansion is the geometric series.
 
-**Sources**: chapter4.pdf, chapter16.pdf
+**Sources**: chapter4, chapter16
 
 **Last updated**: 2026-05-11
 
@@ -14,7 +14,7 @@ For the rational function $y = \dfrac{a}{\alpha + \beta z}$, successive long div
 
 $$ \frac{a}{\alpha + \beta z} = \frac{a}{\alpha} - \frac{a \beta z}{\alpha^2} + \frac{a \beta^2 z^2}{\alpha^3} - \frac{a \beta^3 z^3}{\alpha^4} + \frac{a \beta^4 z^4}{\alpha^5} - \cdots $$
 
-The quotient of any two successive terms is $-\beta z / \alpha$, a constant in $z$ — this is what makes the series *geometric* (source: chapter4.pdf, §60). Equivalently, the coefficient of $z^n$ is
+The quotient of any two successive terms is $-\beta z / \alpha$, a constant in $z$ — this is what makes the series *geometric* (source: chapter4, §60). Equivalently, the coefficient of $z^n$ is
 
 $$ \frac{(-1)^n a \beta^n}{\alpha^{n+1}} \;=\; \frac{a}{\alpha}\left(- \frac{\beta}{\alpha}\right)^n. $$
 

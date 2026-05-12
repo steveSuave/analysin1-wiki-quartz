@@ -2,7 +2,7 @@
 
 **Summary**: When $y$ and $z$ are tied by an implicit polynomial equation in which all terms have restricted combinations of total degrees, the substitution $y = xz$ (or the more general $y = x^m z^n$) collapses the equation so that $z$ can be solved for in terms of the new variable $x$. This is Euler's §52–§58 technique.
 
-**Sources**: chapter3.pdf
+**Sources**: chapter3
 
 **Last updated**: 2026-04-23
 
@@ -28,7 +28,7 @@ Euler substitutes $y = x^m z^n$ to get
 
 $$a x^{\alpha m} z^{\alpha n} + b z^\beta + c x^{\gamma m} z^{\gamma n + \delta} = 0.$$
 
-He then chooses $n$ to make two of the three exponents of $z$ equal, so they can be collected and the common power of $z$ factored out. Three choices of $n$ are available (source: chapter3.pdf, §52):
+He then chooses $n$ to make two of the three exponents of $z$ equal, so they can be collected and the common power of $z$ factored out. Three choices of $n$ are available (source: chapter3, §52):
 
 - **I.** $\alpha n = \beta$, giving $n = \beta/\alpha$.
 - **II.** $\beta = \gamma n + \delta$, giving $n = (\beta - \delta)/\gamma$.
@@ -38,7 +38,7 @@ Each choice expresses $z$ and $y$ as rational powers of rational functions of $x
 
 ## §53 — A posteriori construction
 
-Given a rational parametrization $z = \left(\frac{ax^\alpha + bx^\beta + \cdots}{A + Bx^\mu + \cdots}\right)^{p/r}$ and $y = x z^{q/p}$, one can reverse-engineer the implicit relation $F(y, z) = 0$ it parametrizes. Euler uses $y^p = x^p z^q$, so $x = y z^{-q/p}$, and substitutes back (source: chapter3.pdf, §53). The construction is the inverse of §52.
+Given a rational parametrization $z = \left(\frac{ax^\alpha + bx^\beta + \cdots}{A + Bx^\mu + \cdots}\right)^{p/r}$ and $y = x z^{q/p}$, one can reverse-engineer the implicit relation $F(y, z) = 0$ it parametrizes. Euler uses $y^p = x^p z^q$, so $x = y z^{-q/p}$, and substitutes back (source: chapter3, §53). The construction is the inverse of §52.
 
 ## §54–§57 — Exactly two total degrees
 
@@ -54,14 +54,14 @@ So $z$ is an $(m-n)$-th root of a rational function of $x$.
 
 Explicit cases Euler works out:
 
-- **§54.** $a y^2 + b y z + c z^2 + d y + e z = 0$. Degrees $2$ and $1$. Gives $z = -\frac{dx + e}{ax^2 + bx + c}$ and $y = -\frac{(dx + e) x}{ax^2 + bx + c}$ — both rational in $x$ (source: chapter3.pdf, §54).
-- **§55.** $ay^3 + by^2 z + cyz^2 + dz^3 + ey^2 + fyz + gz^2 = 0$. Degrees $3$ and $2$. Gives $z = -\frac{ex^2 + fx + g}{ax^3 + bx^2 + cx + d}$, and $y = xz$ (source: chapter3.pdf, §55).
-- **§56.** $ay^2 + byz + cz^2 = d$. Degrees $2$ and $0$. Gives $z = \sqrt{d / (a x^2 + bx + c)}$, $y = x \sqrt{d / (ax^2 + bx + c)}$ (source: chapter3.pdf, §56).
-- **§57.** General case, degrees $m$ and $n$: $z = \left(\dfrac{\alpha x^n + \beta x^{n-1} + \cdots}{a x^m + b x^{m-1} + \cdots}\right)^{1/(m - n)}$ (source: chapter3.pdf, §57).
+- **§54.** $a y^2 + b y z + c z^2 + d y + e z = 0$. Degrees $2$ and $1$. Gives $z = -\frac{dx + e}{ax^2 + bx + c}$ and $y = -\frac{(dx + e) x}{ax^2 + bx + c}$ — both rational in $x$ (source: chapter3, §54).
+- **§55.** $ay^3 + by^2 z + cyz^2 + dz^3 + ey^2 + fyz + gz^2 = 0$. Degrees $3$ and $2$. Gives $z = -\frac{ex^2 + fx + g}{ax^3 + bx^2 + cx + d}$, and $y = xz$ (source: chapter3, §55).
+- **§56.** $ay^2 + byz + cz^2 = d$. Degrees $2$ and $0$. Gives $z = \sqrt{d / (a x^2 + bx + c)}$, $y = x \sqrt{d / (ax^2 + bx + c)}$ (source: chapter3, §56).
+- **§57.** General case, degrees $m$ and $n$: $z = \left(\dfrac{\alpha x^n + \beta x^{n-1} + \cdots}{a x^m + b x^{m-1} + \cdots}\right)^{1/(m - n)}$ (source: chapter3, §57).
 
 ## §58 — Three total degrees in arithmetic progression
 
-If the monomials of $F$ have exactly three total degrees $m_1 < m_2 < m_3$ with $m_3 - m_2 = m_2 - m_1$, let $y = xz$ and divide by $z^{m_1}$. The equation becomes a *quadratic* in $z^{m_2 - m_1}$, solvable by the quadratic formula (source: chapter3.pdf, §58).
+If the monomials of $F$ have exactly three total degrees $m_1 < m_2 < m_3$ with $m_3 - m_2 = m_2 - m_1$, let $y = xz$ and divide by $z^{m_1}$. The equation becomes a *quadratic* in $z^{m_2 - m_1}$, solvable by the quadratic formula (source: chapter3, §58).
 
 Example: $a y^3 + b y^2 z + c y z^2 + d z^3 = 2 e y^2 + 2 f y z + 2 g z^2 + h y + j z$ has total degrees $3, 2, 1$. After $y = xz$ and dividing by $z$,
 

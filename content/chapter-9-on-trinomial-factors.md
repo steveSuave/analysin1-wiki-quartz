@@ -2,7 +2,7 @@
 
 **Summary**: Euler develops a constructive method for finding the real quadratic ([[trinomial-factor|"trinomial"]]) factors of any polynomial, then extends the method from polynomials to power series. Applied to $e^z$, $\sin z$, $\cos z$, the technique yields the first infinite-product representations of analytic functions: the [[sine-infinite-product|sine product]], the [[cosine-infinite-product|cosine product]], and the [[exponential-infinite-product|exponential family]]. These products drive [[chapter-10-on-the-use-of-the-discovered-factors-to-sum-infinite-series|Chapter 10's]] [[basel-problem|Basel solution]] and the [[zeta-at-even-integers|family of even-zeta values]].
 
-**Sources**: chapter9.pdf
+**Sources**: chapter9
 
 **Last updated**: 2026-04-29
 
@@ -42,7 +42,7 @@ $$0 = \alpha + \beta r\cos\phi + \gamma r^2\cos 2\phi + \delta r^3\cos 3\phi + \
 
 $$0 = \beta r\sin\phi + \gamma r^2\sin 2\phi + \delta r^3\sin 3\phi + \cdots.$$
 
-(source: chapter9.pdf, §148). Two real equations, two unknowns. §149 gives a slick generalization: multiplying by $\cos m\phi$ and $\sin m\phi$ before adding produces the family
+(source: chapter9, §148). Two real equations, two unknowns. §149 gives a slick generalization: multiplying by $\cos m\phi$ and $\sin m\phi$ before adding produces the family
 
 $$0 = \alpha\cos m\phi + \beta r\cos(m \mp 1)\phi + \gamma r^2\cos(m \mp 2)\phi + \cdots,$$
 
@@ -116,7 +116,7 @@ Apply §152 to $(1 + x/j)^j - 2\cos g + (1 - x/j)^j$ with $2n = j$, after which 
 
 $$\frac{e^x - 2\cos g + e^{-x}}{2(1 - \cos g)} = \prod_{k=1}^{\infty}\left(1 + \frac{x^2}{(2k\pi - g)^2}\right)\left(1 + \frac{x^2}{(2k\pi + g)^2}\right)\cdot\left(1 + \frac{x^2}{g^2}\right).$$
 
-(source: chapter9.pdf, §159, with the convention that $k$ runs from $0$ for the trailing factor). Substituting $zi$ for $x$ converts this into
+(source: chapter9, §159, with the convention that $k$ runs from $0$ for the trailing factor). Substituting $zi$ for $x$ converts this into
 
 $$\frac{\cos z - \cos g}{1 - \cos g} = \left(1 - \frac{z}{g}\right)\left(1 + \frac{z}{g}\right)\left(1 - \frac{z}{2\pi - g}\right)\left(1 + \frac{z}{2\pi - g}\right)\cdots,$$
 
@@ -128,7 +128,7 @@ each as an explicit infinite product in $v$ (with $g$ a parameter). The systemat
 
 ### §164 — Reformulation using arcs
 
-The same expressions written in terms of $\cos z + \tan(g/2)\sin z$, $\cos(z) - \cot(g/2)\sin z$, etc. The point is that if $b$ and $c$ in the §161 formulas are interpreted as $b = 0$, $c = ig$, then $e^c \pm e^{-c} = 2\cos g$, $\pm 2i\sin g$ — and the abstract identities of §161 become circular-trigonometric statements (source: chapter9.pdf, §164). Euler closes: "The law of formation for these factors is sufficiently simple and uniform."
+The same expressions written in terms of $\cos z + \tan(g/2)\sin z$, $\cos(z) - \cot(g/2)\sin z$, etc. The point is that if $b$ and $c$ in the §161 formulas are interpreted as $b = 0$, $c = ig$, then $e^c \pm e^{-c} = 2\cos g$, $\pm 2i\sin g$ — and the abstract identities of §161 become circular-trigonometric statements (source: chapter9, §164). Euler closes: "The law of formation for these factors is sufficiently simple and uniform."
 
 ## Notable points
 

@@ -2,7 +2,7 @@
 
 **Summary**: Euler turns from $a^z$ and $\log y$ to the second great class of transcendentals — circular arcs, sines, and cosines on the unit circle. After fixing notation (radius $= 1$, [[pi|$\pi$]] = half the circumference, $\sin z$ and $\cos z$ as functions of arc length), he derives the algebraic apparatus of trigonometry: addition formulas, product-to-sum, half-angle, and a [[trigonometric-recurrent-progression|recurrent-series]] structure for arcs in arithmetic progression. The complex factorization $(\cos z + i\sin z)(\cos z - i\sin z) = 1$ leads to [[de-moivre-formula|De Moivre's formula]]. Reapplying the [[infinitesimal-and-infinite-numbers|$\omega$/$j$ device]] of Chapter 7 produces the [[sine-and-cosine-series|power series]] for $\sin v$ and $\cos v$, and combining it with $(1 + z/j)^j = e^z$ yields the most famous identity in mathematics, [[eulers-formula|$e^{iv} = \cos v + i\sin v$]]. Inverting, the arc-from-tangent series gives [[arctangent-series|$\arctan t = t - t^3/3 + t^5/5 - \cdots$]], and a small change of variable gives [[machin-like-formula|Machin-style]] fast series for $\pi$.
 
-**Sources**: chapter8.pdf
+**Sources**: chapter8
 
 **Last updated**: 2026-04-27
 
@@ -25,7 +25,7 @@ See also: [[pi]], [[sine-and-cosine]], [[trigonometric-addition-formulas]], [[tr
 
 ### §126 — Setup: the unit circle and the symbol $\pi$
 
-Radius (= "total sine") is 1. Half the circumference is irrational; Euler reports the value to 113 digits beginning $3.14159\,26535\,89793\,23846\ldots$ "For the sake of brevity we will use the symbol $\pi$ for this number" (source: chapter8.pdf, §126). This sentence is the moment $\pi$ enters mainstream notation. See [[pi]].
+Radius (= "total sine") is 1. Half the circumference is irrational; Euler reports the value to 113 digits beginning $3.14159\,26535\,89793\,23846\ldots$ "For the sake of brevity we will use the symbol $\pi$ for this number" (source: chapter8, §126). This sentence is the moment $\pi$ enters mainstream notation. See [[pi]].
 
 ### §127 — Notation: $\sin z$, $\cos z$, $\tan z$, $\cot z$
 
@@ -85,7 +85,7 @@ Multiplying two such factors:
 
 $$(\cos y + i\sin y)(\cos z + i\sin z) = \cos y\cos z - \sin y\sin z + i(\sin y\cos z + \cos y\sin z) = \cos(y+z) + i\sin(y+z).$$
 
-The conjugate factor multiplies to $\cos(y+z) - i\sin(y+z)$, and the three-factor case to $\cos(x+y+z) \pm i\sin(x+y+z)$ (source: chapter8.pdf, §132). Even though the factors are complex, "they are quite useful in combining and multiplying arcs." See [[de-moivre-formula]].
+The conjugate factor multiplies to $\cos(y+z) - i\sin(y+z)$, and the three-factor case to $\cos(x+y+z) \pm i\sin(x+y+z)$ (source: chapter8, §132). Even though the factors are complex, "they are quite useful in combining and multiplying arcs." See [[de-moivre-formula]].
 
 ### §133 — De Moivre's formula and the binomial expansions
 
@@ -103,7 +103,7 @@ $$\cos nz = (\cos z)^n - \tfrac{n(n-1)}{2!}(\cos z)^{n-2}(\sin z)^2 + \tfrac{n(n
 
 $$\sin nz = n(\cos z)^{n-1}\sin z - \tfrac{n(n-1)(n-2)}{3!}(\cos z)^{n-3}(\sin z)^3 + \cdots.$$
 
-(source: chapter8.pdf, §133). See [[de-moivre-formula]].
+(source: chapter8, §133). See [[de-moivre-formula]].
 
 ### §134 — The power series for $\sin v$ and $\cos v$
 
@@ -113,7 +113,7 @@ $$\cos v = 1 - \frac{v^2}{2!} + \frac{v^4}{4!} - \frac{v^6}{6!} + \cdots,$$
 
 $$\sin v = v - \frac{v^3}{3!} + \frac{v^5}{5!} - \frac{v^7}{7!} + \cdots.$$
 
-Euler immediately tabulates $\sin(m\pi/(2n))$ and $\cos(m\pi/(2n))$ as power series in $m/n$, with leading coefficients $\pi/2 = 1.5707963267948966\ldots$ and $\pi^3/3!\cdot 2^3$ (correctly $0.6459640975\ldots$) (source: chapter8.pdf, §134). The coefficients shrink fast enough that 28-digit accuracy is reached in a handful of terms when $m/n < 1/2$. See [[sine-and-cosine-series]].
+Euler immediately tabulates $\sin(m\pi/(2n))$ and $\cos(m\pi/(2n))$ as power series in $m/n$, with leading coefficients $\pi/2 = 1.5707963267948966\ldots$ and $\pi^3/3!\cdot 2^3$ (correctly $0.6459640975\ldots$) (source: chapter8, §134). The coefficients shrink fast enough that 28-digit accuracy is reached in a handful of terms when $m/n < 1/2$. See [[sine-and-cosine-series]].
 
 ### §135 — Tangent and cotangent series
 
@@ -141,7 +141,7 @@ Adding $i\sin v$ to $\cos v$ gives the most famous identity in analysis:
 
 $$e^{iv} = \cos v + i\sin v,\qquad e^{-iv} = \cos v - i\sin v.$$
 
-(source: chapter8.pdf, §138). "From these equations we understand how complex exponentials can be expressed by real sines and cosines." See [[eulers-formula]].
+(source: chapter8, §138). "From these equations we understand how complex exponentials can be expressed by real sines and cosines." See [[eulers-formula]].
 
 ### §139 — Logarithms of complex numbers and the arc
 
@@ -173,7 +173,7 @@ At $t = 1$: $z = \pi/4$ and Leibniz's formula
 
 $$\frac{\pi}{4} = 1 - \frac{1}{3} + \frac{1}{5} - \frac{1}{7} + \cdots.$$
 
-(source: chapter8.pdf, §140). See [[arctangent-series]].
+(source: chapter8, §140). See [[arctangent-series]].
 
 ### §141 — Faster convergence via $\arctan(1/\sqrt 3)$
 
@@ -193,7 +193,7 @@ $$\frac{\pi}{4} = \arctan\frac{1}{2} + \arctan\frac{1}{3},$$
 
 $$\pi = 4\left(\frac{1}{1\cdot 2} - \frac{1}{3\cdot 2^3} + \frac{1}{5\cdot 2^5} - \cdots\right) + 4\left(\frac{1}{1\cdot 3} - \frac{1}{3\cdot 3^3} + \frac{1}{5\cdot 3^5} - \cdots\right).$$
 
-Both series are rational and converge geometrically — "with much more ease than with the series mentioned before." (source: chapter8.pdf, §142). See [[machin-like-formula]].
+Both series are rational and converge geometrically — "with much more ease than with the series mentioned before." (source: chapter8, §142). See [[machin-like-formula]].
 
 ## Notable points
 

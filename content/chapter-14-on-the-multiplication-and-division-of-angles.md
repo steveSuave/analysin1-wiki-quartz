@@ -2,7 +2,7 @@
 
 **Summary**: §234–§263. Euler systematically derives polynomial and product expressions for $\sin nz$, $\cos nz$, $\tan nz$ in terms of trig functions of $z$, identifies the roots of the resulting polynomial equations as trig values at equally-spaced angles, and reads off partial-fraction, sum, and product relations for all six trig functions at multiple angles. He then sums sines and cosines of arithmetic progressions (both infinite and finite), and closes by inverting the multiple-angle polynomials to express any power $(\sin z)^n$, $(\cos z)^n$ as a binomial-weighted linear combination of sines or cosines of multiple angles.
 
-**Sources**: chapter14.pdf
+**Sources**: chapter14
 
 **Last updated**: 2026-05-11
 

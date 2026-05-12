@@ -2,7 +2,7 @@
 
 **Summary**: §185: $\dfrac{\pi}{2} = \dfrac{2\cdot 2\cdot 4\cdot 4\cdot 6\cdot 6\cdot 8\cdot 8}{1\cdot 3\cdot 3\cdot 5\cdot 5\cdot 7\cdot 7\cdot 9}\cdots$. Euler derives Wallis's 1656 product as the quotient of two [[linear-factors-of-sine-cosine|§184 product expressions]] for $\cos(m\pi/2n)$, embedding it in a parametric family that includes analogous products for $\sqrt 2$ and other algebraic numbers.
 
-**Sources**: chapter11.pdf
+**Sources**: chapter11
 
 **Last updated**: 2026-05-11
 
@@ -16,7 +16,7 @@ Equivalently, taking adjacent factors together:
 
 $$\frac{\pi}{2} = \frac{2\cdot 2\cdot 4\cdot 4\cdot 6\cdot 6\cdot 8\cdot 8\cdot 10\cdot 10\cdot 12\cdot 12}{1\cdot 3\cdot 3\cdot 5\cdot 5\cdot 7\cdot 7\cdot 9\cdot 9\cdot 11\cdot 11\cdot 13}\cdots$$
 
-(source: chapter11.pdf, §185). Euler attributes the formula directly: "this is the expression for $\pi$ which Wallis found in his *Arithmetic of the Infinite*" (Wallis, *Arithmetica Infinitorum*, 1656).
+(source: chapter11, §185). Euler attributes the formula directly: "this is the expression for $\pi$ which Wallis found in his *Arithmetic of the Infinite*" (Wallis, *Arithmetica Infinitorum*, 1656).
 
 ## Derivation as a quotient
 
@@ -30,11 +30,11 @@ Dividing the first by the second cancels every $(n - m), (n + m), (3n - m), \ldo
 
 $$1 = \frac{\pi}{2}\cdot\frac{1}{2}\cdot\frac{3}{2}\cdot\frac{3}{4}\cdot\frac{5}{4}\cdot\frac{5}{6}\cdot\frac{7}{6}\cdot\frac{7}{8}\cdot\frac{9}{8}\cdots$$
 
-(source: chapter11.pdf, §185), independent of $m$ and $n$. Solving for $\pi/2$ gives the Wallis product. The $m, n$ drop out: the identity is a structural fact about the §184 redundancy, not about any particular angle.
+(source: chapter11, §185), independent of $m$ and $n$. Solving for $\pi/2$ gives the Wallis product. The $m, n$ drop out: the identity is a structural fact about the §184 redundancy, not about any particular angle.
 
 ## Variants for other algebraic numbers
 
-The general form (source: chapter11.pdf, §185) is
+The general form (source: chapter11, §185) is
 
 $$\frac{\pi}{2} = \frac{n}{m}\sin\frac{m\pi}{2n}\cdot\frac{2n}{2n - m}\cdot\frac{2n}{2n + m}\cdot\frac{4n}{4n - m}\cdot\frac{4n}{4n + m}\cdot\frac{6n}{6n - m}\cdots$$
 
@@ -52,7 +52,7 @@ $$\frac{\pi}{2} = \frac{3}{2}\cdot\frac{6}{5}\cdot\frac{6}{7}\cdot\frac{12}{11}\
 
 $$\sqrt 2 = \frac{2\cdot 6\cdot 6\cdot 10\cdot 10\cdot 14\cdot 14\cdot 18\cdot 18}{1\cdot 3\cdot 5\cdot 7\cdot 9\cdot 11\cdot 13\cdot 15\cdot 17\cdot 19}\cdots$$
 
-(source: chapter11.pdf, §185). A "Wallis-style" product for $\sqrt 2$.
+(source: chapter11, §185). A "Wallis-style" product for $\sqrt 2$.
 
 ## Convergence is slow
 
@@ -65,7 +65,7 @@ The $k$-th Wallis factor is $1 + 1/(4k^2 - 1) = 1 + O(1/k^2)$, so the partial pr
 | 1000 | 1.56999 (4 correct digits) |
 | 10000 | 1.57072 (5 correct digits) |
 
-Euler is explicit: "too many terms are required to obtain an accurate value of $\pi$ even to only ten decimal places" (source: chapter11.pdf, §188). The Wallis product is structurally important but computationally inferior to [[machin-like-formula|Machin's formula]] (chapter 8) or the [[arctangent-series|$\arctan$ series]].
+Euler is explicit: "too many terms are required to obtain an accurate value of $\pi$ even to only ten decimal places" (source: chapter11, §188). The Wallis product is structurally important but computationally inferior to [[machin-like-formula|Machin's formula]] (chapter 8) or the [[arctangent-series|$\arctan$ series]].
 
 ## What it is good for
 

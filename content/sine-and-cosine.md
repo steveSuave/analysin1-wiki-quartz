@@ -2,7 +2,7 @@
 
 **Summary**: §127 of Chapter 8. With the unit-circle convention (radius $= 1$, [[pi|$\pi$]] = half the circumference), Euler names two functions of an arc $z$: $\sin z$ and $\cos z$. He fixes special values, the Pythagorean identity $(\sin z)^2 + (\cos z)^2 = 1$, the co-function relation $\cos z = \sin(\pi/2 - z)$, and the derived ratios $\tan z = \sin z/\cos z$ and $\cot z = \cos z/\sin z$. Sine and cosine are introduced as functions of arc length, not as ratios in a triangle.
 
-**Sources**: chapter8.pdf (§127)
+**Sources**: chapter8 (§127)
 
 **Last updated**: 2026-04-27
 
@@ -10,7 +10,7 @@
 
 ## Definition by arc
 
-The radius of the circle is 1; let $z$ be an arc of this circle. Euler writes $\sin z$ for *the sine of the arc $z$* and $\cos z$ for *the cosine of the arc $z$* (source: chapter8.pdf, §127). On the unit circle these are exactly the perpendicular and parallel components of the radius drawn to the endpoint of the arc — the same quantities classical geometry called the half-chord and the apothem-like projection — and they coincide with the angle measure in radians, since arc length = angle on the unit circle.
+The radius of the circle is 1; let $z$ be an arc of this circle. Euler writes $\sin z$ for *the sine of the arc $z$* and $\cos z$ for *the cosine of the arc $z$* (source: chapter8, §127). On the unit circle these are exactly the perpendicular and parallel components of the radius drawn to the endpoint of the arc — the same quantities classical geometry called the half-chord and the apothem-like projection — and they coincide with the angle measure in radians, since arc length = angle on the unit circle.
 
 This is a notational shift relative to pre-Eulerian trigonometry. Pre-Euler tables tabulated *sin* and *cos* of an angle measured in degrees, on a circle of radius typically $10^7$ for precision. Euler measures the input as an *arc* and uses radius 1, so $\sin z$ and $\cos z$ are pure dimensionless real numbers in $[-1, 1]$ — exactly the modern conventions.
 
@@ -32,7 +32,7 @@ All six values follow from the geometric interpretation on the unit circle. Peri
 
 $$(\sin z)^2 + (\cos z)^2 = 1.$$
 
-Euler states this as *the* fundamental algebraic relation between $\sin z$ and $\cos z$ (source: chapter8.pdf, §127). It encodes the geometry: $\sin z$ and $\cos z$ are the legs of a right triangle whose hypotenuse is the radius. In Chapter 8 the identity will be repeatedly factored as
+Euler states this as *the* fundamental algebraic relation between $\sin z$ and $\cos z$ (source: chapter8, §127). It encodes the geometry: $\sin z$ and $\cos z$ are the legs of a right triangle whose hypotenuse is the radius. In Chapter 8 the identity will be repeatedly factored as
 
 $$1 = (\cos z + i\sin z)(\cos z - i\sin z),$$
 

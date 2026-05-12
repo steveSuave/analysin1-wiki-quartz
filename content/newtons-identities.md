@@ -2,7 +2,7 @@
 
 **Summary**: §165–§166: the recurrence that converts the elementary symmetric coefficients of a polynomial (or a "polynomial of infinite degree", i.e. a power series) into the power sums of its reciprocal roots. The pivotal computational engine of [[chapter-10-on-the-use-of-the-discovered-factors-to-sum-infinite-series|Chapter 10]].
 
-**Sources**: chapter10.pdf
+**Sources**: chapter10
 
 **Last updated**: 2026-04-30
 
@@ -24,7 +24,7 @@ $$C = \alpha\beta\gamma + \alpha\beta\delta + \alpha\gamma\delta + \beta\gamma\d
 
 $$D = \alpha\beta\gamma\delta + \cdots,\quad \text{etc.}$$
 
-(source: chapter10.pdf, §165). Euler describes these as "products taken one at a time, two at a time, three at a time, ..."
+(source: chapter10, §165). Euler describes these as "products taken one at a time, two at a time, three at a time, ..."
 
 ## Power sums
 
@@ -40,13 +40,13 @@ These are the **power sums** of the roots $\alpha, \beta, \gamma, \ldots$ (which
 
 $$\boxed{\;\begin{aligned} P &= A,\\ Q &= AP - 2B,\\ R &= AQ - BP + 3C,\\ S &= AR - BQ + CP - 4D,\\ T &= AS - BR + CQ - DP + 5E,\\ V &= AT - BS + CR - DQ + EP - 6F,\\ &\vdots\end{aligned}\;}$$
 
-(source: chapter10.pdf, §166). Each line uses all previously-known $A, B, C, \ldots$ and $P, Q, R, \ldots$, so the sequence $P, Q, R, S, \ldots$ can be computed mechanically once the elementary symmetrics $A, B, C, \ldots$ are known.
+(source: chapter10, §166). Each line uses all previously-known $A, B, C, \ldots$ and $P, Q, R, \ldots$, so the sequence $P, Q, R, S, \ldots$ can be computed mechanically once the elementary symmetrics $A, B, C, \ldots$ are known.
 
 The general pattern: the $n$-th line is
 
 $$P_n = AP_{n-1} - BP_{n-2} + CP_{n-3} - DP_{n-4} + \cdots + (-1)^{n+1}\,n\,(\text{coefficient of }z^n).$$
 
-Euler comments: "The truth of these formulas is intuitively clear, but a rigorous proof will be given in the differential calculus" (source: chapter10.pdf, §166).
+Euler comments: "The truth of these formulas is intuitively clear, but a rigorous proof will be given in the differential calculus" (source: chapter10, §166).
 
 ## Why it works
 

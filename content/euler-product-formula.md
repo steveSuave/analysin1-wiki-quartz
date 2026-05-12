@@ -2,7 +2,7 @@
 
 **Summary**: §270–§277, §283–§284. The identity $\sum_{k=1}^\infty 1/k^n = \prod_p (1-1/p^n)^{-1}$ — a sum over the integers equals a product over the primes. Euler gives two independent derivations: a direct expansion of the reciprocal product using the geometric series and unique factorisation (Movement 2 of [[chapter-15-on-series-which-arise-from-products|Chapter 15]]), and an Eratosthenes-style sieve of the series itself (§283).
 
-**Sources**: chapter15.pdf
+**Sources**: chapter15
 
 **Last updated**: 2026-05-11
 
@@ -18,7 +18,7 @@ In Euler's notation (§274), with $P$ for the product and the series fully writt
 
 $$P = \frac{1}{\bigl(1-\tfrac{1}{2^n}\bigr)\bigl(1-\tfrac{1}{3^n}\bigr)\bigl(1-\tfrac{1}{5^n}\bigr)\bigl(1-\tfrac{1}{7^n}\bigr)\cdots} = 1 + \frac{1}{2^n} + \frac{1}{3^n} + \frac{1}{4^n} + \frac{1}{5^n} + \cdots.$$
 
-Euler notes that "all natural numbers occur with no exception" in the denominators (source: chapter15.pdf, §274) — the formula is essentially a restatement of unique factorisation.
+Euler notes that "all natural numbers occur with no exception" in the denominators (source: chapter15, §274) — the formula is essentially a restatement of unique factorisation.
 
 ## Derivation I — Expansion of the reciprocal product (§270–§274)
 
@@ -26,7 +26,7 @@ Given any factors $\alpha, \beta, \gamma, \delta, \ldots$, the geometric-series 
 
 $$\frac{1}{(1-\alpha z)(1-\beta z)(1-\gamma z)\cdots} = 1 + Az + Bz^2 + Cz^3 + \cdots,$$
 
-where $A$ is the sum of the $\alpha_i$, $B$ the sum of products taken two at a time **with repetition allowed**, $C$ three at a time with repetition, etc. (source: chapter15.pdf, §270; contrast with §264, where the linear factors $1+\alpha z$ produce only distinct products).
+where $A$ is the sum of the $\alpha_i$, $B$ the sum of products taken two at a time **with repetition allowed**, $C$ three at a time with repetition, etc. (source: chapter15, §270; contrast with §264, where the linear factors $1+\alpha z$ produce only distinct products).
 
 Setting $z = 1$ and $\alpha_i = 1/p_i^n$ over the primes (§274), each entry in the expanded series is
 

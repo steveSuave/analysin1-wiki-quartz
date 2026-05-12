@@ -2,7 +2,7 @@
 
 **Summary**: §155–§157: applying the [[factorization-of-an-plus-minus-zn|§151 cyclotomic formula]] to $(1 + z/j)^j = e^z$ with $j$ infinite gives infinite-product expansions for $e^x - 1$, $(e^x - e^{-x})/2$, and $(e^x + e^{-x})/2$.
 
-**Sources**: chapter9.pdf
+**Sources**: chapter9
 
 **Last updated**: 2026-04-29
 
@@ -28,7 +28,7 @@ Discarding the multiplicative constants (they get absorbed into the leading fact
 
 $$e^x - 1 = x\left(1 + \frac{x}{1\cdot 2} + \frac{x^2}{1\cdot 2\cdot 3} + \cdots\right) = x\left(1 + \frac{x}{j} + \frac{x^2}{4\pi^2}\right)\left(1 + \frac{x}{j} + \frac{x^2}{16\pi^2}\right)\left(1 + \frac{x}{j} + \frac{x^2}{36\pi^2}\right)\cdots$$
 
-(source: chapter9.pdf, §155). The infinitesimal $x/j$ in each factor is necessary: there are $\tfrac12 j$ factors and discarding it would lose a finite total $x/2$. Euler will eliminate this nuisance by combining $e^x - 1$ with $1 - e^{-x}$.
+(source: chapter9, §155). The infinitesimal $x/j$ in each factor is necessary: there are $\tfrac12 j$ factors and discarding it would lose a finite total $x/2$. Euler will eliminate this nuisance by combining $e^x - 1$ with $1 - e^{-x}$.
 
 ## $(e^x - e^{-x})/2$ — the sine–hyperbolic product (§156)
 
@@ -40,7 +40,7 @@ Drop the term with $j^4$ in the denominator; the resulting factor is proportiona
 
 $$\boxed{\;\frac{e^x - e^{-x}}{2} = x\prod_{k=1}^{\infty}\left(1 + \frac{x^2}{k^2\pi^2}\right) = x\left(1 + \frac{x^2}{\pi^2}\right)\left(1 + \frac{x^2}{4\pi^2}\right)\left(1 + \frac{x^2}{9\pi^2}\right)\cdots\;}$$
 
-(source: chapter9.pdf, §156). The series side is $x + x^3/3! + x^5/5! + \cdots$, that is $\sinh x$.
+(source: chapter9, §156). The series side is $x + x^3/3! + x^5/5! + \cdots$, that is $\sinh x$.
 
 ## $(e^x + e^{-x})/2$ — the cosine–hyperbolic product (§157)
 
@@ -52,7 +52,7 @@ Cleaning up gives factor $1 + 4x^2/((2k+1)^2\pi^2)$. There is no exceptional $k 
 
 $$\boxed{\;\frac{e^x + e^{-x}}{2} = \prod_{k=0}^{\infty}\left(1 + \frac{4x^2}{(2k+1)^2\pi^2}\right) = \left(1 + \frac{4x^2}{\pi^2}\right)\left(1 + \frac{4x^2}{9\pi^2}\right)\left(1 + \frac{4x^2}{25\pi^2}\right)\cdots\;}$$
 
-(source: chapter9.pdf, §157). The series side is $1 + x^2/2! + x^4/4! + \cdots = \cosh x$.
+(source: chapter9, §157). The series side is $1 + x^2/2! + x^4/4! + \cdots = \cosh x$.
 
 ## What §158 does next
 

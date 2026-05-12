@@ -2,7 +2,7 @@
 
 **Summary**: Euler's working device throughout Chapter 7 (and most of Book I from this point on): introduce an *infinitely small* positive number $\omega$ and an *infinitely large* number $j$, linked by $j\omega = z$ for some finite $z$. Coefficients of the form $(j - m)/(nj)$ with $m, n$ finite are then treated as the algebraic identity $1/n$, since $j - m = j$ when $j$ is infinite. This collapses binomial expansions of $(1 + k\omega)^j = (1 + kz/j)^j$ into power series for $a^z$ and $\log(1+x)$.
 
-**Sources**: chapter7.pdf (§114–§125)
+**Sources**: chapter7 (§114–§125)
 
 **Last updated**: 2026-04-26
 
@@ -76,7 +76,7 @@ The same machinery represents the exponential as a "power":
 
 $$e^z = \left(1 + \frac{z}{j}\right)^j, \qquad a^y = \left(1 + \frac{y \log a}{j}\right)^j$$
 
-with $j$ infinitely large (source: chapter7.pdf, §125). In modern notation this is the limit definition $e^z = \lim_{n \to \infty}(1 + z/n)^n$, but for Euler it is an equality between an infinite-$j$ power and the corresponding series.
+with $j$ infinitely large (source: chapter7, §125). In modern notation this is the limit definition $e^z = \lim_{n \to \infty}(1 + z/n)^n$, but for Euler it is an equality between an infinite-$j$ power and the corresponding series.
 
 ## Where else this appears
 

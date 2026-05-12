@@ -6,7 +6,7 @@ $$\arctan t = \frac{t}{1} - \frac{t^3}{3} + \frac{t^5}{5} - \frac{t^7}{7} + \cdo
 
 At $t = 1$ this is Leibniz's $\pi/4 = 1 - 1/3 + 1/5 - \cdots$. At $t = 1/\sqrt 3$ it becomes $\pi/6 = (1/\sqrt 3)(1 - 1/(3\cdot 3) + 1/(5\cdot 9) - \cdots)$, converging at geometric rate.
 
-**Sources**: chapter8.pdf (§139, §140, §141)
+**Sources**: chapter8 (§139, §140, §141)
 
 **Last updated**: 2026-05-11
 
@@ -18,7 +18,7 @@ Take [[eulers-formula|§138]]: $\cos z + i\sin z = e^{iz}$ and $\cos z - i\sin z
 
 $$\log\frac{\cos z + i\sin z}{\cos z - i\sin z} = 2iz,\qquad z = \frac{1}{2i}\log\frac{\cos z + i\sin z}{\cos z - i\sin z}.$$
 
-Euler arrives at this formula not via §138 (which he derives independently a few sections earlier) but via a parallel infinitesimal/infinite calculation: with $n = 1/j$ infinitely small, $\cos(z/j) = 1$ and $\sin(z/j) = z/j$, then using $\log(1+x) = j((1+x)^{1/j} - 1)$ from [[logarithmic-series|§125]] with $1 + x = \cos z + i\sin z$ and $\cos z - i\sin z$ in turn (source: chapter8.pdf, §139). The cosine equation collapses to a tautology; the sine equation yields the boxed formula above.
+Euler arrives at this formula not via §138 (which he derives independently a few sections earlier) but via a parallel infinitesimal/infinite calculation: with $n = 1/j$ infinitely small, $\cos(z/j) = 1$ and $\sin(z/j) = z/j$, then using $\log(1+x) = j((1+x)^{1/j} - 1)$ from [[logarithmic-series|§125]] with $1 + x = \cos z + i\sin z$ and $\cos z - i\sin z$ in turn (source: chapter8, §139). The cosine equation collapses to a tautology; the sine equation yields the boxed formula above.
 
 The interpretation: every arc $z$ is the imaginary part (up to the $1/2i$ prefactor) of a complex logarithm. This anticipates the full theory of complex logarithms — the multivaluedness, the branch cuts — but Euler stays within a real-valued reading here.
 
@@ -48,7 +48,7 @@ Dividing by $2i$:
 
 $$z = \tan z - \frac{(\tan z)^3}{3} + \frac{(\tan z)^5}{5} - \frac{(\tan z)^7}{7} + \cdots.$$
 
-(source: chapter8.pdf, §140). Setting $t = \tan z$, so $z = \arctan t$:
+(source: chapter8, §140). Setting $t = \tan z$, so $z = \arctan t$:
 
 $$\boxed{\;\arctan t = \frac{t}{1} - \frac{t^3}{3} + \frac{t^5}{5} - \frac{t^7}{7} + \frac{t^9}{9} - \cdots\;}$$
 
@@ -60,7 +60,7 @@ At $t = 1$, the arc whose tangent is 1 is $\pi/4$, so
 
 $$\frac{\pi}{4} = 1 - \frac{1}{3} + \frac{1}{5} - \frac{1}{7} + \frac{1}{9} - \cdots.$$
 
-(source: chapter8.pdf, §140). Euler attributes this discovery to Leibniz. This series gives $\pi$ in closed form as an alternating sum of reciprocal odd integers — beautiful, but practically useless for computation: each correct decimal digit costs about ten new terms.
+(source: chapter8, §140). Euler attributes this discovery to Leibniz. This series gives $\pi$ in closed form as an alternating sum of reciprocal odd integers — beautiful, but practically useless for computation: each correct decimal digit costs about ten new terms.
 
 [[chapter-10-on-the-use-of-the-discovered-factors-to-sum-infinite-series|Chapter 10]] re-derives Leibniz's formula as a special case of a vast family of [[circular-arc-series|character-style series]] obtained by applying [[newtons-identities|Newton's identities]] to the [[chapter-9-on-trinomial-factors|§164 arc-form products]]. [[chapter-15-on-series-which-arise-from-products|Chapter 15]] then sieves Leibniz's series by primes to obtain the [[euler-product-formula|Euler-product form]] $\pi/4 = \prod_p p/(p\mp 1)$ — a Dirichlet $L$-function in disguise (see [[prime-sign-series-for-pi]]). [[chapter-18-on-continued-fractions|Chapter 18]] converts Leibniz's series to [[brouncker-formula|Brouncker's continued fraction]] $4/\pi = 1 + 1^2/(2 + 3^2/(2 + 5^2/(2 + \cdots)))$ via the §369 reciprocal-series template.
 
@@ -74,7 +74,7 @@ i.e.
 
 $$\pi = \frac{2\sqrt 3}{1} - \frac{2\sqrt 3}{3\cdot 3} + \frac{2\sqrt 3}{5\cdot 3^2} - \frac{2\sqrt 3}{7\cdot 3^3} + \cdots.$$
 
-(source: chapter8.pdf, §141). Each term is about a third of the previous, so a dozen terms give roughly six correct digits. Euler comments: "By means of this series the value of $\pi$ itself, which was previously exhibited, was determined with incredible labor" — the prior 113-digit decimal of [[pi|§126]] was computed exactly this way.
+(source: chapter8, §141). Each term is about a third of the previous, so a dozen terms give roughly six correct digits. Euler comments: "By means of this series the value of $\pi$ itself, which was previously exhibited, was determined with incredible labor" — the prior 113-digit decimal of [[pi|§126]] was computed exactly this way.
 
 §141 first considers $t = 1/10$, which converges spectacularly fast but does not correspond to any "nice" fraction of the circumference, so $\pi$ cannot be extracted from $\arctan(1/10)$ alone. The §141 lesson: for a useful arctangent identity, $t$ must be both small (for convergence) and a *known* fraction of $\pi$.
 

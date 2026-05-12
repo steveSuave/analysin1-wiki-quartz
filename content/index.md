@@ -180,7 +180,3 @@ Table of contents for the *Introductio in analysin infinitorum* wiki.
 - [[periodic-continued-fractions]] — §376–§379: periodic simple CFs satisfy quadratic equations, so represent quadratic irrationals; single-letter periods give $\sqrt{a^2 + 4}$; two-letter periods extend the method to all square roots; $\sqrt 7 \approx 2024/765$ with error $< 3/10^7$.
 - [[euclidean-algorithm-continued-fraction]] — §381: rational $A/B$'s CF expansion = Euclidean-algorithm quotients of $A$ and $B$; applied to decimals it produces the CF of an irrational; recovers the $\sqrt 2$ pattern of §376 and discovers the AP pattern for $e$.
 - [[best-rational-approximations]] — §382: Wallis's principle that the convergents are the best rational approximations with bounded denominator; $\pi \to 22/7, 333/106, 355/113$ (the famous *Metian* ratio); the solar-year computation yielding the Julian $1/4$ and Gregorian $97/400$ leap-day rules.
-
-## Meta
-
-- [[log]] — chronological record of wiki operations.

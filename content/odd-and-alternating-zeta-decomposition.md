@@ -2,7 +2,7 @@
 
 **Summary**: §170: from the full sum $M = 1 + 1/2^n + 1/3^n + \cdots$, the four basic variants — even-only, odd-only, alternating — fall out by elementary algebra. The mechanism that converts any closed form for $\zeta(n)$ into closed forms for $\sum 1/(2k)^n$, $\sum 1/(2k+1)^n$, and $\sum (-1)^{k+1}/k^n$.
 
-**Sources**: chapter10.pdf
+**Sources**: chapter10
 
 **Last updated**: 2026-04-30
 
@@ -26,7 +26,7 @@ Subtracting twice over:
 
 $$M - \frac{2M}{2^n} = \frac{2^{n-1} - 1}{2^{n-1}}\,M = 1 - \frac{1}{2^n} + \frac{1}{3^n} - \frac{1}{4^n} + \frac{1}{5^n} - \cdots\quad\text{(alternating)}.$$
 
-(source: chapter10.pdf, §170). Euler's comment: "If $n$ is an even number and the sum is $A\pi^n$, then $A$ will be a rational number" — i.e. the rationality result of [[zeta-at-even-integers]] propagates through all four variants.
+(source: chapter10, §170). Euler's comment: "If $n$ is an even number and the sum is $A\pi^n$, then $A$ will be a rational number" — i.e. the rationality result of [[zeta-at-even-integers]] propagates through all four variants.
 
 ## Worked tabulation
 

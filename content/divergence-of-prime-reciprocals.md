@@ -2,7 +2,7 @@
 
 **Summary**: §278–§280. Euler's proof that $\sum_p 1/p = \infty$ — the sum of reciprocals of the primes diverges. Taking the natural logarithm of the [[euler-product-formula|Euler product]] at $n = 1$ and expanding by the [[logarithmic-series|§118 series]] gives a double sum in which all but the first inner series are finite, forcing the prime-reciprocal series itself to be infinite. This is the first quantitative refinement of Euclid's theorem.
 
-**Sources**: chapter15.pdf
+**Sources**: chapter15
 
 **Last updated**: 2026-05-11
 
@@ -40,7 +40,7 @@ The left side is $\log\log\infty - \frac{1}{2}\log(\pi^2/6)$, which is $\log\log
 
 $$\boxed{S(1) = \frac{1}{2} + \frac{1}{3} + \frac{1}{5} + \frac{1}{7} + \frac{1}{11} + \frac{1}{13} + \cdots = \infty.}$$
 
-Euler's exact phrasing (source: chapter15.pdf, §279):
+Euler's exact phrasing (source: chapter15, §279):
 
 > "But these series, except for the first ones, not only have finite sums, but the sum of all of them taken together is still finite, and reasonably small. It follows that the first series $\tfrac12 + \tfrac13 + \tfrac15 + \tfrac17 + \cdots$ has an infinite sum."
 

@@ -2,7 +2,7 @@
 
 **Summary**: Every [[continued-fraction|continued fraction]] equals an alternating series whose terms are the differences of consecutive convergents, with denominators that are products of consecutive convergent denominators. Conversely, every alternating series can be written as a continued fraction — but only after a free choice of partial denominators, which Euler exploits with several elegant templates. The conversion specialises to Brouncker's $4/\pi$, the continued fraction for $\log 2$, the continued fractions for $1/(e-1)$ and $\cos 1$, and several parametric families.
 
-**Sources**: `raw/chapter18.pdf` (§363–§373).
+**Sources**: `chapter18` (§363–§373).
 
 **Last updated**: 2026-05-11
 

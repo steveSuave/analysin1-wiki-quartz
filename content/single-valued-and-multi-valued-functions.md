@@ -2,7 +2,7 @@
 
 **Summary**: A function is single-valued if each input determines one output, and $n$-valued if it determines $n$ outputs. Euler introduces multi-valued functions as those defined by degree-$n$ polynomial equations with single-valued coefficients, and states Vieta's relations for them.
 
-**Sources**: chapter1.pdf
+**Sources**: chapter1
 
 **Last updated**: 2026-04-23
 
@@ -10,15 +10,15 @@
 
 ## Definitions
 
-> A single-valued function is one for which, no matter what value is assigned to the variable $z$, a single value of the function is determined. ... A multiple-valued function is one such that, for some value substituted for the variable $z$, the function determines several values. (source: chapter1.pdf, §10)
+> A single-valued function is one for which, no matter what value is assigned to the variable $z$, a single value of the function is determined. ... A multiple-valued function is one such that, for some value substituted for the variable $z$, the function determines several values. (source: chapter1, §10)
 
 Euler uses capital letters $P, Q, R, S, T$ for generic single-valued functions of $z$ throughout what follows.
 
 ## What is single- vs. multi-valued
 
-- All non-irrational functions (polynomial, rational) are single-valued (source: chapter1.pdf, §10).
+- All non-irrational functions (polynomial, rational) are single-valued (source: chapter1, §10).
 - All irrational functions are multi-valued, because radicals are ambiguous ($\sqrt{\dots}$ carries a $\pm$ sign).
-- Transcendental functions can be single-valued, multi-valued, or even infinite-valued. Euler's example of an infinite-valued function is the arcsine, since "there are infinitely many circular arcs with the same sine" (source: chapter1.pdf, §10).
+- Transcendental functions can be single-valued, multi-valued, or even infinite-valued. Euler's example of an infinite-valued function is the arcsine, since "there are infinitely many circular arcs with the same sine" (source: chapter1, §10).
 
 ## n-valued functions by polynomial equations
 
@@ -42,9 +42,9 @@ These are [[vietas-formulas|Vieta's formulas]] stated for coefficients that are 
 
 ## Rules for reducing to rationality and counting values
 
-To determine how many values $Z$ has as a function of $z$, the defining equation must first be "reduced to rationality"; then the largest power of $Z$ is the count (source: chapter1.pdf, §14). If any of $P, Q, R, S, \dots$ is itself multi-valued, the total number of values of $Z$ is larger than the apparent degree.
+To determine how many values $Z$ has as a function of $z$, the defining equation must first be "reduced to rationality"; then the largest power of $Z$ is the count (source: chapter1, §14). If any of $P, Q, R, S, \dots$ is itself multi-valued, the total number of values of $Z$ is larger than the apparent degree.
 
-Parity of complex roots: complex roots come in conjugate pairs. Consequences (source: chapter1.pdf, §14):
+Parity of complex roots: complex roots come in conjugate pairs. Consequences (source: chapter1, §14):
 
 - If $n$ is odd, at least one value of $Z$ is real.
 - If $n$ is even, it is possible that no value of $Z$ is real.
@@ -58,7 +58,7 @@ If a multi-valued function always has exactly one real value among its $n$ value
 
 ## Reciprocity and valuedness
 
-If $y$ is a function of $z$, then $z$ is a function of $y$, but the two counts of values may differ (source: chapter1.pdf, §16). Example: $y^3 = ayz - bz^2$ makes $y$ three-valued in $z$ and $z$ two-valued in $y$.
+If $y$ is a function of $z$, then $z$ is a function of $y$, but the two counts of values may differ (source: chapter1, §16). Example: $y^3 = ayz - bz^2$ makes $y$ three-valued in $z$ and $z$ two-valued in $y$.
 
 ## Related pages
 

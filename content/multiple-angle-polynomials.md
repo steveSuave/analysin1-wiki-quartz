@@ -2,7 +2,7 @@
 
 **Summary**: §234–§238, §243. Euler derives explicit polynomial formulas expressing $\sin nz$ and $\cos nz$ as polynomials in $\sin z$ and $\cos z$, using the recurrence $\sin((k+1)z) = 2\cos z\cdot\sin(kz) - \sin((k-1)z)$ (scale of relation $2y, -1$). For odd $n$, $\sin nz$ reduces to a pure polynomial in $x = \sin z$; for even $n$, there is a residual factor $\sqrt{1-x^2}$.
 
-**Sources**: chapter14.pdf (§234–§238, §243)
+**Sources**: chapter14 (§234–§238, §243)
 
 **Last updated**: 2026-05-10
 
@@ -26,7 +26,7 @@ Let $z$ be any arc on the unit circle. Write $x = \sin z$, $y = \cos z$, $t = \t
 | 7 | $64xy^6 - 80xy^4 + 24xy^2 - x$ |
 | 8 | $128xy^7 - 192xy^5 + 80xy^3 - 8xy$ |
 
-The general formula (source: chapter14.pdf, §234):
+The general formula (source: chapter14, §234):
 
 $$\sin nz = x\left[2^{n-1}y^{n-1} - \frac{(n-2)}{1}2^{n-3}y^{n-3} + \frac{(n-3)(n-4)}{1\cdot 2}2^{n-5}y^{n-5} - \cdots\right]$$
 
@@ -38,7 +38,7 @@ For odd $n$, substituting $y = \sqrt{1 - x^2}$ eliminates $y$ entirely, because 
 
 $$\sin nz = nx - \frac{n(n^2-1)}{1\cdot 2\cdot 3}\,x^3 + \frac{n(n^2-1)(n^2-9)}{1\cdot 2\cdot 3\cdot 4\cdot 5}\,x^5 - \frac{n(n^2-1)(n^2-9)(n^2-25)}{1\cdot 2\cdot 3\cdot 4\cdot 5\cdot 6\cdot 7}\,x^7 + \cdots$$
 
-(source: chapter14.pdf, §236). The numerator factors in the general term are $n^2 - (2k-1)^2$ for $k = 1, 2, 3, \ldots$. Sample cases:
+(source: chapter14, §236). The numerator factors in the general term are $n^2 - (2k-1)^2$ for $k = 1, 2, 3, \ldots$. Sample cases:
 
 - $n = 3$: $\sin 3z = 3x - 4x^3$
 - $n = 5$: $\sin 5z = 5x - 20x^3 + 16x^5$
@@ -52,11 +52,11 @@ For even $n$, each term in the sine table has a factor $y$, so
 
 $$\sin nz = \left[nx - \frac{n(n^2-4)}{1\cdot 2\cdot 3}\,x^3 + \frac{n(n^2-4)(n^2-16)}{1\cdot 2\cdot 3\cdot 4\cdot 5}\,x^5 - \cdots\right]\sqrt{1-x^2}$$
 
-(source: chapter14.pdf, §238). To obtain a pure polynomial equation, Euler squares both sides and rearranges:
+(source: chapter14, §238). To obtain a pure polynomial equation, Euler squares both sides and rearranges:
 
 $$\frac{(\sin nz)^2}{1-x^2} = n^2x^2 - \cdots$$
 
-giving a degree-$2n$ polynomial equation in $x$ whose $2n$ roots are both positive and negative (source: chapter14.pdf, §239).
+giving a degree-$2n$ polynomial equation in $x$ whose $2n$ roots are both positive and negative (source: chapter14, §239).
 
 Sample cases:
 - $n = 2$: $\sin 2z = 2x\sqrt{1-x^2}$
@@ -78,7 +78,7 @@ Using $\cos z = y$ as the base variable:
 | 6 | $32y^6-48y^4+18y^2-1$ |
 | 7 | $64y^7-112y^5+56y^3-7y$ |
 
-The general formula (source: chapter14.pdf, §243):
+The general formula (source: chapter14, §243):
 
 $$\cos nz = 2^{n-1}y^n - \frac{n}{1}2^{n-3}y^{n-2} + \frac{n(n-3)}{1\cdot 2}2^{n-5}y^{n-4} - \frac{n(n-4)(n-5)}{1\cdot 2\cdot 3}2^{n-7}y^{n-6} - \cdots$$
 

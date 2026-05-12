@@ -2,7 +2,7 @@
 
 **Summary**: Applying the §369 reciprocal-series template to the alternating harmonic series $\log 2 = 1 - 1/2 + 1/3 - 1/4 + \cdots$ produces a continued fraction whose partial numerators are the squares $1, 1, 4, 9, 16, 25, \ldots$ and whose partial denominators are all $1$ — a structurally simple companion to [[brouncker-formula|Brouncker's continued fraction for $4/\pi$]].
 
-**Sources**: `raw/chapter18.pdf` (§369 Example I).
+**Sources**: `chapter18` (§369 Example I).
 
 **Last updated**: 2026-05-11
 

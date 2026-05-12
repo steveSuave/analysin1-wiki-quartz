@@ -2,7 +2,7 @@
 
 **Summary**: §144–§146: a real quadratic of the form $p^2 - 2pqz\cos\phi + q^2z^2$ obtained as the product of a complex linear factor $qz - p(\cos\phi + i\sin\phi)$ and its conjugate. Every irreducible real quadratic factor of a polynomial can be written this way.
 
-**Sources**: chapter9.pdf, chapter17.pdf
+**Sources**: chapter9, chapter17
 
 **Last updated**: 2026-05-11
 
@@ -20,7 +20,7 @@ Since this dimensionless quantity lies in $(-1, 1)$, Euler sets
 
 $$\frac{q}{2\sqrt{pr}} = \cos\phi,\qquad q = 2\sqrt{pr}\cos\phi$$
 
-(source: chapter9.pdf, §145). To avoid the awkward $\sqrt{pr}$, he absorbs it: rename $p \to p^2$ and $r \to q^2$. The trinomial factor takes the canonical form
+(source: chapter9, §145). To avoid the awkward $\sqrt{pr}$, he absorbs it: rename $p \to p^2$ and $r \to q^2$. The trinomial factor takes the canonical form
 
 $$\boxed{\;p^2 - 2pqz\cos\phi + q^2 z^2\;}$$
 
@@ -28,7 +28,7 @@ and its two (complex) linear factors are
 
 $$qz - p(\cos\phi + i\sin\phi),\qquad qz - p(\cos\phi - i\sin\phi).$$
 
-When $\cos\phi = \pm 1$, $\sin\phi = 0$ and both linear factors coincide and are real (source: chapter9.pdf, §145).
+When $\cos\phi = \pm 1$, $\sin\phi = 0$ and both linear factors coincide and are real (source: chapter9, §145).
 
 ## How to find $p$, $q$, $\phi$ (§146–§149)
 
@@ -42,7 +42,7 @@ $$0 = \alpha + \beta r\cos\phi + \gamma r^2\cos 2\phi + \delta r^3\cos 3\phi + \
 
 $$0 = \beta r\sin\phi + \gamma r^2\sin 2\phi + \delta r^3\sin 3\phi + \cdots.$$
 
-(source: chapter9.pdf, §148). Two equations in two unknowns $r, \phi$. Each solution gives one trinomial factor; multiple solutions give multiple trinomial factors, and Euler claims they exhaust all of them (source: chapter9.pdf, §149).
+(source: chapter9, §148). Two equations in two unknowns $r, \phi$. Each solution gives one trinomial factor; multiple solutions give multiple trinomial factors, and Euler claims they exhaust all of them (source: chapter9, §149).
 
 The rule for any term: $z^n$ contributes $r^n\cos n\phi$ to the first equation and $r^n\sin n\phi$ to the second. Recall $\sin 0 = 0$, $\cos 0 = 1$, so a constant term $\alpha = \alpha z^0$ contributes $\alpha$ to the first equation and $0$ to the second.
 

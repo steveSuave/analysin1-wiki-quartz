@@ -2,7 +2,7 @@
 
 **Summary**: §128, §130, §131 of Chapter 8. Starting from the four sum/difference identities $\sin(y \pm z) = \sin y\cos z \pm \cos y\sin z$ and $\cos(y \pm z) = \cos y\cos z \mp \sin y\sin z$ — taken as known — Euler generates the entire algebraic apparatus of trigonometry: the periodicity catalog for $\sin$ and $\cos$ of $(4n+k)\pi/2 \pm z$, the product-to-sum and sum-to-product theorems, the half-angle formulas, and a family of derived ratios.
 
-**Sources**: chapter8.pdf (§128, §130, §131)
+**Sources**: chapter8 (§128, §130, §131)
 
 **Last updated**: 2026-04-27
 
@@ -42,7 +42,7 @@ Euler then states the general law: for any integer $n$ (positive or negative), t
 
 $$\sin\bigl(\tfrac{4n+k}{2}\pi \pm z\bigr),\qquad \cos\bigl(\tfrac{4n+k}{2}\pi \pm z\bigr),\qquad k = 1, 2, 3, 4$$
 
-reduce to $\pm \sin z$ or $\pm \cos z$ according to a $k$-mod-4 cycle (source: chapter8.pdf, §128). This is the periodicity-with-period-$2\pi$ statement, plus the half-period symmetries.
+reduce to $\pm \sin z$ or $\pm \cos z$ according to a $k$-mod-4 cycle (source: chapter8, §128). This is the periodicity-with-period-$2\pi$ statement, plus the half-period symmetries.
 
 ## §130 — Product-to-sum
 
@@ -68,7 +68,7 @@ hence
 
 $$\cos\frac{v}{2} = \sqrt{\frac{1 + \cos v}{2}},\qquad \sin\frac{v}{2} = \sqrt{\frac{1 - \cos v}{2}}.$$
 
-(source: chapter8.pdf, §130). Reading the formula in reverse: knowing $\cos v$ determines $\sin(v/2)$ and $\cos(v/2)$. Iteration of this halving is the core of the §136 table-construction strategy and is the trigonometric analogue of the [[geometric-mean-method-for-logarithms|geometric-mean method]] for logarithms.
+(source: chapter8, §130). Reading the formula in reverse: knowing $\cos v$ determines $\sin(v/2)$ and $\cos(v/2)$. Iteration of this halving is the core of the §136 table-construction strategy and is the trigonometric analogue of the [[geometric-mean-method-for-logarithms|geometric-mean method]] for logarithms.
 
 ## §131 — Sum-to-product
 
@@ -82,7 +82,7 @@ $$\cos a + \cos b = 2\cos\tfrac{a+b}{2}\cos\tfrac{a-b}{2},$$
 
 $$\cos a - \cos b = -2\sin\tfrac{a+b}{2}\sin\tfrac{a-b}{2}.$$
 
-(source: chapter8.pdf, §131). These convert sums of sines/cosines into products — useful when factoring trigonometric polynomials and when reading off ratios.
+(source: chapter8, §131). These convert sums of sines/cosines into products — useful when factoring trigonometric polynomials and when reading off ratios.
 
 ## §131 — Derived ratios
 

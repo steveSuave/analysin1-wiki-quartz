@@ -6,7 +6,7 @@ $$a^z = 1 + \frac{kz}{1} + \frac{k^2 z^2}{1\cdot 2} + \frac{k^3 z^3}{1\cdot 2 \c
 
 where the constant $k$ depends on the base $a$ via $a^\omega = 1 + k\omega$ for infinitely small $\omega$. Setting $z = 1$ gives the relation $a = \sum k^n/n!$ between $a$ and $k$. Choosing the base so $k = 1$ produces $e^z = \sum z^n/n!$ — see [[eulers-number]]. The general $b^z$ follows by substituting $b = a^{\log b}$ and reads $b^z = \sum (kz \log b)^n/n!$ (§117).
 
-**Sources**: chapter7.pdf (§115–§117)
+**Sources**: chapter7 (§115–§117)
 
 **Last updated**: 2026-04-26
 
@@ -14,7 +14,7 @@ where the constant $k$ depends on the base $a$ via $a^\omega = 1 + k\omega$ for 
 
 ## Setup: $a^\omega = 1 + k\omega$
 
-Fix a base $a > 1$. For an infinitely small positive $\omega$, the value $a^\omega$ exceeds 1 by an infinitely small amount, written $a^\omega = 1 + k\omega$ with $k$ a finite, base-dependent constant (source: chapter7.pdf, §114). For $a = 10$ Euler computes $k \approx 2.30258$; in modern notation $k = \log_e a$ — see [[natural-logarithm]]. See [[infinitesimal-and-infinite-numbers]] for the status of $\omega$ and the next section's $j$.
+Fix a base $a > 1$. For an infinitely small positive $\omega$, the value $a^\omega$ exceeds 1 by an infinitely small amount, written $a^\omega = 1 + k\omega$ with $k$ a finite, base-dependent constant (source: chapter7, §114). For $a = 10$ Euler computes $k \approx 2.30258$; in modern notation $k = \log_e a$ — see [[natural-logarithm]]. See [[infinitesimal-and-infinite-numbers]] for the status of $\omega$ and the next section's $j$.
 
 ## Derivation (§115–§116)
 
@@ -34,7 +34,7 @@ Since $j$ is infinitely large, $(j - m)/(nj) = 1/n$ for every finite $m, n$ — 
 
 $$\boxed{\;a^z = 1 + \frac{kz}{1} + \frac{k^2 z^2}{1 \cdot 2} + \frac{k^3 z^3}{1\cdot 2\cdot 3} + \frac{k^4 z^4}{1\cdot 2\cdot 3\cdot 4} + \cdots\;}$$
 
-This is the *exponential series* (source: chapter7.pdf, §116).
+This is the *exponential series* (source: chapter7, §116).
 
 ## The defining relation between $a$ and $k$
 
@@ -42,7 +42,7 @@ Setting $z = 1$ in the boxed series:
 
 $$a = 1 + \frac{k}{1} + \frac{k^2}{1\cdot 2} + \frac{k^3}{1\cdot 2\cdot 3} + \frac{k^4}{1\cdot 2\cdot 3\cdot 4} + \cdots$$
 
-This is the implicit equation that links $a$ and $k$. For $a = 10$, the series in $k$ must equal 10, recovering $k \approx 2.30258$ from §114 (source: chapter7.pdf, §116). For $k = 1$, the sum is $1 + 1 + 1/2 + 1/6 + 1/24 + \cdots = 2.71828\ldots = e$ — see [[eulers-number]].
+This is the implicit equation that links $a$ and $k$. For $a = 10$, the series in $k$ must equal 10, recovering $k \approx 2.30258$ from §114 (source: chapter7, §116). For $k = 1$, the sum is $1 + 1 + 1/2 + 1/6 + 1/24 + \cdots = 2.71828\ldots = e$ — see [[eulers-number]].
 
 ## The general exponential $b^z$ (§117)
 
@@ -54,7 +54,7 @@ Now $n = \log b$ (in base $a$), giving Euler's general form:
 
 $$b^z = 1 + \frac{kz \log b}{1} + \frac{k^2 z^2 (\log b)^2}{1\cdot 2} + \frac{k^3 z^3 (\log b)^3}{1\cdot 2 \cdot 3} + \cdots$$
 
-(source: chapter7.pdf, §117). One $k$ — the constant of the chosen base $a$ — and one $\log b$ (in that base) suffice to compute $b^z$ for *every* $b$.
+(source: chapter7, §117). One $k$ — the constant of the chosen base $a$ — and one $\log b$ (in that base) suffice to compute $b^z$ for *every* $b$.
 
 When the chosen base is $e$ (so $k = 1$), $\log = \log_e$ and the formula reduces to $b^z = \sum (z \log b)^n / n!$, which is just $e^{z \log b}$. This is the modern $b^z = e^{z \ln b}$.
 

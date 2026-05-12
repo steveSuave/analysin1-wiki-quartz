@@ -2,7 +2,7 @@
 
 **Summary**: §181–§183: combining the [[circular-arc-series|§172/§174 series]] in pairs and substituting $a = m^2/n^2$ yields the partial-fraction expansions $\sum 1/(k^2 - a)$ and $\sum (-1)^{k+1}/(k^2 - a)$ in closed form via $\pi\cot(\pi\sqrt a)$ and $\pi/\sin(\pi\sqrt a)$. The hyperbolic version (§183) treats negative $a$ via $a = -b$ with [[eulers-formula|$e^{\pm\pi\sqrt b}$]].
 
-**Sources**: chapter10.pdf
+**Sources**: chapter10
 
 **Last updated**: 2026-04-30
 
@@ -22,11 +22,11 @@ The two series sums combine to
 
 $$\frac{\pi}{n\sin(m\pi/n)} = \frac{1}{m} + \frac{1}{n - m} - \frac{1}{n + m} - \frac{1}{2n - m} + \frac{1}{2n + m} + \frac{1}{3n - m} - \cdots$$
 
-(source: chapter10.pdf, §178). Difference gives
+(source: chapter10, §178). Difference gives
 
 $$\frac{\pi\cos(m\pi/n)}{n\sin(m\pi/n)} = \frac{1}{m} - \frac{1}{n-m} + \frac{1}{n+m} - \frac{1}{2n-m} + \frac{1}{2n+m} - \cdots$$
 
-which Euler describes as "more easily derived through differentiation, which we will do later" (source: chapter10.pdf, §178).
+which Euler describes as "more easily derived through differentiation, which we will do later" (source: chapter10, §178).
 
 ## Combining "two by two" — §181
 
@@ -38,7 +38,7 @@ so
 
 $$\frac{1}{n^2 - m^2} - \frac{1}{4n^2 - m^2} + \frac{1}{9n^2 - m^2} - \cdots = \frac{\pi}{2mn\sin(m\pi/n)} - \frac{1}{2m^2}$$
 
-(source: chapter10.pdf, §181). The companion series (cot variant):
+(source: chapter10, §181). The companion series (cot variant):
 
 $$\frac{1}{n^2 - m^2} + \frac{1}{4n^2 - m^2} + \frac{1}{9n^2 - m^2} + \cdots = \frac{1}{2m^2} - \frac{\pi}{2mn\tan(m\pi/n)}.$$
 
@@ -50,7 +50,7 @@ $$\boxed{\;\sum_{k=1}^{\infty}\frac{1}{k^2 - a} = \frac{1}{2a} - \frac{\pi}{2\sq
 
 $$\boxed{\;\sum_{k=1}^{\infty}\frac{(-1)^{k+1}}{k^2 - a} = \frac{\pi}{2\sqrt a\,\sin(\pi\sqrt a)} - \frac{1}{2a}\;}$$
 
-(source: chapter10.pdf, §182). "Provided $a$ is not negative nor the square of an integer, then the sum of these series can be represented in terms of the circle" — the reservation being that integer-square values of $a$ create a singularity (the term $1/(k^2 - a)$ with $k = \sqrt a$ blows up).
+(source: chapter10, §182). "Provided $a$ is not negative nor the square of an integer, then the sum of these series can be represented in terms of the circle" — the reservation being that integer-square values of $a$ create a singularity (the term $1/(k^2 - a)$ with $k = \sqrt a$ blows up).
 
 ## Recovery of cot and csc
 
@@ -88,7 +88,7 @@ $$\sum_{k=1}^{\infty}\frac{1}{k^2 + b} = \frac{(e^{\pi\sqrt b} + e^{-\pi\sqrt b}
 
 $$\sum_{k=1}^{\infty}\frac{(-1)^{k+1}}{k^2 + b} = \frac{1}{2b} - \frac{\pi\sqrt b}{(e^{\pi\sqrt b} - e^{-\pi\sqrt b})\,b}$$
 
-(source: chapter10.pdf, §183). In modern hyperbolic notation:
+(source: chapter10, §183). In modern hyperbolic notation:
 
 $$\boxed{\;\sum_{k=1}^{\infty}\frac{1}{k^2 + b} = \frac{\pi\sqrt b\,\coth(\pi\sqrt b)}{2b} - \frac{1}{2b}\;}$$
 
@@ -96,7 +96,7 @@ $$\boxed{\;\sum_{k=1}^{\infty}\frac{(-1)^{k+1}}{k^2 + b} = \frac{1}{2b} - \frac{
 
 This is the partial-fraction expansion of $\coth$ and $\text{csch}$, dual to the trigonometric versions above.
 
-Euler comments: "These same series can be derived from section 162, using the same method which was used in this chapter. However, I have preferred to treat it in this way, since it is a nice illustration of the reduction of sines and cosines of complex arcs to real exponentials" (source: chapter10.pdf, §183) — i.e. he is showcasing the unifying power of [[eulers-formula]].
+Euler comments: "These same series can be derived from section 162, using the same method which was used in this chapter. However, I have preferred to treat it in this way, since it is a nice illustration of the reduction of sines and cosines of complex arcs to real exponentials" (source: chapter10, §183) — i.e. he is showcasing the unifying power of [[eulers-formula]].
 
 ## A worked example
 

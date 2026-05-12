@@ -6,7 +6,7 @@ $$\cos v = \frac{e^{iv} + e^{-iv}}{2},\qquad \sin v = \frac{e^{iv} - e^{-iv}}{2i
 
 Sines and cosines are real linear combinations of complex exponentials, and the complex exponential is determined by its real and imaginary parts — sine and cosine. The promised connection of §126 between trigonometric and exponential transcendentals is realized.
 
-**Sources**: chapter8.pdf (§138)
+**Sources**: chapter8 (§138)
 
 **Last updated**: 2026-04-27
 
@@ -38,7 +38,7 @@ Therefore
 
 $$\cos v = \frac{e^{iv} + e^{-iv}}{2},\qquad \sin v = \frac{e^{iv} - e^{-iv}}{2i}.$$
 
-(source: chapter8.pdf, §138).
+(source: chapter8, §138).
 
 ## Solving for the exponential
 
@@ -50,7 +50,7 @@ Likewise $\cos v - i\sin v = e^{-iv}$. So Euler's formula:
 
 $$\boxed{\,e^{iv} = \cos v + i\sin v,\qquad e^{-iv} = \cos v - i\sin v.\,}$$
 
-(source: chapter8.pdf, §138). Euler comments: "From these equations we understand how complex exponentials can be expressed by real sines and cosines."
+(source: chapter8, §138). Euler comments: "From these equations we understand how complex exponentials can be expressed by real sines and cosines."
 
 ## Why the formula is *forced*
 

@@ -2,7 +2,7 @@
 
 **Summary**: Euler's theorem (§330–§331): every integer — positive, negative, or zero — has a unique representation as $\sum_k c_k\,3^k$ with digits $c_k \in \{-1, 0, +1\}$. The proof mirrors the binary case: the formal Laurent product $\prod_{k\geq 0}(x^{-3^k} + 1 + x^{3^k})$ has every coefficient equal to $1$ at every power of $x$, positive or negative. Application: weighing on a two-pan balance with weights $1, 3, 9, 27, 81, \ldots$ pounds.
 
-**Sources**: chapter16.pdf
+**Sources**: chapter16
 
 **Last updated**: 2026-05-11
 
@@ -16,7 +16,7 @@ Equivalently, every integer $n \in \mathbb Z$ has a unique representation
 
 $$n = \sum_{k\geq 0} c_k\,3^k,\qquad c_k \in \{-1, 0, +1\}.$$
 
-(Source: chapter16.pdf, §331.)
+(Source: chapter16, §331.)
 
 ## Euler's proof (§331)
 

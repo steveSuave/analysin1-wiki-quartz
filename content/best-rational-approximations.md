@@ -2,7 +2,7 @@
 
 **Summary**: Euler's closing principle of the *Introductio* (§382, attributed to Wallis): the convergents of a continued fraction are the *best* rational approximations to its value — no fraction with smaller denominator gives a closer approximation. He applies this to two famous problems: the rational approximation of $\pi$ (giving the Archimedean $22/7$, the Metian $355/113$, and the cosmically accurate $103993/33102$), and the leap-year calculation for the solar year (giving $1/4$ as the Julian rule and $97/400$ as the Gregorian compromise).
 
-**Sources**: `raw/chapter18.pdf` (§382).
+**Sources**: `chapter18` (§382).
 
 **Last updated**: 2026-05-11
 

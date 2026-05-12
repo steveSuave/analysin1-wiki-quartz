@@ -6,7 +6,7 @@ $$\cos v = 1 - \frac{v^2}{2!} + \frac{v^4}{4!} - \frac{v^6}{6!} + \cdots,\qquad 
 
 Euler immediately tabulates $\sin(m\pi/(2n))$ and $\cos(m\pi/(2n))$ as series in $m/n$ with stunning 28-digit numerical coefficients.
 
-**Sources**: chapter8.pdf (§134)
+**Sources**: chapter8 (§134)
 
 **Last updated**: 2026-04-27
 
@@ -40,7 +40,7 @@ Substituting into §133's $\cos nz$ expansion:
 
 $$\cos v = 1 - \frac{v^2}{2!} + \frac{v^4}{4!} - \frac{v^6}{6!} + \frac{v^8}{8!} - \cdots.$$
 
-(source: chapter8.pdf, §134). The series is alternating because the §133 expansion alternates in sign on $\binom{n}{2k}(\sin z)^{2k}$.
+(source: chapter8, §134). The series is alternating because the §133 expansion alternates in sign on $\binom{n}{2k}(\sin z)^{2k}$.
 
 ## The sine series
 
@@ -48,17 +48,17 @@ Substituting into §133's $\sin nz$ expansion:
 
 $$\sin v = v - \frac{v^3}{3!} + \frac{v^5}{5!} - \frac{v^7}{7!} + \frac{v^9}{9!} - \cdots.$$
 
-(source: chapter8.pdf, §134). Both series have the form $\sum_{k=0}^\infty (-1)^k v^{2k}/(2k)!$ and $\sum_{k=0}^\infty (-1)^k v^{2k+1}/(2k+1)!$. They converge for all real $v$ — and in fact for all complex $v$, though Euler does not press this point.
+(source: chapter8, §134). Both series have the form $\sum_{k=0}^\infty (-1)^k v^{2k}/(2k)!$ and $\sum_{k=0}^\infty (-1)^k v^{2k+1}/(2k+1)!$. They converge for all real $v$ — and in fact for all complex $v$, though Euler does not press this point.
 
 ## Sample numerics: $\sin(m\pi/(2n))$ and $\cos(m\pi/(2n))$
 
-Setting $v = (m/n)(\pi/2)$ — that is, taking $v$ to be the same fraction $m/n$ of the quarter-arc — Euler substitutes $\pi/2 = 1.5707963267948966\ldots$ and writes the resulting numerical series in powers of $m/n$. The first few coefficients (source: chapter8.pdf, §134):
+Setting $v = (m/n)(\pi/2)$ — that is, taking $v$ to be the same fraction $m/n$ of the quarter-arc — Euler substitutes $\pi/2 = 1.5707963267948966\ldots$ and writes the resulting numerical series in powers of $m/n$. The first few coefficients (source: chapter8, §134):
 
 $$\sin\frac{m\pi}{2n} = \frac{m}{n}\cdot 1.5707963267948966192313216916 \;-\; \frac{m^3}{n^3}\cdot 0.6459640975062462536557565838 \;+\; \frac{m^5}{n^5}\cdot 0.0796926262461670451205055488 \;-\; \cdots,$$
 
 $$\cos\frac{m\pi}{2n} = 1 \;-\; \frac{m^2}{n^2}\cdot 1.2337005501361698273543113745 \;+\; \frac{m^4}{n^4}\cdot 0.2536695079010480136385833859 \;-\; \cdots.$$
 
-The leading coefficient of $\sin(m\pi/(2n))$ is $\pi/2$ to 28 digits; the second is $(\pi/2)^3/3! = 0.6459640975\ldots$; etc. Euler tabulates 30 coefficients in each series. Since the formulas suffice for all sines and cosines once $m/n < 1/2$ (i.e., arcs up to $\pi/4$ = 45°, the rest reachable by §128 reflections), and since powers of a fraction $< 1/2$ shrink fast, "a few terms should be sufficient, especially if the number of decimal places is not so large" (source: chapter8.pdf, §134).
+The leading coefficient of $\sin(m\pi/(2n))$ is $\pi/2$ to 28 digits; the second is $(\pi/2)^3/3! = 0.6459640975\ldots$; etc. Euler tabulates 30 coefficients in each series. Since the formulas suffice for all sines and cosines once $m/n < 1/2$ (i.e., arcs up to $\pi/4$ = 45°, the rest reachable by §128 reflections), and since powers of a fraction $< 1/2$ shrink fast, "a few terms should be sufficient, especially if the number of decimal places is not so large" (source: chapter8, §134).
 
 ## Tangent and cotangent
 

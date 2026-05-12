@@ -2,7 +2,7 @@
 
 **Summary**: Euler's account of resolving a polynomial function into linear and (real) quadratic factors, via its roots.
 
-**Sources**: chapter2.pdf
+**Sources**: chapter2
 
 **Last updated**: 2026-04-23
 
@@ -10,11 +10,11 @@
 
 ## Why factor?
 
-"When a polynomial function is factored in this way, its nature is more easily seen; it is immediately clear for what values of $z$ the function is equal to zero" (source: chapter2.pdf, §28). For example, $6 - 7z + z^3 = (1 - z)(2 - z)(3 + z)$ lays bare that the function vanishes exactly at $z = 1, 2, -3$.
+"When a polynomial function is factored in this way, its nature is more easily seen; it is immediately clear for what values of $z$ the function is equal to zero" (source: chapter2, §28). For example, $6 - 7z + z^3 = (1 - z)(2 - z)(3 + z)$ lays bare that the function vanishes exactly at $z = 1, 2, -3$.
 
 ## Linear, quadratic, cubic factors
 
-A polynomial has three basic kinds of factors (source: chapter2.pdf, §28):
+A polynomial has three basic kinds of factors (source: chapter2, §28):
 
 - *Linear factor*: $f + g z$.
 - *Quadratic factor*: $f + g z + h z^2$.
@@ -36,7 +36,7 @@ The leading-coefficient factor $A$ must not be dropped.
 
 ## Real vs. complex factors (§30)
 
-Linear factors are either real or complex, and **the number of complex linear factors is always even** (source: chapter2.pdf, §30). If $P$ is the product of the real factors of $Z$, then $Z/P$ must be real, which forces the complex factors to multiply in pairs to give real quadratic factors.
+Linear factors are either real or complex, and **the number of complex linear factors is always even** (source: chapter2, §30). If $P$ is the product of the real factors of $Z$, then $Z/P$ must be real, which forces the complex factors to multiply in pairs to give real quadratic factors.
 
 See [[complex-conjugate-factors]] for Euler's explicit pairing argument.
 
@@ -46,7 +46,7 @@ Euler's main claim:
 
 > Every polynomial function of $z$ can be expressed as the product of real factors, either linear or quadratic.
 
-He admits the claim "has not been proved with complete rigor" and points forward to later chapters for corroboration (source: chapter2.pdf, §32). This is essentially the [[fundamental-theorem-of-algebra]] stated over $\mathbb{R}$.
+He admits the claim "has not been proved with complete rigor" and points forward to later chapters for corroboration (source: chapter2, §32). This is essentially the [[fundamental-theorem-of-algebra]] stated over $\mathbb{R}$.
 
 ## Related pages
 

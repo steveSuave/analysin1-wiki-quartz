@@ -2,7 +2,7 @@
 
 **Summary**: Euler's §106 algorithm for computing a [[logarithm]] to arbitrary precision using only square roots and bisection. Bracket the target between two numbers whose logs are known, replace one bound by the geometric mean (whose log is the arithmetic mean of the two known logs), and iterate. This is how Briggs and Vlacq computed the historical tables of common logarithms.
 
-**Sources**: chapter6.pdf (§106)
+**Sources**: chapter6 (§106)
 
 **Last updated**: 2026-04-26
 
@@ -14,7 +14,7 @@ If $\log y = z$ and $\log v = x$, then
 
 $$\log \sqrt{vy} = \frac{x + z}{2}.$$
 
-That is, *the logarithm of the geometric mean is the arithmetic mean of the logarithms* (source: chapter6.pdf, §106). Combined with bracketing, this gives a binary-search-like algorithm: each square root halves the bracket containing the target.
+That is, *the logarithm of the geometric mean is the arithmetic mean of the logarithms* (source: chapter6, §106). Combined with bracketing, this gives a binary-search-like algorithm: each square root halves the bracket containing the target.
 
 ## The algorithm
 
@@ -29,7 +29,7 @@ Each iteration costs one square root and one comparison.
 
 ## Worked example: $\log_{10} 5$
 
-Take base $a = 10$. Bracket: $1 < 5 < 10$, so $A = 1$, $\log A = 0$ and $B = 10$, $\log B = 1$ (source: chapter6.pdf, §106 example).
+Take base $a = 10$. Bracket: $1 < 5 < 10$, so $A = 1$, $\log A = 0$ and $B = 10$, $\log B = 1$ (source: chapter6, §106 example).
 
 | Step | New value | Definition | Log |
 |:--|:--|:--|:--|
@@ -59,7 +59,7 @@ The four log-rules of §104 say $\log(\text{geometric mean}) = $ arithmetic mean
 
 ## Historical role
 
-Euler notes this is the method by which **Briggs** and **Vlacq** computed the original tables of common logarithms in the seventeenth century (source: chapter6.pdf, §106). Their tables of $\log p$ for prime $p$ then generated, via §109, the logarithms of all integers — and ultimately of every rational, by addition and subtraction.
+Euler notes this is the method by which **Briggs** and **Vlacq** computed the original tables of common logarithms in the seventeenth century (source: chapter6, §106). Their tables of $\log p$ for prime $p$ then generated, via §109, the logarithms of all integers — and ultimately of every rational, by addition and subtraction.
 
 Faster series-based methods were available by Euler's time and are introduced in subsequent chapters; the geometric-mean method survives as the conceptually simplest derivation.
 

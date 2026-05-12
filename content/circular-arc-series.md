@@ -2,7 +2,7 @@
 
 **Summary**: §171–§180: applying [[newtons-identities|Newton's identities]] to the [[chapter-9-on-trinomial-factors|§164]] arc-form products $\cos(v/2) + \tan(g/2)\sin(v/2)$ and $\cos(v/2) + \cot(g/2)\sin(v/2)$ produces a vast family of closed-form series in which the denominators run over arithmetic progressions modulo $n$, with sign patterns coming from the elementary-symmetric structure. Special cases recover Leibniz's $\pi/4$ series and many of its $\sqrt 2$, $\sqrt 3$ analogues.
 
-**Sources**: chapter10.pdf
+**Sources**: chapter10
 
 **Last updated**: 2026-05-11
 
@@ -14,7 +14,7 @@ From [[chapter-9-on-trinomial-factors|§164]],
 
 $$\cos\frac{v}{2} + \tan\frac{g}{2}\sin\frac{v}{2} = \left(1 + \frac{v}{\pi - g}\right)\left(1 - \frac{v}{\pi + g}\right)\left(1 + \frac{v}{3\pi - g}\right)\left(1 - \frac{v}{3\pi + g}\right)\left(1 + \frac{v}{5\pi - g}\right)\cdots$$
 
-(source: chapter10.pdf, §171). Substituting $v = \pi x/n$, $g = m\pi/n$:
+(source: chapter10, §171). Substituting $v = \pi x/n$, $g = m\pi/n$:
 
 $$\left(1 + \frac{x}{n - m}\right)\left(1 - \frac{x}{n + m}\right)\left(1 + \frac{x}{3n - m}\right)\left(1 - \frac{x}{3n + m}\right)\cdots = \cos\frac{\pi x}{2n} + \tan\frac{m\pi}{2n}\sin\frac{\pi x}{2n}.$$
 
@@ -26,11 +26,11 @@ so the [[newtons-identities|elementary symmetric coefficients]] of the product a
 
 $$A = \frac{\pi}{2n}\tan\frac{m\pi}{2n},\quad B = \frac{-\pi^2}{2\cdot 4\,n^2},\quad C = \frac{-\pi^3}{2\cdot 4\cdot 6\,n^3}\tan\frac{m\pi}{2n},\quad D = \frac{\pi^4}{2\cdot 4\cdot 6\cdot 8\,n^4},\ \ldots$$
 
-(source: chapter10.pdf, §171). The roots — read off the linear factors — are
+(source: chapter10, §171). The roots — read off the linear factors — are
 
 $$\alpha = \frac{1}{n-m},\ \beta = -\frac{1}{n+m},\ \gamma = \frac{1}{3n-m},\ \delta = -\frac{1}{3n+m},\ \epsilon = \frac{1}{5n-m},\ \ldots$$
 
-(source: chapter10.pdf, §171), with the alternating sign pattern.
+(source: chapter10, §171), with the alternating sign pattern.
 
 ## The power sums
 
@@ -44,7 +44,7 @@ $$R = \frac{1}{(n-m)^3} - \frac{1}{(n+m)^3} + \frac{1}{(3n-m)^3} - \cdots = \fra
 
 $$S = \frac{(3k^4 + 4k^2 + 1)\pi^4}{48n^4},\quad T = \frac{(3k^5 + 5k^3 + 2k)\pi^5}{96n^5}$$
 
-(source: chapter10.pdf, §172). The pattern: even-power sums are positive (each term squared); odd-power sums are alternating, with the alternation matching the sign-pattern of the roots.
+(source: chapter10, §172). The pattern: even-power sums are positive (each term squared); odd-power sums are alternating, with the alternation matching the sign-pattern of the roots.
 
 ## The cot-variant
 
@@ -60,7 +60,7 @@ and
 
 $$P = \frac{1}{m} - \frac{1}{2n-m} + \frac{1}{2n+m} - \frac{1}{4n-m} + \cdots = \frac{\pi}{2nk}$$
 
-(source: chapter10.pdf, §173–§174), and so on for $Q, R, S, T, V$.
+(source: chapter10, §173–§174), and so on for $Q, R, S, T, V$.
 
 ## Special values
 
@@ -76,7 +76,7 @@ $$\frac{\pi^3}{32} = 1 - \frac{1}{3^3} + \frac{1}{5^3} - \frac{1}{7^3} + \cdots,
 
 $$\frac{\pi^4}{96} = 1 + \frac{1}{3^4} + \frac{1}{5^4} + \frac{1}{7^4} + \cdots,\quad\frac{\pi^6}{960} = 1 + \frac{1}{3^6} + \frac{1}{5^6} + \cdots$$
 
-(source: chapter10.pdf, §175). Euler observes: even-exponent series were already obtained in §169 ([[zeta-at-even-integers|cosh product]]); the odd-exponent alternating series
+(source: chapter10, §175). Euler observes: even-exponent series were already obtained in §169 ([[zeta-at-even-integers|cosh product]]); the odd-exponent alternating series
 
 $$1 - \frac{1}{3^{2n+1}} + \frac{1}{5^{2n+1}} - \frac{1}{7^{2n+1}} + \cdots$$
 
@@ -92,7 +92,7 @@ $$\frac{\pi^2}{27} = \frac{1}{2^2} + \frac{1}{4^2} + \frac{1}{8^2} + \frac{1}{10
 
 $$\frac{\pi}{3\sqrt 3} = 1 - \frac{1}{2} + \frac{1}{4} - \frac{1}{5} + \frac{1}{7} - \frac{1}{8} + \cdots$$
 
-(source: chapter10.pdf, §176). The pattern of denominators: integers not divisible by 3, with alternating sign.
+(source: chapter10, §176). The pattern of denominators: integers not divisible by 3, with alternating sign.
 
 ### $m = 1$, $n = 4$ and $n = 8$ (§179)
 
@@ -102,7 +102,7 @@ $$\frac{\pi}{2\sqrt 2} = 1 + \frac{1}{3} - \frac{1}{5} - \frac{1}{7} + \frac{1}{
 
 $$\frac{\pi}{4\,(2 - \sqrt 2)^{1/2}} = 1 + \frac{1}{7} - \frac{1}{9} - \frac{1}{15} + \frac{1}{17} + \cdots\quad(n = 8).$$
 
-(source: chapter10.pdf, §179). §180 extracts further combinations; the sign patterns become genuinely intricate. Euler comments that one "could let $n = 16$ and $m = 1, 3, 5,$ or $7$ which would show the sums of series in which the terms are $1, 1/3, 1/5, 1/7, \ldots$ and in which the various changes of positive and negative signs are different from those already seen" (source: chapter10.pdf, §180) — i.e. the technique generates an unlimited supply of "character sums" in modern terminology.
+(source: chapter10, §179). §180 extracts further combinations; the sign patterns become genuinely intricate. Euler comments that one "could let $n = 16$ and $m = 1, 3, 5,$ or $7$ which would show the sums of series in which the terms are $1, 1/3, 1/5, 1/7, \ldots$ and in which the various changes of positive and negative signs are different from those already seen" (source: chapter10, §180) — i.e. the technique generates an unlimited supply of "character sums" in modern terminology.
 
 ## Modern footnote: Dirichlet $L$-values
 

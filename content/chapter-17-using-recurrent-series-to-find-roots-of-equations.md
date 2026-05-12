@@ -2,7 +2,7 @@
 
 **Summary**: §332–§355. Euler inverts the direction of [[chapter-13-on-recurrent-series|Chapter 13]]: there, the *roots* of the denominator were known and the closed-form general term was extracted; here, only the *coefficients* of an equation $x^m - \alpha x^{m-1} - \beta x^{m-2} - \cdots = 0$ are given, and the recurrent series is run *in order to discover the roots*. Following Daniel Bernoulli (Volume III of the *Commentaries of the St. Petersburg Academy*), the quotient of consecutive coefficients $Q/P$ of the recurrent series with scale $\alpha, \beta, \gamma, \ldots$ approaches the **largest root in absolute value** — the [[bernoullis-method-for-roots|Bernoulli method]]. The chapter then catalogues the failure modes (roots close in size, $\pm p$ pairs, repeated roots, dominant complex pairs) and the remedies (the substitution $x = y + k$, alternate-ratio reading, numerator $=1$ as a safety, and the §348–§352 [[trinomial-factor-from-recurrent-series|trinomial-factor extraction]] that recovers both modulus *and* argument of a dominant complex conjugate pair).
 
-**Sources**: chapter17.pdf
+**Sources**: chapter17
 
 **Last updated**: 2026-05-11
 

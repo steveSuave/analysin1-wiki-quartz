@@ -2,7 +2,7 @@
 
 **Summary**: Euler's exponential is the function $y = a^z$ with constant base $a$ and variable exponent $z$ (§96–§101). Defined first on integers, then on rationals by $a^{p/q} = \sqrt[q]{a^p}$ (taking the primary positive value), then extended by interpolation to irrational $z$. Restricting to $a > 1$ gives the canonical case: a single-valued, strictly increasing function from $\mathbb{R}$ onto $(0, \infty)$.
 
-**Sources**: chapter6.pdf (§96–§101)
+**Sources**: chapter6 (§96–§101)
 
 **Last updated**: 2026-04-26
 
@@ -10,11 +10,11 @@
 
 ## Why exponentials are not algebraic
 
-A function built only from arithmetic operations and root extraction with *constant* exponents is algebraic (see [[classification-of-functions]]). The moment the exponent becomes a variable — as in $a^z$, $y^z$, $a^{a^z}$, $a^{y^z}$, $y^{x^z}$, $x^{y^z}$ — the function leaves the algebraic class (source: chapter6.pdf, §96). Euler treats $a^z$ as the canonical representative because the analysis of one variant settles the others.
+A function built only from arithmetic operations and root extraction with *constant* exponents is algebraic (see [[classification-of-functions]]). The moment the exponent becomes a variable — as in $a^z$, $y^z$, $a^{a^z}$, $a^{y^z}$, $y^{x^z}$, $x^{y^z}$ — the function leaves the algebraic class (source: chapter6, §96). Euler treats $a^z$ as the canonical representative because the analysis of one variant settles the others.
 
 ## Definition by extension
 
-Let $a > 0$. The exponential $a^z$ is defined in stages (source: chapter6.pdf, §97):
+Let $a > 0$. The exponential $a^z$ is defined in stages (source: chapter6, §97):
 
 - **Positive integer $z$:** $a^z = a \cdot a \cdots a$ ($z$ factors).
 - **$z = 0$:** $a^0 = 1$.
@@ -26,7 +26,7 @@ Restriction to real exponents is explicit: complex $z$ is deferred to later chap
 
 ## Case analysis on the base
 
-The qualitative behavior of $a^z$ depends on $a$ (source: chapter6.pdf, §98–§99):
+The qualitative behavior of $a^z$ depends on $a$ (source: chapter6, §98–§99):
 
 | Range of $a$ | Behavior of $a^z$ |
 |:--|:--|

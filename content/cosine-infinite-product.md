@@ -2,7 +2,7 @@
 
 **Summary**: §158: $\cos z = \prod_{k=0}^{\infty}\bigl(1 - 4z^2/(2k+1)^2\pi^2\bigr)$. The infinite-product representation of cosine, dual to [[sine-infinite-product|the sine product]] and obtained by substituting $x = iz$ in the [[exponential-infinite-product|hyperbolic-cosine product]].
 
-**Sources**: chapter9.pdf
+**Sources**: chapter9
 
 **Last updated**: 2026-04-29
 
@@ -16,7 +16,7 @@ Equivalently, splitting each quadratic factor into linear factors,
 
 $$\cos z = \left(1 - \frac{2z}{\pi}\right)\left(1 + \frac{2z}{\pi}\right)\left(1 - \frac{2z}{3\pi}\right)\left(1 + \frac{2z}{3\pi}\right)\left(1 - \frac{2z}{5\pi}\right)\left(1 + \frac{2z}{5\pi}\right)\cdots$$
 
-(source: chapter9.pdf, §158).
+(source: chapter9, §158).
 
 ## Derivation
 
@@ -32,7 +32,7 @@ $\cos z = 0$ iff $z = \pm(2k+1)\pi/2$ for $k = 0, 1, 2, \ldots$. The product exh
 
 > From this it again becomes obvious that when $z = \pm(2k+1)\pi/2$, then $\cos z = 0$, which is clear from the nature of the circle.
 
-(source: chapter9.pdf, §158).
+(source: chapter9, §158).
 
 ## Compare with the power series
 

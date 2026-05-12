@@ -2,7 +2,7 @@
 
 **Summary**: A **partition** of a positive integer $n$ is an unordered way of writing $n$ as a sum of positive integers. Chapter 16 of Euler's *Introductio* is the first systematic study, distinguishing distinct-part from unrestricted partitions, counting them by number of parts and by largest part, and proving the foundational identities (pentagonal number theorem, distinct = odd, Pascal-like recurrence, binary/balanced-ternary uniqueness).
 
-**Sources**: chapter16.pdf
+**Sources**: chapter16
 
 **Last updated**: 2026-05-11
 
@@ -10,7 +10,7 @@
 
 ## Definitions
 
-A **partition** of $n$ is an unordered tuple of positive integers $(a_1, a_2, \ldots, a_m)$ with $a_1 + a_2 + \cdots + a_m = n$. The integers $a_i$ are the **parts**; $m$ is the **number of parts**. Euler distinguishes two cases (source: chapter16.pdf, §297, §302):
+A **partition** of $n$ is an unordered tuple of positive integers $(a_1, a_2, \ldots, a_m)$ with $a_1 + a_2 + \cdots + a_m = n$. The integers $a_i$ are the **parts**; $m$ is the **number of parts**. Euler distinguishes two cases (source: chapter16, §297, §302):
 
 - **Distinct (unequal) parts**: all $a_i$ different.
 - **Unrestricted parts** ("either equal or unequal"): repetition allowed.

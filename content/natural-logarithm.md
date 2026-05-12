@@ -2,7 +2,7 @@
 
 **Summary**: §123–§125 of Chapter 7. The *natural* (or *hyperbolic*) logarithm is $\log$ in the base $a = e$ of [[eulers-number]] — the unique base for which $\log(1 + \omega) = \omega$ for infinitely small $\omega$ (equivalently, the constant $k = 1$ in [[exponential-series|§116]]). Euler tabulates $\log_e n$ for $n = 1, \ldots, 10$ to twenty decimal places using the [[logarithmic-series|fast-converging series]] $\log\frac{1+x}{1-x} = 2(x + x^3/3 + x^5/5 + \cdots)$, then shows that for any other base $a$, $k = \log_e a$ is the conversion factor — so a single table of natural logs supplies every other system by one multiplication, recovering [[change-of-base|§107–§108]] from a different angle.
 
-**Sources**: chapter7.pdf (§123–§125)
+**Sources**: chapter7 (§123–§125)
 
 **Last updated**: 2026-04-26
 
@@ -12,7 +12,7 @@
 
 > Natural logarithms have the property that the logarithm of $1 + \omega$ is equal to $\omega$, where $\omega$ is an infinitely small quantity.
 
-(source: chapter7.pdf, §123). This is exactly the condition $k = 1$ from [[exponential-series|§114]] — and it picks out the base $a = e$ uniquely. Equivalently:
+(source: chapter7, §123). This is exactly the condition $k = 1$ from [[exponential-series|§114]] — and it picks out the base $a = e$ uniquely. Equivalently:
 
 - $a^\omega = 1 + \omega$ for infinitely small $\omega$ — the exponential is "tangent to $1 + z$ at $z = 0$" in modern language;
 - the [[exponential-series|exponential series]] is $e^z = 1 + z + z^2/2 + z^3/6 + \cdots$ with no extra factor;
@@ -20,7 +20,7 @@
 
 ## The three master series in base $e$
 
-With $k = 1$ the series of [[exponential-series|§116]] and [[logarithmic-series|§119, §121]] take their cleanest forms (source: chapter7.pdf, §123):
+With $k = 1$ the series of [[exponential-series|§116]] and [[logarithmic-series|§119, §121]] take their cleanest forms (source: chapter7, §123):
 
 $$e^z = 1 + \frac{z}{1} + \frac{z^2}{1\cdot 2} + \frac{z^3}{1\cdot 2\cdot 3} + \frac{z^4}{1\cdot 2\cdot 3\cdot 4} + \cdots$$
 
@@ -28,7 +28,7 @@ $$\log(1+x) = x - \frac{x^2}{2} + \frac{x^3}{3} - \frac{x^4}{4} + \frac{x^5}{5} 
 
 $$\log\frac{1+x}{1-x} = \frac{2x}{1} + \frac{2x^3}{3} + \frac{2x^5}{5} + \frac{2x^7}{7} + \frac{2x^9}{9} + \cdots$$
 
-The third series is "strongly convergent if we substitute an extremely small fraction for $x$" (source: chapter7.pdf, §123) and is the workhorse for the table below.
+The third series is "strongly convergent if we substitute an extremely small fraction for $x$" (source: chapter7, §123) and is the workhorse for the table below.
 
 ## The integer table (§123)
 
@@ -48,7 +48,7 @@ $$\log 2 + \log 3 = \log 6, \qquad 3\log 2 = \log 8, \qquad 2\log 3 = \log 9, \q
 
 For $\log 7$, $x = 1/99$ gives $\log(100/98) = \log(50/49) = 0.02020\,27073\,17519\,44840\,78230$. Subtracting from $\log 50 = 2\log 5 + \log 2 = 3.91202\,30054\,28146\,05861\,87508$ gives $\log 49$, and $\log 7 = \tfrac{1}{2}\log 49$.
 
-The resulting table (source: chapter7.pdf, §123 example), to twenty digits:
+The resulting table (source: chapter7, §123 example), to twenty digits:
 
 | $n$ | $\log n = \ln n$ |
 |:--|:--|
@@ -79,7 +79,7 @@ So $k = y/v$. Setting $1 + x = a$ makes $v = \log_a a = 1$ and $y = \log_e a$:
 
 $$\boxed{\;k = \log_e a.\;}$$
 
-This is "the most convenient method of calculating the value of $k$ corresponding to the base $a$" (source: chapter7.pdf, §124). For $a = 10$:
+This is "the most convenient method of calculating the value of $k$ corresponding to the base $a$" (source: chapter7, §124). For $a = 10$:
 
 $$k = \log_e 10 = 2.30258\,50929\,94045\,68401\,79914,$$
 
@@ -97,7 +97,7 @@ Substituting $a^y = e^z$ with $z = y \log a$ (since $\log e = 1$ implies $\log a
 
 $$a^y = 1 + \frac{y \log a}{1} + \frac{y^2 (\log a)^2}{1 \cdot 2} + \frac{y^3 (\log a)^3}{1\cdot 2 \cdot 3} + \cdots$$
 
-— the [[exponential-series|§117]] formula in disguise, with $k = 1$ absorbed and $\log = \log_e$ everywhere (source: chapter7.pdf, §125).
+— the [[exponential-series|§117]] formula in disguise, with $k = 1$ absorbed and $\log = \log_e$ everywhere (source: chapter7, §125).
 
 The two infinite-power forms recap:
 

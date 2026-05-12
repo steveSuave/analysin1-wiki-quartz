@@ -2,7 +2,7 @@
 
 **Summary**: Newton's "universal theorem" for $(P + Q)^{m/n}$ as an infinite series in powers of $Q$ — Euler's §71 principal tool for expanding irrational functions. When $P = 1$ and $Q$ is a polynomial in $z$, the expansion is a recurrent series with a non-constant law (§73–§76).
 
-**Sources**: chapter4.pdf
+**Sources**: chapter4
 
 **Last updated**: 2026-04-23
 
@@ -14,7 +14,7 @@ Euler states Newton's binomial theorem for arbitrary rational exponent $m/n$:
 
 $$ (P + Q)^{m/n} \;=\; P^{m/n} + \frac{m}{n} P^{(m-n)/n} Q + \frac{m(m-n)}{n \cdot 2n} P^{(m-2n)/n} Q^2 + \frac{m(m-n)(m-2n)}{n \cdot 2n \cdot 3n} P^{(m-3n)/n} Q^3 + \cdots $$
 
-The series terminates iff $m/n$ is a positive integer; otherwise it has infinitely many terms (source: chapter4.pdf, §71).
+The series terminates iff $m/n$ is a positive integer; otherwise it has infinitely many terms (source: chapter4, §71).
 
 ### Sample cases (§71)
 
@@ -36,7 +36,7 @@ The exponent of $P$ decreases by $1$ each step; the exponent of $Q$ increases by
 
 $$ (1 + Z)^m \;=\; 1 + \frac{m}{1} Z + \frac{m(m-1)}{1 \cdot 2} Z^2 + \frac{m(m-1)(m-2)}{1 \cdot 2 \cdot 3} Z^3 + \cdots $$
 
-which Euler remarks is the form he will usually use (source: chapter4.pdf, §72). Here $m$ may be any real number — fractional or integer.
+which Euler remarks is the form he will usually use (source: chapter4, §72). Here $m$ may be any real number — fractional or integer.
 
 ## Polynomial $Z$: recurrent laws (§73–§76)
 
@@ -50,7 +50,7 @@ Writing the series as $1 + A z + B z^2 + C z^3 + \cdots + M z^{n-1} + N z^n + \c
 
 $$ N = \frac{m - n}{n} \alpha M. $$
 
-So each coefficient is determined by the one before (source: chapter4.pdf, §73).
+So each coefficient is determined by the one before (source: chapter4, §73).
 
 ### $Z = \alpha z + \beta z^2$ (§74)
 
@@ -58,7 +58,7 @@ $(1 + \alpha z + \beta z^2)^{m-1}$ has coefficients determined from the *two* pr
 
 $$ N = \frac{m - n}{n} \alpha M + \frac{2m - n}{n} \beta L. $$
 
-Starting values: $A = \tfrac{m-1}{1}\alpha$, $B = \tfrac{m-2}{2}\alpha A + \tfrac{2m-2}{2}\beta$, etc. (source: chapter4.pdf, §74).
+Starting values: $A = \tfrac{m-1}{1}\alpha$, $B = \tfrac{m-2}{2}\alpha A + \tfrac{2m-2}{2}\beta$, etc. (source: chapter4, §74).
 
 ### $Z = \alpha z + \beta z^2 + \gamma z^3$ (§75)
 
@@ -68,15 +68,15 @@ $$ N = \frac{m - n}{n} \alpha M + \frac{2m - n}{n} \beta L + \frac{3m - n}{n} \g
 
 ### General $Z = \alpha z + \beta z^2 + \gamma z^3 + \delta z^4 + \cdots$ (§76)
 
-$(1 + \alpha z + \beta z^2 + \gamma z^3 + \cdots)^{m-1}$ has each coefficient determined by as many predecessors as $Z$ has nonzero terms, with coefficients depending on the index $n$ — a *non-constant* law (source: chapter4.pdf, §76).
+$(1 + \alpha z + \beta z^2 + \gamma z^3 + \cdots)^{m-1}$ has each coefficient determined by as many predecessors as $Z$ has nonzero terms, with coefficients depending on the index $n$ — a *non-constant* law (source: chapter4, §76).
 
 ## Connection to §68
 
-The recurrent law of §76 matches the §68 law for $(1 - \alpha z - \beta z^2 - \cdots)^{-(m+1)}$ — the two statements are related by $m \mapsto -m$ together with the sign flip on $\alpha, \beta, \gamma, \ldots$ (source: chapter4.pdf, §76). This is the shadow of a single underlying theorem. Euler does not prove the general law here but says it "can be done so much more easily with the aid of some principles of differential calculus" and, for the moment, treats the agreement with §68 and the many worked examples as evidence enough. See [[recurrent-series]] §68.
+The recurrent law of §76 matches the §68 law for $(1 - \alpha z - \beta z^2 - \cdots)^{-(m+1)}$ — the two statements are related by $m \mapsto -m$ together with the sign flip on $\alpha, \beta, \gamma, \ldots$ (source: chapter4, §76). This is the shadow of a single underlying theorem. Euler does not prove the general law here but says it "can be done so much more easily with the aid of some principles of differential calculus" and, for the moment, treats the agreement with §68 and the many worked examples as evidence enough. See [[recurrent-series]] §68.
 
 ## Identities used later
 
-Euler singles out two forms of the expansion for later use (source: chapter4.pdf, §72):
+Euler singles out two forms of the expansion for later use (source: chapter4, §72):
 
 $$ (1 + Z)^m \;=\; 1 + \tfrac{m}{1} Z + \tfrac{m(m-1)}{1 \cdot 2} Z^2 + \tfrac{m(m-1)(m-2)}{1 \cdot 2 \cdot 3} Z^3 + \cdots $$
 

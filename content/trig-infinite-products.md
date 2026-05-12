@@ -2,7 +2,7 @@
 
 **Summary**: §186–§187: dividing the [[linear-factors-of-sine-cosine|§184 linear-factor products]] for $\sin(m\pi/2n)$ by the corresponding ones for $\cos(m\pi/2n)$ yields infinite product representations for $\tan(m\pi/2n)$, $\cot(m\pi/2n)$, $\sec(m\pi/2n)$, $\csc(m\pi/2n)$. Replacing $m$ with another integer $k$ in the §184 formulas gives products for ratios $\sin(m\pi/2n)/\sin(k\pi/2n)$ and similar — once one trig value is known, all the others at the same denominator $2n$ follow without further computation.
 
-**Sources**: chapter11.pdf
+**Sources**: chapter11
 
 **Last updated**: 2026-05-01
 
@@ -18,7 +18,7 @@ Pairing numerator and denominator factors of similar size and simplifying:
 
 $$\boxed{\;\tan\frac{m\pi}{2n} = \frac{m}{n - m}\cdot\frac{2n - m}{n + m}\cdot\frac{2n + m}{3n - m}\cdot\frac{4n - m}{3n + m}\cdot\frac{4n + m}{5n - m}\cdots\;}$$
 
-(source: chapter11.pdf, §186). The cotangent is the reciprocal:
+(source: chapter11, §186). The cotangent is the reciprocal:
 
 $$\cot\frac{m\pi}{2n} = \frac{n - m}{m}\cdot\frac{n + m}{2n - m}\cdot\frac{3n - m}{2n + m}\cdot\frac{3n + m}{4n - m}\cdot\frac{5n - m}{4n + m}\cdots$$
 
@@ -32,7 +32,7 @@ Likewise, $\csc(m\pi/2n) = 1/\sin(m\pi/2n)$:
 
 $$\csc\frac{m\pi}{2n} = \frac{n}{m}\cdot\frac{2n}{2n - m}\cdot\frac{2n}{2n + m}\cdot\frac{4n}{4n - m}\cdot\frac{4n}{4n + m}\cdots$$
 
-(source: chapter11.pdf, §186). Each is a straightforward rearrangement of one of the four §184 products.
+(source: chapter11, §186). Each is a straightforward rearrangement of one of the four §184 products.
 
 ## Variants from the second pair
 
@@ -40,7 +40,7 @@ Using the *second* §184 expression (the one obtained via the co-function identi
 
 $$\tan\frac{m\pi}{2n} = \frac{\pi}{2}\cdot\frac{m}{n - m}\cdot\frac{1}{2}\cdot\frac{2n - m}{n + m}\cdot\frac{3}{2}\cdot\frac{2n + m}{3n - m}\cdot\frac{3}{4}\cdot\frac{4n - m}{3n + m}\cdots$$
 
-(source: chapter11.pdf, §186). The redundancy mirrors the §185 [[wallis-product|Wallis]] phenomenon: two formulas for the same value differ by a Wallis-style factor that telescopes to $\pi/2$.
+(source: chapter11, §186). The redundancy mirrors the §185 [[wallis-product|Wallis]] phenomenon: two formulas for the same value differ by a Wallis-style factor that telescopes to $\pi/2$.
 
 ## Ratios — §187
 
@@ -52,7 +52,7 @@ is an infinite product whose factors come in pairs from the corresponding terms 
 
 $$\frac{\sin(m\pi/2n)}{\sin(k\pi/2n)} = \frac{m}{k}\cdot\frac{2n - m}{2n - k}\cdot\frac{2n + m}{2n + k}\cdot\frac{4n - m}{4n - k}\cdot\frac{4n + m}{4n + k}\cdots$$
 
-(source: chapter11.pdf, §187). Analogous formulas hold for $\sin/\cos$, $\cos/\cos$, etc. Euler's remark: "if we take $k\pi/2n$ as an angle whose sine and cosine are known, by means of the above formulas, we can find the sine and cosine of any other angle $m\pi/2n$" (source: chapter11.pdf, §187). One trig table entry generates all the others at the same denominator.
+(source: chapter11, §187). Analogous formulas hold for $\sin/\cos$, $\cos/\cos$, etc. Euler's remark: "if we take $k\pi/2n$ as an angle whose sine and cosine are known, by means of the above formulas, we can find the sine and cosine of any other angle $m\pi/2n$" (source: chapter11, §187). One trig table entry generates all the others at the same denominator.
 
 ## Why two expressions per function?
 

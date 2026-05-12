@@ -2,7 +2,7 @@
 
 **Summary**: Euler's Binet-type formula (§226–§229) for any [[recurrent-series|recurrent series]] whose [[scale-of-the-relation|scale of the relation]] has length two. From the recurrence $X_n = \alpha X_{n-1} + \beta X_{n-2}$ with first terms $A, B$, the general term is $X_n = U p^n + V q^n$ where $p, q$ are the roots of $1 - \alpha z - \beta z^2$. The pair $(U, V)$ satisfies the invariant $UV = (B^2 - \alpha AB + \beta A^2)/(4\beta - \alpha^2)$, which lets each term be obtained from a single predecessor by an apparent — but illusory — square root.
 
-**Sources**: chapter13.pdf, chapter17.pdf
+**Sources**: chapter13, chapter17
 
 **Last updated**: 2026-05-11
 
@@ -42,7 +42,7 @@ Substitute $p + q = \alpha$ and $pq = \beta$:
 
 $$\boxed{\,UV \;=\; \frac{B^2 - \alpha AB + \beta A^2}{4\beta - \alpha^2}\,}$$
 
-(source: chapter13.pdf, §227). This is the *principal property of the recurrent series*: it is a constant determined entirely by the scale $\alpha, \beta$ and the first two terms $A, B$, independent of which two consecutive terms one uses to compute it.
+(source: chapter13, §227). This is the *principal property of the recurrent series*: it is a constant determined entirely by the scale $\alpha, \beta$ and the first two terms $A, B$, independent of which two consecutive terms one uses to compute it.
 
 ## Term from a single predecessor (§227)
 
@@ -50,7 +50,7 @@ If $P = X_n$ is known, then $Q = X_{n+1}$ satisfies $Q = Up^{n+1} + Vq^{n+1}$ an
 
 $$Q \;=\; \tfrac{1}{2}\alpha P + \sqrt{\bigl(\tfrac{1}{4}\alpha^2 - \beta\bigr)P^2 + (B^2 - \alpha AB + \beta A^2)\,\beta^n}.$$
 
-Although this expression *appears* irrational, the right side is in fact always rational, since the series coefficients are themselves rational by construction (source: chapter13.pdf, §227). The square root must therefore evaluate to a rational every time. Euler does not prove this — he merely observes it.
+Although this expression *appears* irrational, the right side is in fact always rational, since the series coefficients are themselves rational by construction (source: chapter13, §227). The square root must therefore evaluate to a rational every time. Euler does not prove this — he merely observes it.
 
 ## Remote terms from two consecutive (§228–§229)
 
@@ -58,7 +58,7 @@ Given two successive terms $P = X_n$ and $Q = X_{n+1}$, Euler derives a closed f
 
 $$X \;=\; \frac{(2A\beta - \alpha B)P^2 + 2BPQ - AQ^2}{B^2 - \alpha AB + \beta A^2}$$
 
-(source: chapter13.pdf, §228). Eliminating the $\beta^n$ term in favor of an expression purely in $P$ and $Q$:
+(source: chapter13, §228). Eliminating the $\beta^n$ term in favor of an expression purely in $P$ and $Q$:
 
 $$X \;=\; \frac{(\beta A - \alpha B)P^2 + 2BPQ - AQ^2}{B^2 - \alpha AB + \beta A^2}.$$
 

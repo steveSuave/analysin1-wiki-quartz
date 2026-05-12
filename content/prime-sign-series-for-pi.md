@@ -2,7 +2,7 @@
 
 **Summary**: §285–§296. Applying the [[euler-product-formula|sieve-based Euler product derivation]] to the [[arctangent-series|Leibniz series]] $\pi/4 = 1 - 1/3 + 1/5 - \cdots$ and its higher analogues from [[circular-arc-series|Chapter 10]] produces a vast catalogue of identities in which $\pi$ (or $\pi/\sqrt 3$, $\pi/\sqrt 2$, $\pi^3$, etc.) is expressed as a sum or product over primes, with **signs determined by the residue class of each prime mod 4, mod 6, or mod 8**. These are the simplest non-trivial **Dirichlet $L$-series in their Euler-product form** — although Euler computes them a century before Dirichlet names them.
 
-**Sources**: chapter15.pdf
+**Sources**: chapter15
 
 **Last updated**: 2026-05-11
 
@@ -50,7 +50,7 @@ $$\pi = 1 + \frac{1}{2} + \frac{1}{3} + \frac{1}{4} - \frac{1}{5} + \frac{1}{6} 
 
 with the sign of each composite determined by the product of the signs of its prime factors.
 
-§290–§291 push this further: by including or excluding finitely many primes from the "negative" pile one can make the series sum to $0$, $3\pi/2$, $\infty$, or any number from a related family. Euler observes (source: chapter15.pdf, §291):
+§290–§291 push this further: by including or excluding finitely many primes from the "negative" pile one can make the series sum to $0$, $3\pi/2$, $\infty$, or any number from a related family. Euler observes (source: chapter15, §291):
 
 > "If all but a finite collection of primes have positive signs, then the sum of the series will be infinitely large. ... [If] all prime numbers, except for a finite collection, have negative signs, then the sum of the series will be equal to zero."
 
@@ -90,7 +90,7 @@ The numerator/denominator of each fraction differs from the odd prime $p$ by 1; 
 
 ## Closing remark (§296)
 
-Euler signals (source: chapter15.pdf, §296):
+Euler signals (source: chapter15, §296):
 
 > "In a like manner the other series, which express circular arcs, found in sections 179 and following, could be expressed as products dependent on the prime numbers. In this way we could develop important properties of both infinite series and infinite products, but since we have discussed the principal results, we will not delay any longer to develop more."
 

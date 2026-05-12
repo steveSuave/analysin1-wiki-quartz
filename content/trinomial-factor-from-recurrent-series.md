@@ -2,7 +2,7 @@
 
 **Summary**: §348–§353. The complex-roots counterpart to [[bernoullis-method-for-roots|Bernoulli's method]]. When the dominant pole of the generating rational function is a complex conjugate pair — equivalently, a real quadratic [[trinomial-factor|trinomial factor]] $1 - 2pz\cos\phi + p^2 z^2$ in the denominator — the ratio $Q/P$ of consecutive recurrent-series coefficients oscillates and does not converge. Yet four consecutive coefficients $P, Q, R, S$ suffice to determine *both* the modulus $p$ and the argument $\phi$ in closed form: $p = \sqrt{(R^2 - QS)/(Q^2 - PR)}$, $\cos\phi = (QR - PS)/(2\sqrt{(Q^2-PR)(R^2-QS)})$ — Euler's beautiful §351–§352 elimination.
 
-**Sources**: chapter17.pdf
+**Sources**: chapter17
 
 **Last updated**: 2026-05-11
 
@@ -22,7 +22,7 @@ The trinomial factor contributes a *sinusoidal-amplitude-times-$p^n$* term; the 
 
 ## Case 1: complex pair dominated by a real root (§348)
 
-If some real root $q$ satisfies $|q| > p$, then $Cq^n$ dominates absolutely for large $n$ and $Q/P \to q$ — i.e. the [[bernoullis-method-for-roots|standard Bernoulli ratio]] still works and the largest *real* root is found, *exactly as if the complex roots were absent*. Euler emphasizes: "the method of finding the largest real root is not disturbed by the presence of complex roots, as long as the product of the two conjugate complex roots is smaller than the square of the largest real root" (source: chapter17.pdf, §348–§349).
+If some real root $q$ satisfies $|q| > p$, then $Cq^n$ dominates absolutely for large $n$ and $Q/P \to q$ — i.e. the [[bernoullis-method-for-roots|standard Bernoulli ratio]] still works and the largest *real* root is found, *exactly as if the complex roots were absent*. Euler emphasizes: "the method of finding the largest real root is not disturbed by the presence of complex roots, as long as the product of the two conjugate complex roots is smaller than the square of the largest real root" (source: chapter17, §348–§349).
 
 The threshold for this case is $p^2 < q^2$, equivalently, **the product of the complex conjugate pair is less than the square of the largest real root**.
 
@@ -72,7 +72,7 @@ so
 
 $$\boxed{\;p = \sqrt{\frac{R^2 - QS}{Q^2 - PR}}.\;}$$
 
-Once $p$ is known, $\cos\phi$ follows from either equation. Euler simplifies further using $\sin a\sin b = \tfrac{1}{2}(\cos(a-b) - \cos(a+b))$ to give a symmetric expression in all four coefficients (source: chapter17.pdf, §352):
+Once $p$ is known, $\cos\phi$ follows from either equation. Euler simplifies further using $\sin a\sin b = \tfrac{1}{2}(\cos(a-b) - \cos(a+b))$ to give a symmetric expression in all four coefficients (source: chapter17, §352):
 
 $$\boxed{\;\cos\phi = \frac{QR - PS}{2\sqrt{(Q^2 - PR)(R^2 - QS)}}.\;}$$
 

@@ -2,7 +2,7 @@
 
 **Summary**: De Moivre's name (preserved by Euler in §224) for the list of multipliers $\alpha, \beta, \gamma, \ldots$ that appear in the linear recurrence governing a [[recurrent-series|recurrent series]]. The scale of the relation is the same data as the (sign-flipped) coefficients of the denominator of the generating rational function. [[chapter-16-on-the-partition-of-numbers|Chapter 16]] supplies the most famous *infinite-but-sparse* example: the partition function's scale, supported on the pentagonal-number lattice (see [[eulers-pentagonal-number-theorem]]). [[chapter-17-using-recurrent-series-to-find-roots-of-equations|Chapter 17]] reads the scale directly off the coefficients of any algebraic equation $x^m - \alpha x^{m-1} - \beta x^{m-2} - \cdots = 0$ and uses [[bernoullis-method-for-roots|Bernoulli's method]] on a recurrent series with that scale to find the equation's largest root.
 
-**Sources**: chapter13.pdf, chapter16.pdf, chapter17.pdf
+**Sources**: chapter13, chapter16, chapter17
 
 **Last updated**: 2026-05-11
 
@@ -14,7 +14,7 @@ For a [[recurrent-series|recurrent series]] $A + Bz + Cz^2 + Dz^3 + \cdots$ in w
 
 $$D = \alpha C + \beta B + \gamma A,\qquad E = \alpha D + \beta C + \gamma B,\qquad F = \alpha E + \beta D + \gamma C,\qquad \ldots$$
 
-(more generally, $X_{n+k} = \alpha X_{n+k-1} + \beta X_{n+k-2} + \cdots$), the list of multipliers $\alpha, \beta, \gamma, \ldots$ is the *scale of the relation* (source: chapter13.pdf, §224). De Moivre named it; Euler adopts the term verbatim.
+(more generally, $X_{n+k} = \alpha X_{n+k-1} + \beta X_{n+k-2} + \cdots$), the list of multipliers $\alpha, \beta, \gamma, \ldots$ is the *scale of the relation* (source: chapter13, §224). De Moivre named it; Euler adopts the term verbatim.
 
 ## Equivalence with the denominator
 
@@ -22,7 +22,7 @@ The recurrence $X_n = \alpha X_{n-1} + \beta X_{n-2} + \gamma X_{n-3} + \cdots$ 
 
 $$1 - \alpha z - \beta z^2 - \gamma z^3 - \cdots$$
 
-annihilates the generating function $A + Bz + Cz^2 + \cdots$ up to a polynomial of degree less than the scale length. Equivalently: the series arises from a rational function with denominator $1 - \alpha z - \beta z^2 - \gamma z^3 - \cdots$. The scale and the denominator carry exactly the same information (source: chapter13.pdf, §224 — "the law of progression is contained in the scale of the relation, and the scale of the relation immediately gives us the denominator of the rational function from which the series arose").
+annihilates the generating function $A + Bz + Cz^2 + \cdots$ up to a polynomial of degree less than the scale length. Equivalently: the series arises from a rational function with denominator $1 - \alpha z - \beta z^2 - \gamma z^3 - \cdots$. The scale and the denominator carry exactly the same information (source: chapter13, §224 — "the law of progression is contained in the scale of the relation, and the scale of the relation immediately gives us the denominator of the rational function from which the series arose").
 
 This is the principle that makes the theory of [[recurrent-series|recurrent series]] reversible: from the *series* one reads off the scale; from the scale one reads off the *denominator*; from the denominator (via [[real-partial-fraction-decomposition|real partial fractions]]) one obtains the [[general-term-of-recurrent-series|closed-form general term]] and the [[sum-of-recurrent-series|sum]].
 
@@ -36,7 +36,7 @@ Given a recurrent series with scale of length $k$:
    - distinct real roots $p, q, r$: general term is $(Ap^n + Bq^n + Cr^n)z^n$;
    - repeated root $q = p$: $((An + B)p^n + Cr^n)z^n$;
    - triple root $r = q = p$: $(An^2 + Bn + C)p^n z^n$;
-   - quadratic factor $1 - 2pz\cos\phi + p^2 z^2$ (no further factor): general term is $\left(Ap^n + \dfrac{B\sin(n+1)\phi + C\sin n\phi}{\sin\phi}q^n\right) z^n$ (source: chapter13.pdf, §225).
+   - quadratic factor $1 - 2pz\cos\phi + p^2 z^2$ (no further factor): general term is $\left(Ap^n + \dfrac{B\sin(n+1)\phi + C\sin n\phi}{\sin\phi}q^n\right) z^n$ (source: chapter13, §225).
 4. Determine the unknowns $A, B, C, \ldots$ by setting $n = 0, 1, 2, \ldots$ and matching the first few series coefficients.
 
 This is the *constructive* form of De Moivre's correspondence: the scale tells you the *shape* of the closed-form general term up to constants; the first few terms of the series fix the constants.
@@ -73,7 +73,7 @@ computes $p(n)$ in $O(\sqrt n)$ operations — the first classical example of a 
 
 ## Notable points
 
-- **The scale is sign-flipped from the denominator.** Euler's convention puts the denominator as $1 - \alpha z - \beta z^2 - \cdots$ so the scale entries $\alpha, \beta, \ldots$ are *positive when the recurrence has positive coefficients* (source: chapter13.pdf, §63 and §224). This is purely a sign-of-convention choice.
+- **The scale is sign-flipped from the denominator.** Euler's convention puts the denominator as $1 - \alpha z - \beta z^2 - \cdots$ so the scale entries $\alpha, \beta, \ldots$ are *positive when the recurrence has positive coefficients* (source: chapter13, §63 and §224). This is purely a sign-of-convention choice.
 - **Same data, three views.** The scale (a list), the denominator (a polynomial in $z$), and the characteristic equation $x^k - \alpha x^{k-1} - \beta x^{k-2} - \cdots = 0$ (whose roots are the *reciprocals* of the roots of the denominator $1 - \alpha z - \cdots$) are equivalent. Modern textbooks usually state the recurrence via the characteristic equation; Euler uses the denominator directly. The characteristic-equation view is precisely the one [[chapter-17-using-recurrent-series-to-find-roots-of-equations|Chapter 17]] exploits: given an equation, read off the scale, run the recurrent series, and the ratio $Q/P$ of consecutive coefficients tends to the equation's largest root — [[bernoullis-method-for-roots|Daniel Bernoulli's method]].
 - **Why "scale".** A *scale* in 18th-century usage means a graduated rule or sequence of marks. The list $\alpha, \beta, \gamma, \ldots$ is precisely such a graduated set of multipliers, applied at increasing offsets in the recurrence.
 
